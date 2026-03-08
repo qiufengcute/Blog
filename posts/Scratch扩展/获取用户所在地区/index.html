@@ -1,0 +1,698 @@
+
+    <script type="text/javascript">
+      (function () {
+        const now = new Date();
+        const days = ["04-04","05-12","12-13"];
+
+        days.forEach(day => {
+          let dayStr = day.replace(/-/g, '/');
+          if (!/^\d{4}\/\d{1,2}\/\d{1,2}$/.test(dayStr)) {
+            dayStr = `${now.getFullYear()}/${dayStr}`;
+          }
+          const isMourningDay = now.toDateString() === new Date(dayStr).toDateString();
+
+          if (isMourningDay) {
+            const style = document.createElement('style');
+            style.type = 'text/css';
+            style.innerHTML = `html {     -webkit-filter: grayscale(100%); /* webkit */     -moz-filter: grayscale(100%); /* firefox */     -ms-filter: grayscale(100%); /* ie9 */     -o-filter: grayscale(100%); /* opera */     filter: grayscale(100%);     filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); filter:gray; /* ie9- */   }`;
+            document.head.appendChild(style);
+          }
+        });
+      })();
+    </script>
+  
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/Blog/imgs/icon.png">
+  <link rel="icon" href="/Blog/imgs/icon.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Qiufeng">
+  <meta name="keywords" content="hexo,theme,fluid,material,material-design,blog,qiufeng">
+  
+    <meta name="description" content="这是一个Scratch扩展，可以获取用户的IP地址和地理位置信息，包括国家、城市、经纬度等。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="获取用户所在地区 - Scratch扩展">
+<meta property="og:url" content="https://qiufengcute.github.io/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E8%8E%B7%E5%8F%96%E7%94%A8%E6%88%B7%E6%89%80%E5%9C%A8%E5%9C%B0%E5%8C%BA/index.html">
+<meta property="og:site_name" content="Qiufeng Blog">
+<meta property="og:description" content="这是一个Scratch扩展，可以获取用户的IP地址和地理位置信息，包括国家、城市、经纬度等。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-03-02T12:00:00.000Z">
+<meta property="article:modified_time" content="2026-03-08T12:42:00.329Z">
+<meta property="article:author" content="Qiufeng">
+<meta property="article:tag" content="Scratch">
+<meta property="article:tag" content="扩展开发">
+<meta property="article:tag" content="地理定位">
+<meta property="article:tag" content="IP获取">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>获取用户所在地区 - Scratch扩展 - Qiufeng Blog</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/Blog/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/Blog/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/Blog/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"qiufengcute.github.io","root":"/Blog/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/Blog/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/Blog/js/utils.js" ></script>
+  <script  src="/Blog/js/color-schema.js" ></script>
+  
+
+
+  <style>ins.adsbygoogle[data-ad-status="unfilled"] { display: none !important; }</style>
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/Blog/rss.xml" title="Qiufeng Blog" type="application/rss+xml">
+</head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/Blog/">
+      <strong>Qiufeng Blog</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Blog/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Blog/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Blog/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Blog/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Blog/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Blog/rss.xml" target="_self">
+                <i class="iconfont icon-rss"></i>
+                <span>RSS</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" rel="external nofollow noreferrer" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" rel="external nofollow noreferrer" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://fluid.s3.bitiful.net/bg/dojm2h.png?w=1920&q=100&fmt=webp') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="获取用户所在地区 - Scratch扩展"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2026-03-02 20:00" pubdate>
+          2026年3月2日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          14k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          121 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+<aside class="sidebar d-none d-xl-block" style="margin-right:-1rem;z-index:-1"><ins class="adsbygoogle" style="display:flex;justify-content:center;min-width:160px;max-width:300px;width:100%;height:600px;position:sticky;top:2rem" data-ad-client="ca-pub-2938778520580915" data-ad-slot="5354067759"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({}); </script></aside>
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">获取用户所在地区 - Scratch扩展</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br><span class="line">305</span><br><span class="line">306</span><br><span class="line">307</span><br><span class="line">308</span><br><span class="line">309</span><br><span class="line">310</span><br><span class="line">311</span><br><span class="line">312</span><br><span class="line">313</span><br><span class="line">314</span><br><span class="line">315</span><br><span class="line">316</span><br><span class="line">317</span><br><span class="line">318</span><br><span class="line">319</span><br><span class="line">320</span><br><span class="line">321</span><br><span class="line">322</span><br><span class="line">323</span><br><span class="line">324</span><br><span class="line">325</span><br><span class="line">326</span><br><span class="line">327</span><br><span class="line">328</span><br><span class="line">329</span><br><span class="line">330</span><br><span class="line">331</span><br><span class="line">332</span><br><span class="line">333</span><br><span class="line">334</span><br><span class="line">335</span><br><span class="line">336</span><br><span class="line">337</span><br><span class="line">338</span><br><span class="line">339</span><br><span class="line">340</span><br><span class="line">341</span><br><span class="line">342</span><br><span class="line">343</span><br><span class="line">344</span><br><span class="line">345</span><br><span class="line">346</span><br><span class="line">347</span><br><span class="line">348</span><br><span class="line">349</span><br><span class="line">350</span><br><span class="line">351</span><br><span class="line">352</span><br><span class="line">353</span><br><span class="line">354</span><br><span class="line">355</span><br><span class="line">356</span><br><span class="line">357</span><br><span class="line">358</span><br><span class="line">359</span><br><span class="line">360</span><br><span class="line">361</span><br><span class="line">362</span><br><span class="line">363</span><br><span class="line">364</span><br><span class="line">365</span><br><span class="line">366</span><br><span class="line">367</span><br><span class="line">368</span><br><span class="line">369</span><br><span class="line">370</span><br><span class="line">371</span><br><span class="line">372</span><br><span class="line">373</span><br><span class="line">374</span><br><span class="line">375</span><br><span class="line">376</span><br><span class="line">377</span><br><span class="line">378</span><br><span class="line">379</span><br><span class="line">380</span><br><span class="line">381</span><br><span class="line">382</span><br><span class="line">383</span><br><span class="line">384</span><br><span class="line">385</span><br><span class="line">386</span><br><span class="line">387</span><br><span class="line">388</span><br><span class="line">389</span><br><span class="line">390</span><br><span class="line">391</span><br><span class="line">392</span><br><span class="line">393</span><br><span class="line">394</span><br><span class="line">395</span><br><span class="line">396</span><br><span class="line">397</span><br><span class="line">398</span><br><span class="line">399</span><br><span class="line">400</span><br><span class="line">401</span><br><span class="line">402</span><br><span class="line">403</span><br><span class="line">404</span><br><span class="line">405</span><br><span class="line">406</span><br><span class="line">407</span><br><span class="line">408</span><br><span class="line">409</span><br><span class="line">410</span><br><span class="line">411</span><br><span class="line">412</span><br><span class="line">413</span><br><span class="line">414</span><br><span class="line">415</span><br><span class="line">416</span><br><span class="line">417</span><br><span class="line">418</span><br><span class="line">419</span><br><span class="line">420</span><br><span class="line">421</span><br><span class="line">422</span><br><span class="line">423</span><br><span class="line">424</span><br><span class="line">425</span><br><span class="line">426</span><br><span class="line">427</span><br><span class="line">428</span><br><span class="line">429</span><br><span class="line">430</span><br><span class="line">431</span><br><span class="line">432</span><br><span class="line">433</span><br><span class="line">434</span><br><span class="line">435</span><br><span class="line">436</span><br><span class="line">437</span><br><span class="line">438</span><br><span class="line">439</span><br><span class="line">440</span><br><span class="line">441</span><br><span class="line">442</span><br><span class="line">443</span><br><span class="line">444</span><br><span class="line">445</span><br><span class="line">446</span><br><span class="line">447</span><br><span class="line">448</span><br><span class="line">449</span><br><span class="line">450</span><br><span class="line">451</span><br><span class="line">452</span><br><span class="line">453</span><br><span class="line">454</span><br><span class="line">455</span><br><span class="line">456</span><br><span class="line">457</span><br></pre></td><td class="code"><pre><code class="hljs javascript"><span class="hljs-title class_">Scratch</span>.<span class="hljs-property">translate</span>.<span class="hljs-title function_">setup</span>(&#123;<br>    <span class="hljs-string">&quot;zh-cn&quot;</span>: &#123;<br>        <span class="hljs-string">&quot;_Please get IP first before getting content!&quot;</span>: <span class="hljs-string">&quot;请先获取IP再获取内容!&quot;</span>,<br>        <span class="hljs-string">&quot;_Get User Location&quot;</span>: <span class="hljs-string">&quot;获取用户所在地区&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IP&quot;</span>: <span class="hljs-string">&quot;获取IP&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IP address (IPv6 preferred)&quot;</span>: <span class="hljs-string">&quot;获取IP地址(优先IPv6)&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IPv4 address&quot;</span>: <span class="hljs-string">&quot;获取IPv4地址&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IPv6 address&quot;</span>: <span class="hljs-string">&quot;获取IPv6地址&quot;</span>,<br>        <span class="hljs-string">&quot;_Get country&quot;</span>: <span class="hljs-string">&quot;获取国家&quot;</span>,<br>        <span class="hljs-string">&quot;_Get city&quot;</span>: <span class="hljs-string">&quot;获取城市&quot;</span>,<br>        <span class="hljs-string">&quot;_Get region&quot;</span>: <span class="hljs-string">&quot;获取地区&quot;</span>,<br>        <span class="hljs-string">&quot;_Get latitude&quot;</span>: <span class="hljs-string">&quot;获取纬度&quot;</span>,<br>        <span class="hljs-string">&quot;_Get longitude&quot;</span>: <span class="hljs-string">&quot;获取经度&quot;</span>,<br>        <span class="hljs-string">&quot;_Get ISP&quot;</span>: <span class="hljs-string">&quot;获取ISP&quot;</span>,<br>        <span class="hljs-string">&quot;_Get complete information&quot;</span>: <span class="hljs-string">&quot;获取完整信息&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether successfully obtained&quot;</span>: <span class="hljs-string">&quot;是否获取成功&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether IP is being obtained&quot;</span>: <span class="hljs-string">&quot;是否正在获取IP&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether error occurred&quot;</span>: <span class="hljs-string">&quot;是否出错&quot;</span>,<br>        <span class="hljs-string">&quot;_Get error&quot;</span>: <span class="hljs-string">&quot;获取错误&quot;</span>,<br>        <span class="hljs-string">&quot;_Getting IP...&quot;</span>: <span class="hljs-string">&quot;正在获取IP...&quot;</span>,<br>        <span class="hljs-string">&quot;_Please get IP first!&quot;</span>: <span class="hljs-string">&quot;请先获取IP!&quot;</span>,<br>        <span class="hljs-string">&quot;_When get IP end&quot;</span>: <span class="hljs-string">&quot;当IP获取结束时&quot;</span><br>    &#125;,<br>    <span class="hljs-string">&quot;zh-tw&quot;</span>: &#123;<br>        <span class="hljs-string">&quot;_Please get IP first before getting content!&quot;</span>: <span class="hljs-string">&quot;請先取得IP再取得內容!&quot;</span>,<br>        <span class="hljs-string">&quot;_Get User Location&quot;</span>: <span class="hljs-string">&quot;取得使用者所在地區&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IP&quot;</span>: <span class="hljs-string">&quot;取得IP&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IP address (IPv6 preferred)&quot;</span>: <span class="hljs-string">&quot;取得IP位址(優先IPv6)&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IPv4 address&quot;</span>: <span class="hljs-string">&quot;取得IPv4位址&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IPv6 address&quot;</span>: <span class="hljs-string">&quot;取得IPv6位址&quot;</span>,<br>        <span class="hljs-string">&quot;_Get country&quot;</span>: <span class="hljs-string">&quot;取得國家&quot;</span>,<br>        <span class="hljs-string">&quot;_Get city&quot;</span>: <span class="hljs-string">&quot;取得城市&quot;</span>,<br>        <span class="hljs-string">&quot;_Get region&quot;</span>: <span class="hljs-string">&quot;取得地區&quot;</span>,<br>        <span class="hljs-string">&quot;_Get latitude&quot;</span>: <span class="hljs-string">&quot;取得緯度&quot;</span>,<br>        <span class="hljs-string">&quot;_Get longitude&quot;</span>: <span class="hljs-string">&quot;取得經度&quot;</span>,<br>        <span class="hljs-string">&quot;_Get ISP&quot;</span>: <span class="hljs-string">&quot;取得ISP&quot;</span>,<br>        <span class="hljs-string">&quot;_Get complete information&quot;</span>: <span class="hljs-string">&quot;取得完整資訊&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether successfully obtained&quot;</span>: <span class="hljs-string">&quot;是否取得成功&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether IP is being obtained&quot;</span>: <span class="hljs-string">&quot;是否正在取得IP&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether error occurred&quot;</span>: <span class="hljs-string">&quot;是否出錯&quot;</span>,<br>        <span class="hljs-string">&quot;_Get error&quot;</span>: <span class="hljs-string">&quot;取得錯誤&quot;</span>,<br>        <span class="hljs-string">&quot;_Getting IP...&quot;</span>: <span class="hljs-string">&quot;正在取得IP...&quot;</span>,<br>        <span class="hljs-string">&quot;_Please get IP first!&quot;</span>: <span class="hljs-string">&quot;請先取得IP!&quot;</span>,<br>        <span class="hljs-string">&quot;_When get IP end&quot;</span>: <span class="hljs-string">&quot;當IP取得結束時&quot;</span><br>    &#125;,<br>    <span class="hljs-string">&quot;es&quot;</span>: &#123;<br>        <span class="hljs-string">&quot;_Please get IP first before getting content!&quot;</span>: <span class="hljs-string">&quot;¡Obtén la IP primero antes de obtener el contenido!&quot;</span>,<br>        <span class="hljs-string">&quot;_Get User Location&quot;</span>: <span class="hljs-string">&quot;Obtener ubicación del usuario&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IP&quot;</span>: <span class="hljs-string">&quot;Obtener IP&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IP address (IPv6 preferred)&quot;</span>: <span class="hljs-string">&quot;Obtener dirección IP (preferible IPv6)&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IPv4 address&quot;</span>: <span class="hljs-string">&quot;Obtener dirección IPv4&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IPv6 address&quot;</span>: <span class="hljs-string">&quot;Obtener dirección IPv6&quot;</span>,<br>        <span class="hljs-string">&quot;_Get country&quot;</span>: <span class="hljs-string">&quot;Obtener país&quot;</span>,<br>        <span class="hljs-string">&quot;_Get city&quot;</span>: <span class="hljs-string">&quot;Obtener ciudad&quot;</span>,<br>        <span class="hljs-string">&quot;_Get region&quot;</span>: <span class="hljs-string">&quot;Obtener región&quot;</span>,<br>        <span class="hljs-string">&quot;_Get latitude&quot;</span>: <span class="hljs-string">&quot;Obtener latitud&quot;</span>,<br>        <span class="hljs-string">&quot;_Get longitude&quot;</span>: <span class="hljs-string">&quot;Obtener longitud&quot;</span>,<br>        <span class="hljs-string">&quot;_Get ISP&quot;</span>: <span class="hljs-string">&quot;Obtener ISP&quot;</span>,<br>        <span class="hljs-string">&quot;_Get complete information&quot;</span>: <span class="hljs-string">&quot;Obtener información completa&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether successfully obtained&quot;</span>: <span class="hljs-string">&quot;Si se obtuvo exitosamente&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether IP is being obtained&quot;</span>: <span class="hljs-string">&quot;Si se está obteniendo la IP&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether error occurred&quot;</span>: <span class="hljs-string">&quot;Si ocurrió un error&quot;</span>,<br>        <span class="hljs-string">&quot;_Get error&quot;</span>: <span class="hljs-string">&quot;Obtener error&quot;</span>,<br>        <span class="hljs-string">&quot;_Getting IP...&quot;</span>: <span class="hljs-string">&quot;Obteniendo IP...&quot;</span>,<br>        <span class="hljs-string">&quot;_Please get IP first!&quot;</span>: <span class="hljs-string">&quot;¡Obtén la IP primero!&quot;</span>,<br>        <span class="hljs-string">&quot;_When get IP end&quot;</span>: <span class="hljs-string">&quot;Cuando termine la obtención de IP&quot;</span><br>    &#125;,<br>    <span class="hljs-string">&quot;fr&quot;</span>: &#123;<br>        <span class="hljs-string">&quot;_Please get IP first before getting content!&quot;</span>: <span class="hljs-string">&quot;Veuillez d&#x27;abord obtenir l&#x27;IP avant d&#x27;obtenir le contenu !&quot;</span>,<br>        <span class="hljs-string">&quot;_Get User Location&quot;</span>: <span class="hljs-string">&quot;Obtenir la localisation de l&#x27;utilisateur&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IP&quot;</span>: <span class="hljs-string">&quot;Obtenir l&#x27;IP&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IP address (IPv6 preferred)&quot;</span>: <span class="hljs-string">&quot;Obtenir l&#x27;adresse IP (IPv6 préféré)&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IPv4 address&quot;</span>: <span class="hljs-string">&quot;Obtenir l&#x27;adresse IPv4&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IPv6 address&quot;</span>: <span class="hljs-string">&quot;Obtenir l&#x27;adresse IPv6&quot;</span>,<br>        <span class="hljs-string">&quot;_Get country&quot;</span>: <span class="hljs-string">&quot;Obtenir le pays&quot;</span>,<br>        <span class="hljs-string">&quot;_Get city&quot;</span>: <span class="hljs-string">&quot;Obtenir la ville&quot;</span>,<br>        <span class="hljs-string">&quot;_Get region&quot;</span>: <span class="hljs-string">&quot;Obtenir la région&quot;</span>,<br>        <span class="hljs-string">&quot;_Get latitude&quot;</span>: <span class="hljs-string">&quot;Obtenir la latitude&quot;</span>,<br>        <span class="hljs-string">&quot;_Get longitude&quot;</span>: <span class="hljs-string">&quot;Obtenir la longitude&quot;</span>,<br>        <span class="hljs-string">&quot;_Get ISP&quot;</span>: <span class="hljs-string">&quot;Obtenir le FAI&quot;</span>,<br>        <span class="hljs-string">&quot;_Get complete information&quot;</span>: <span class="hljs-string">&quot;Obtenir les informations complètes&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether successfully obtained&quot;</span>: <span class="hljs-string">&quot;Si l&#x27;obtention a réussi&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether IP is being obtained&quot;</span>: <span class="hljs-string">&quot;Si l&#x27;IP est en cours d&#x27;obtention&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether error occurred&quot;</span>: <span class="hljs-string">&quot;Si une erreur s&#x27;est produite&quot;</span>,<br>        <span class="hljs-string">&quot;_Get error&quot;</span>: <span class="hljs-string">&quot;Obtenir l&#x27;erreur&quot;</span>,<br>        <span class="hljs-string">&quot;_Getting IP...&quot;</span>: <span class="hljs-string">&quot;Obtention de l&#x27;IP...&quot;</span>,<br>        <span class="hljs-string">&quot;_Please get IP first!&quot;</span>: <span class="hljs-string">&quot;Veuillez d&#x27;abord obtenir l&#x27;IP !&quot;</span>,<br>        <span class="hljs-string">&quot;_When get IP end&quot;</span>: <span class="hljs-string">&quot;Lorsque l&#x27;obtention de l&#x27;IP se termine&quot;</span><br>    &#125;,<br>    <span class="hljs-string">&quot;ja&quot;</span>: &#123;<br>        <span class="hljs-string">&quot;_Please get IP first before getting content!&quot;</span>: <span class="hljs-string">&quot;コンテンツを取得する前にまずIPを取得してください！&quot;</span>,<br>        <span class="hljs-string">&quot;_Get User Location&quot;</span>: <span class="hljs-string">&quot;ユーザーの所在地を取得&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IP&quot;</span>: <span class="hljs-string">&quot;IPを取得&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IP address (IPv6 preferred)&quot;</span>: <span class="hljs-string">&quot;IPアドレスを取得（IPv6優先）&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IPv4 address&quot;</span>: <span class="hljs-string">&quot;IPv4アドレスを取得&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IPv6 address&quot;</span>: <span class="hljs-string">&quot;IPv6アドレスを取得&quot;</span>,<br>        <span class="hljs-string">&quot;_Get country&quot;</span>: <span class="hljs-string">&quot;国を取得&quot;</span>,<br>        <span class="hljs-string">&quot;_Get city&quot;</span>: <span class="hljs-string">&quot;都市を取得&quot;</span>,<br>        <span class="hljs-string">&quot;_Get region&quot;</span>: <span class="hljs-string">&quot;地域を取得&quot;</span>,<br>        <span class="hljs-string">&quot;_Get latitude&quot;</span>: <span class="hljs-string">&quot;緯度を取得&quot;</span>,<br>        <span class="hljs-string">&quot;_Get longitude&quot;</span>: <span class="hljs-string">&quot;経度を取得&quot;</span>,<br>        <span class="hljs-string">&quot;_Get ISP&quot;</span>: <span class="hljs-string">&quot;ISPを取得&quot;</span>,<br>        <span class="hljs-string">&quot;_Get complete information&quot;</span>: <span class="hljs-string">&quot;完全な情報を取得&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether successfully obtained&quot;</span>: <span class="hljs-string">&quot;正常に取得されたかどうか&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether IP is being obtained&quot;</span>: <span class="hljs-string">&quot;IPが取得中かどうか&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether error occurred&quot;</span>: <span class="hljs-string">&quot;エラーが発生したかどうか&quot;</span>,<br>        <span class="hljs-string">&quot;_Get error&quot;</span>: <span class="hljs-string">&quot;エラーを取得&quot;</span>,<br>        <span class="hljs-string">&quot;_Getting IP...&quot;</span>: <span class="hljs-string">&quot;IPを取得中...&quot;</span>,<br>        <span class="hljs-string">&quot;_Please get IP first!&quot;</span>: <span class="hljs-string">&quot;まずIPを取得してください！&quot;</span>,<br>        <span class="hljs-string">&quot;_When get IP end&quot;</span>: <span class="hljs-string">&quot;IP取得が終了したとき&quot;</span><br>    &#125;,<br>    <span class="hljs-string">&quot;ko&quot;</span>: &#123;<br>        <span class="hljs-string">&quot;_Please get IP first before getting content!&quot;</span>: <span class="hljs-string">&quot;콘텐츠를 얻기 전에 먼저 IP를 가져오세요!&quot;</span>,<br>        <span class="hljs-string">&quot;_Get User Location&quot;</span>: <span class="hljs-string">&quot;사용자 위치 가져오기&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IP&quot;</span>: <span class="hljs-string">&quot;IP 가져오기&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IP address (IPv6 preferred)&quot;</span>: <span class="hljs-string">&quot;IP 주소 가져오기 (IPv6 우선)&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IPv4 address&quot;</span>: <span class="hljs-string">&quot;IPv4 주소 가져오기&quot;</span>,<br>        <span class="hljs-string">&quot;_Get IPv6 address&quot;</span>: <span class="hljs-string">&quot;IPv6 주소 가져오기&quot;</span>,<br>        <span class="hljs-string">&quot;_Get country&quot;</span>: <span class="hljs-string">&quot;국가 가져오기&quot;</span>,<br>        <span class="hljs-string">&quot;_Get city&quot;</span>: <span class="hljs-string">&quot;도시 가져오기&quot;</span>,<br>        <span class="hljs-string">&quot;_Get region&quot;</span>: <span class="hljs-string">&quot;지역 가져오기&quot;</span>,<br>        <span class="hljs-string">&quot;_Get latitude&quot;</span>: <span class="hljs-string">&quot;위도 가져오기&quot;</span>,<br>        <span class="hljs-string">&quot;_Get longitude&quot;</span>: <span class="hljs-string">&quot;경도 가져오기&quot;</span>,<br>        <span class="hljs-string">&quot;_Get ISP&quot;</span>: <span class="hljs-string">&quot;ISP 가져오기&quot;</span>,<br>        <span class="hljs-string">&quot;_Get complete information&quot;</span>: <span class="hljs-string">&quot;완전한 정보 가져오기&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether successfully obtained&quot;</span>: <span class="hljs-string">&quot;성공적으로 얻었는지 여부&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether IP is being obtained&quot;</span>: <span class="hljs-string">&quot;IP가 획득 중인지 여부&quot;</span>,<br>        <span class="hljs-string">&quot;_Whether error occurred&quot;</span>: <span class="hljs-string">&quot;오류가 발생했는지 여부&quot;</span>,<br>        <span class="hljs-string">&quot;_Get error&quot;</span>: <span class="hljs-string">&quot;오류 가져오기&quot;</span>,<br>        <span class="hljs-string">&quot;_Getting IP...&quot;</span>: <span class="hljs-string">&quot;IP 가져오는 중...&quot;</span>,<br>        <span class="hljs-string">&quot;_Please get IP first!&quot;</span>: <span class="hljs-string">&quot;먼저 IP를 가져오세요!&quot;</span>,<br>        <span class="hljs-string">&quot;_When get IP end&quot;</span>: <span class="hljs-string">&quot;IP 획득이 끝날 때&quot;</span><br>    &#125;<br>&#125;);<br><br><span class="hljs-keyword">var</span> res = &#123;&#125;;<br><span class="hljs-keyword">var</span> is_get = <span class="hljs-literal">false</span>;<br><span class="hljs-keyword">var</span> on_get = <span class="hljs-literal">false</span>;<br><span class="hljs-keyword">var</span> err = <span class="hljs-string">&#x27;&#x27;</span>;<br><br><span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">gip</span>(<span class="hljs-params"></span>) &#123;<br>    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Promise</span>(<span class="hljs-title function_">async</span> (resolve, reject) =&gt; &#123;<br>        <span class="hljs-keyword">let</span> ipv4 = <span class="hljs-literal">null</span>;<br>        <span class="hljs-keyword">let</span> ipv6 = <span class="hljs-literal">null</span>;<br>        err = <span class="hljs-string">&#x27;&#x27;</span>;<br><br>        <span class="hljs-keyword">const</span> promises = [<br>            <span class="hljs-title function_">fetch</span>(<span class="hljs-string">&#x27;https://api-ipv4.ip.sb/ip&#x27;</span>)<br>                .<span class="hljs-title function_">then</span>(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> (&#123;<br>                    <span class="hljs-attr">error</span>: <span class="hljs-literal">false</span>,<br>                    <span class="hljs-attr">url</span>: response.<span class="hljs-property">url</span>,<br>                    <span class="hljs-attr">data</span>: response.<span class="hljs-title function_">text</span>().<span class="hljs-title function_">then</span>(<span class="hljs-function"><span class="hljs-params">text</span> =&gt;</span> text.<span class="hljs-title function_">trim</span>())<br>                &#125;))<br>                .<span class="hljs-title function_">catch</span>(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> (&#123;<br>                    <span class="hljs-attr">error</span>: <span class="hljs-literal">true</span>,<br>                    <span class="hljs-attr">message</span>: error.<span class="hljs-property">message</span><br>                &#125;)),<br><br>            <span class="hljs-title function_">fetch</span>(<span class="hljs-string">&#x27;https://api-ipv6.ip.sb/ip&#x27;</span>)<br>                .<span class="hljs-title function_">then</span>(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> (&#123;<br>                    <span class="hljs-attr">error</span>: <span class="hljs-literal">false</span>,<br>                    <span class="hljs-attr">url</span>: response.<span class="hljs-property">url</span>,<br>                    <span class="hljs-attr">data</span>: response.<span class="hljs-title function_">text</span>().<span class="hljs-title function_">then</span>(<span class="hljs-function"><span class="hljs-params">text</span> =&gt;</span> text.<span class="hljs-title function_">trim</span>())<br>                &#125;))<br>                .<span class="hljs-title function_">catch</span>(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> (&#123;<br>                    <span class="hljs-attr">error</span>: <span class="hljs-literal">true</span>,<br>                    <span class="hljs-attr">message</span>: error.<span class="hljs-property">message</span><br>                &#125;))<br>        ]<br>        <br>        <span class="hljs-keyword">const</span> results = <span class="hljs-keyword">await</span> <span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">allSettled</span>(promises);<br>        <br>        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">const</span> result <span class="hljs-keyword">of</span> results) &#123;<br>            <span class="hljs-keyword">if</span> (!result.<span class="hljs-property">value</span>.<span class="hljs-property">error</span>) &#123;<br>                <span class="hljs-keyword">const</span> ip = <span class="hljs-keyword">await</span> result.<span class="hljs-property">value</span>.<span class="hljs-property">data</span>;<br>                <span class="hljs-keyword">if</span> (result.<span class="hljs-property">value</span>.<span class="hljs-property">url</span> == <span class="hljs-string">&quot;https://api-ipv4.ip.sb/ip&quot;</span>) &#123;<br>                    ipv4 = ip;<br>                &#125; <span class="hljs-keyword">else</span> &#123;<br>                    ipv6 = ip;<br>                &#125;<br>            &#125; <span class="hljs-keyword">else</span> &#123;<br>                err += <span class="hljs-string">`Request Error: <span class="hljs-subst">$&#123;result.value.message&#125;</span>;`</span>;<br>            &#125;<br>        &#125;<br><br>        <span class="hljs-keyword">if</span> (ipv4 || ipv6) &#123;<br>            <span class="hljs-title function_">fetch</span>(<span class="hljs-string">`http://ip-api.com/json/<span class="hljs-subst">$&#123;ipv4 || ipv6&#125;</span>`</span>)<br>                .<span class="hljs-title function_">then</span>(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> &#123;<br>                    <span class="hljs-keyword">if</span> (!response.<span class="hljs-property">ok</span>) &#123;<br>                        err += <span class="hljs-string">`Request Error: <span class="hljs-subst">$&#123;response.status&#125;</span>;`</span>;<br>                        <span class="hljs-title function_">reject</span>();<br>                    &#125;<br>                    <span class="hljs-keyword">return</span> response.<span class="hljs-title function_">json</span>();<br>                &#125;)<br>                .<span class="hljs-title function_">then</span>(<span class="hljs-function"><span class="hljs-params">locData</span> =&gt;</span> &#123;<br>                    res = &#123;<br>                        <span class="hljs-attr">country</span>: locData.<span class="hljs-property">country</span>,<br>                        <span class="hljs-attr">city</span>: locData.<span class="hljs-property">city</span>,<br>                        <span class="hljs-attr">region</span>: locData.<span class="hljs-property">regionName</span>,<br>                        <span class="hljs-attr">lat</span>: locData.<span class="hljs-property">lat</span>,<br>                        <span class="hljs-attr">lon</span>: locData.<span class="hljs-property">lon</span>,<br>                        <span class="hljs-attr">isp</span>: locData.<span class="hljs-property">isp</span>,<br>                        <span class="hljs-attr">ipv4</span>: ipv4,<br>                        <span class="hljs-attr">ipv6</span>: ipv6,<br>                        <span class="hljs-attr">all</span>: <span class="hljs-title class_">JSON</span>.<span class="hljs-title function_">stringify</span>(locData)<br>                    &#125;;<br>                    is_get = <span class="hljs-literal">true</span>;<br>                    <span class="hljs-title function_">resolve</span>();<br>                &#125;)<br>                .<span class="hljs-title function_">catch</span>(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> &#123;<br>                    err += error;<br>                    <span class="hljs-title function_">reject</span>();<br>                &#125;);<br>        &#125; <span class="hljs-keyword">else</span> &#123;<br>            <span class="hljs-title function_">reject</span>();<br>        &#125;<br>    &#125;)<br>&#125;<br><br><br><br>(<span class="hljs-keyword">function</span>(<span class="hljs-params">Scratch</span>)&#123;<br>    <span class="hljs-string">&#x27;use strict&#x27;</span><br>    <span class="hljs-keyword">class</span> <span class="hljs-title class_">get_user_ip</span> &#123;<br>        <span class="hljs-title function_">getInfo</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">return</span> &#123;<br>                <span class="hljs-attr">id</span>:<span class="hljs-string">&quot;getuserip&quot;</span>,<br>                <span class="hljs-attr">name</span>:<span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Get User Location&quot;</span>),<br>                <span class="hljs-attr">color1</span>:<span class="hljs-string">&quot;#0ebd8a&quot;</span>,<br>                <span class="hljs-attr">blocks</span>:[<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;msg_label&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-string">&#x27;label&#x27;</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Please get IP first before getting content!&quot;</span>)<br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;get_ip&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">COMMAND</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Get IP&quot;</span>)<br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;res_ip&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">REPORTER</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Get IP address (IPv6 preferred)&quot;</span>)<br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;res_ipv4&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">REPORTER</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Get IPv4 address&quot;</span>)<br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;res_ipv6&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">REPORTER</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Get IPv6 address&quot;</span>)<br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;res_country&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">REPORTER</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Get country&quot;</span>)<br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;res_city&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">REPORTER</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Get city&quot;</span>)<br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;res_region&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">REPORTER</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Get region&quot;</span>)<br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;res_lat&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">REPORTER</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Get latitude&quot;</span>)<br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;res_lon&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">REPORTER</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Get longitude&quot;</span>)<br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;res_isp&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">REPORTER</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Get ISP&quot;</span>)<br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;res_all&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">REPORTER</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Get complete information&quot;</span>)<br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">EVENT</span>,<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&#x27;whenGetEnd&#x27;</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;When get IP end&quot;</span>),<br>                        <span class="hljs-attr">isEdgeActivated</span>: <span class="hljs-literal">false</span><br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;get_ok&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">BOOLEAN</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Whether successfully obtained&quot;</span>)<br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;is_on_get&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">BOOLEAN</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Whether IP is being obtained&quot;</span>)<br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;is_err&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">BOOLEAN</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Whether error occurred&quot;</span>)<br>                    &#125;,<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;res_err&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">REPORTER</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Get error&quot;</span>)<br>                    &#125;<br>                ]<br>            &#125;<br>        &#125;<br><br>        <span class="hljs-keyword">async</span> <span class="hljs-title function_">get_ip</span>(<span class="hljs-params"></span>) &#123;<br>            on_get = <span class="hljs-literal">true</span>;<br>            <span class="hljs-keyword">try</span> &#123;<br>                <span class="hljs-keyword">await</span> <span class="hljs-title function_">gip</span>();<br>            &#125; <span class="hljs-keyword">catch</span> (e) &#123;<br>                <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">error</span>(e);<br>            &#125; <span class="hljs-keyword">finally</span> &#123;<br>                on_get = <span class="hljs-literal">false</span>;<br>                <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">vm</span>.<span class="hljs-property">runtime</span>.<span class="hljs-title function_">startHats</span>(<span class="hljs-string">&quot;getuserip_whenGetEnd&quot;</span>)<br>                <span class="hljs-keyword">return</span>;<br>            &#125;<br>        &#125;<br><br>        <span class="hljs-title function_">res_ip</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">if</span> (is_get) &#123;<br>                <span class="hljs-keyword">if</span> (res.<span class="hljs-property">ipv6</span>) &#123;<br>                    <span class="hljs-keyword">return</span> res.<span class="hljs-property">ipv6</span><br>                &#125;<br>                <span class="hljs-keyword">return</span> res.<span class="hljs-property">ipv4</span>;<br>            &#125;<br>            <span class="hljs-keyword">if</span> (on_get) &#123;<br>                <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Getting IP...&quot;</span>);<br>            &#125;<br>            <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Please get IP first!&quot;</span>);<br>        &#125;<br><br>        <span class="hljs-title function_">res_ipv4</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">if</span> (is_get) &#123;<br>                <span class="hljs-keyword">return</span> res.<span class="hljs-property">ipv4</span>;<br>            &#125;<br>            <span class="hljs-keyword">if</span> (on_get) &#123;<br>                <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Getting IP...&quot;</span>);<br>            &#125;<br>            <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Please get IP first!&quot;</span>);<br>        &#125;<br><br>        <span class="hljs-title function_">res_ipv6</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">if</span> (is_get) &#123;<br>                <span class="hljs-keyword">return</span> res.<span class="hljs-property">ipv6</span>;<br>            &#125;<br>            <span class="hljs-keyword">if</span> (on_get) &#123;<br>                <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Getting IP...&quot;</span>);<br>            &#125;<br>            <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Please get IP first!&quot;</span>);<br>        &#125;<br><br>        <span class="hljs-title function_">res_country</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">if</span> (is_get) &#123;<br>                <span class="hljs-keyword">return</span> res.<span class="hljs-property">country</span>;<br>            &#125;<br>            <span class="hljs-keyword">if</span> (on_get) &#123;<br>                <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Getting IP...&quot;</span>);<br>            &#125;<br>            <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Please get IP first!&quot;</span>);<br>        &#125;<br><br>        <span class="hljs-title function_">res_city</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">if</span> (is_get) &#123;<br>                <span class="hljs-keyword">return</span> res.<span class="hljs-property">city</span>;<br>            &#125;<br>            <span class="hljs-keyword">if</span> (on_get) &#123;<br>                <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Getting IP...&quot;</span>);<br>            &#125;<br>            <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Please get IP first!&quot;</span>);<br>        &#125;<br><br>        <span class="hljs-title function_">res_region</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">if</span> (is_get) &#123;<br>                <span class="hljs-keyword">return</span> res.<span class="hljs-property">region</span>;<br>            &#125;<br>            <span class="hljs-keyword">if</span> (on_get) &#123;<br>                <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Getting IP...&quot;</span>);<br>            &#125;<br>            <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Please get IP first!&quot;</span>);<br>        &#125;<br><br>        <span class="hljs-title function_">res_lat</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">if</span> (is_get) &#123;<br>                <span class="hljs-keyword">return</span> res.<span class="hljs-property">lat</span>;<br>            &#125;<br>            <span class="hljs-keyword">if</span> (on_get) &#123;<br>                <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Getting IP...&quot;</span>);<br>            &#125;<br>            <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Please get IP first!&quot;</span>);<br>        &#125;<br><br>        <span class="hljs-title function_">res_lon</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">if</span> (is_get) &#123;<br>                <span class="hljs-keyword">return</span> res.<span class="hljs-property">lon</span>;<br>            &#125;<br>            <span class="hljs-keyword">if</span> (on_get) &#123;<br>                <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Getting IP...&quot;</span>);<br>            &#125;<br>            <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Please get IP first!&quot;</span>);<br>        &#125;<br><br>        <span class="hljs-title function_">res_isp</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">if</span> (is_get) &#123;<br>                <span class="hljs-keyword">return</span> res.<span class="hljs-property">isp</span>;<br>            &#125;<br>            <span class="hljs-keyword">if</span> (on_get) &#123;<br>                <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Getting IP...&quot;</span>);<br>            &#125;<br>            <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Please get IP first!&quot;</span>);<br>        &#125;<br><br>        <span class="hljs-title function_">res_all</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">if</span> (is_get) &#123;<br>                <span class="hljs-keyword">return</span> res.<span class="hljs-property">all</span>;<br>            &#125;<br>            <span class="hljs-keyword">if</span> (on_get) &#123;<br>                <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Getting IP...&quot;</span>);<br>            &#125;<br>            <span class="hljs-keyword">return</span> <span class="hljs-title class_">Scratch</span>.<span class="hljs-title function_">translate</span>(<span class="hljs-string">&quot;Please get IP first!&quot;</span>);<br>        &#125;<br><br>        <span class="hljs-title function_">get_ok</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">return</span> is_get;<br>        &#125;<br><br>        <span class="hljs-title function_">is_on_get</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">return</span> on_get;<br>        &#125;<br><br>        <span class="hljs-title function_">is_err</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">if</span> (err == <span class="hljs-string">&#x27;&#x27;</span>) &#123;<br>                <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;<br>            &#125;<br>            <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;<br>        &#125;<br><br>        <span class="hljs-title function_">res_err</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">return</span> err;<br>        &#125;<br>    &#125;<br>    <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">extensions</span>.<span class="hljs-title function_">register</span>(<span class="hljs-keyword">new</span> <span class="hljs-title function_">get_user_ip</span>())<br>&#125;)(<span class="hljs-title class_">Scratch</span>);<br></code></pre></td></tr></table></figure>
+<p>教程:</p>
+<p>先获取IP,然后就可以获取里面的内容了(使用除获取IP以外的块即可)</p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/Blog/categories/%E7%BC%96%E7%A8%8B%E5%B7%A5%E5%85%B7/" class="category-chain-item">编程工具</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/Blog/tags/Scratch/" class="print-no-link">#Scratch</a>
+      
+        <a href="/Blog/tags/%E6%89%A9%E5%B1%95%E5%BC%80%E5%8F%91/" class="print-no-link">#扩展开发</a>
+      
+        <a href="/Blog/tags/%E5%9C%B0%E7%90%86%E5%AE%9A%E4%BD%8D/" class="print-no-link">#地理定位</a>
+      
+        <a href="/Blog/tags/IP%E8%8E%B7%E5%8F%96/" class="print-no-link">#IP获取</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>获取用户所在地区 - Scratch扩展</div>
+      <div>https://qiufengcute.github.io/Blog/posts/Scratch扩展/获取用户所在地区/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Qiufeng</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2026年3月2日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/" rel="external nofollow noreferrer">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+<div style="width:100%;display:flex;justify-content:center;margin-bottom:1.5rem"><ins class="adsbygoogle" style="display:flex;justify-content:center;max-width:845px;width:100%;height:90px" data-ad-client="ca-pub-2938778520580915" data-ad-slot="5354067759"></ins><script> (adsbygoogle = window.adsbygoogle || []).push({}); </script></div>
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E6%95%B0%E5%AD%97%E8%BD%AC%E4%B8%AD%E6%96%87/" title="数字转中文 - Scratch扩展">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">数字转中文 - Scratch扩展</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E8%BF%90%E8%A1%8Cjs%E4%BB%A3%E7%A0%81/" title="运行JS代码 - Scratch扩展">
+                        <span class="hidden-mobile">运行JS代码 - Scratch扩展</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       基于 <a href="https://hexo.io" target="_blank" rel="nofollow noopener">Hexo</a> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">Fluid</a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/Blog/js/events.js" ></script>
+<script  src="/Blog/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/Blog/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/Blog/js/local-search.js" ></script>
+
+
+
+
+  
+<script src="/Blog/js/custom.js"></script>
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/Blog/js/boot.js" ></script>
+
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2938778520580915" crossorigin="anonymous"></script>
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
