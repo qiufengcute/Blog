@@ -148,11 +148,11 @@
   
   
   <entry>
-    <title>3D字符与1024游戏组合</title>
-    <link href="/Blog/posts/3d%E5%AD%97%E7%AC%A6&amp;61&amp;1024_1.1.0/"/>
-    <url>/Blog/posts/3d%E5%AD%97%E7%AC%A6&amp;61&amp;1024_1.1.0/</url>
+    <title>3D字符与61游戏与1024游戏</title>
+    <link href="/Blog/posts/3D%E5%AD%97%E7%AC%A6%E4%B8%8E61%E6%B8%B8%E6%88%8F%E4%B8%8E1024%E6%B8%B8%E6%88%8F1.1.0/"/>
+    <url>/Blog/posts/3D%E5%AD%97%E7%AC%A6%E4%B8%8E61%E6%B8%B8%E6%88%8F%E4%B8%8E1024%E6%B8%B8%E6%88%8F1.1.0/</url>
     
-    <content type="html"><![CDATA[<p>3d字符&amp;61&amp;1024_1.1.0源代码:</p><p><ahref="https://nsx.lanzout.com/io9h129xgcfi">3d字符&amp;61&amp;1024_1.1.0.zip- 蓝奏云</a></p><p><font style="color:rgb(63, 63, 63);background-color:rgb(194, 236, 178);"></font></p><p><font style="color:rgb(63, 63, 63);background-color:rgb(194, 236, 178);"></font></p>]]></content>
+    <content type="html"><![CDATA[<p><ahref="https://nsx.lanzout.com/io9h129xgcfi">3d字符&amp;61&amp;1024_1.1.0.zip</a></p>]]></content>
     
     
     <categories>
@@ -168,6 +168,8 @@
       
       <tag>3D字符</tag>
       
+      <tag>61游戏</tag>
+      
       <tag>1024游戏</tag>
       
     </tags>
@@ -177,27 +179,27 @@
   
   
   <entry>
-    <title>IPv6 启用指南</title>
-    <link href="/Blog/posts/IPv6%20%E5%90%AF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
-    <url>/Blog/posts/IPv6%20%E5%90%AF%E7%94%A8%E6%8C%87%E5%8D%97/</url>
+    <title>EasySearch - 简易搜索聚合工具</title>
+    <link href="/Blog/posts/EasySearch/"/>
+    <url>/Blog/posts/EasySearch/</url>
     
-    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/IPv6-Activation-Guide">GitHub- qiufengcute/IPv6-Activation-Guide: A IPv6 activation guide</a></p><p>Page:</p><p><a href="https://ipv6.qiuqfeng.cc">IPv6 启用指南</a></p><p>(备用)</p><p><a href="https://qiufengcute.github.io/IPv6-Activation-Guide">IPv6启用指南</a></p><p>Bilibili:</p><p><ahref="https://player.bilibili.com/player.html?bvid=BV1QpvCBFEwv&amp;autoplay=0">bilibili</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/EasySearch">GitHub -qiufengcute/EasySearch: 一个简洁高效的本地搜索引擎工具</a></p><p>主页:</p><p><a href="https://easysearch.qiuqfeng.cc">EasySearch -简易搜索聚合工具</a></p><p>(备用)</p><p><ahref="https://qiufengcute.github.io/EasySearch/">https://qiufengcute.github.io/EasySearch/</a></p>]]></content>
     
     
     <categories>
       
-      <category>技术文档</category>
+      <category>搜索工具</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>IPv6</tag>
+      <tag>搜索引擎</tag>
       
-      <tag>网络配置</tag>
+      <tag>聚合工具</tag>
       
-      <tag>教程</tag>
+      <tag>Web应用</tag>
       
     </tags>
     
@@ -235,27 +237,27 @@
   
   
   <entry>
-    <title>EasySearch - 简易搜索聚合工具</title>
-    <link href="/Blog/posts/EasySearch/"/>
-    <url>/Blog/posts/EasySearch/</url>
+    <title>IPv6 启用指南</title>
+    <link href="/Blog/posts/IPv6%20%E5%90%AF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+    <url>/Blog/posts/IPv6%20%E5%90%AF%E7%94%A8%E6%8C%87%E5%8D%97/</url>
     
-    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/EasySearch">GitHub -qiufengcute/EasySearch: 一个简洁高效的本地搜索引擎工具</a></p><p>主页:</p><p><a href="https://easysearch.qiuqfeng.cc">EasySearch -简易搜索聚合工具</a></p><p>(备用)</p><p><ahref="https://qiufengcute.github.io/EasySearch/">https://qiufengcute.github.io/EasySearch/</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/IPv6-Activation-Guide">GitHub- qiufengcute/IPv6-Activation-Guide: A IPv6 activation guide</a></p><p>Page:</p><p><a href="https://ipv6.qiuqfeng.cc">IPv6 启用指南</a></p><p>(备用)</p><p><a href="https://qiufengcute.github.io/IPv6-Activation-Guide">IPv6启用指南</a></p><p>Bilibili:</p><p><ahref="https://player.bilibili.com/player.html?bvid=BV1QpvCBFEwv&amp;autoplay=0">bilibili</a></p>]]></content>
     
     
     <categories>
       
-      <category>搜索工具</category>
+      <category>技术文档</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>搜索引擎</tag>
+      <tag>IPv6</tag>
       
-      <tag>聚合工具</tag>
+      <tag>网络配置</tag>
       
-      <tag>Web应用</tag>
+      <tag>教程</tag>
       
     </tags>
     
@@ -533,27 +535,27 @@
   
   
   <entry>
-    <title>恶魔轮盘游戏</title>
-    <link href="/Blog/posts/%E6%81%B6%E9%AD%94%E8%BD%AE%E7%9B%98/"/>
-    <url>/Blog/posts/%E6%81%B6%E9%AD%94%E8%BD%AE%E7%9B%98/</url>
+    <title>待办事件管理工具</title>
+    <link href="/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/"/>
+    <url>/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/</url>
     
-    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/emlp">GitHub -qiufengcute/emlp</a></p><p>bilibili:</p><p><ahref="https://www.bilibili.com/video/BV1uK421v7Li?vd_source=16a214e3ff37c13729a0a17862bb8e86">python恶魔轮盘_哔哩哔哩bilibili</a></p>]]></content>
+    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/to-do/">GitHub -qiufengcute/to-do</a></p>]]></content>
     
     
     <categories>
       
-      <category>游戏</category>
+      <category>应用程序</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>小游戏</tag>
+      <tag>任务管理</tag>
       
-      <tag>娱乐</tag>
+      <tag>待办事项</tag>
       
-      <tag>Python</tag>
+      <tag>GitHub项目</tag>
       
     </tags>
     
@@ -591,27 +593,56 @@
   
   
   <entry>
-    <title>待办事件管理工具</title>
-    <link href="/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/"/>
-    <url>/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/</url>
+    <title>恶魔轮盘游戏</title>
+    <link href="/Blog/posts/%E6%81%B6%E9%AD%94%E8%BD%AE%E7%9B%98/"/>
+    <url>/Blog/posts/%E6%81%B6%E9%AD%94%E8%BD%AE%E7%9B%98/</url>
     
-    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/to-do/">GitHub -qiufengcute/to-do</a></p>]]></content>
+    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/emlp">GitHub -qiufengcute/emlp</a></p><p>bilibili:</p><p><ahref="https://www.bilibili.com/video/BV1uK421v7Li?vd_source=16a214e3ff37c13729a0a17862bb8e86">python恶魔轮盘_哔哩哔哩bilibili</a></p>]]></content>
     
     
     <categories>
       
-      <category>应用程序</category>
+      <category>游戏</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>任务管理</tag>
+      <tag>小游戏</tag>
       
-      <tag>待办事项</tag>
+      <tag>娱乐</tag>
       
-      <tag>GitHub项目</tag>
+      <tag>Python</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>文字游戏</title>
+    <link href="/Blog/posts/%E6%96%87%E5%AD%97%E6%B8%B8%E6%88%8F/"/>
+    <url>/Blog/posts/%E6%96%87%E5%AD%97%E6%B8%B8%E6%88%8F/</url>
+    
+    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/word-game">GitHub -qiufengcute/word-game: 这是个文字游戏</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>游戏</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>娱乐</tag>
+      
+      <tag>文字游戏</tag>
+      
+      <tag>GitHub</tag>
       
     </tags>
     
@@ -678,27 +709,29 @@
   
   
   <entry>
-    <title>文字游戏</title>
-    <link href="/Blog/posts/%E6%96%87%E5%AD%97%E6%B8%B8%E6%88%8F/"/>
-    <url>/Blog/posts/%E6%96%87%E5%AD%97%E6%B8%B8%E6%88%8F/</url>
+    <title>时间表生成器</title>
+    <link href="/Blog/posts/%E6%97%B6%E9%97%B4%E8%A1%A8%E7%94%9F%E6%88%90%E5%99%A8/"/>
+    <url>/Blog/posts/%E6%97%B6%E9%97%B4%E8%A1%A8%E7%94%9F%E6%88%90%E5%99%A8/</url>
     
-    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/word-game">GitHub -qiufengcute/word-game: 这是个文字游戏</a></p>]]></content>
+    <content type="html"><![CDATA[<p>代码:</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br><span class="line">305</span><br><span class="line">306</span><br><span class="line">307</span><br><span class="line">308</span><br><span class="line">309</span><br><span class="line">310</span><br><span class="line">311</span><br><span class="line">312</span><br><span class="line">313</span><br><span class="line">314</span><br><span class="line">315</span><br><span class="line">316</span><br><span class="line">317</span><br><span class="line">318</span><br><span class="line">319</span><br><span class="line">320</span><br><span class="line">321</span><br><span class="line">322</span><br><span class="line">323</span><br><span class="line">324</span><br><span class="line">325</span><br><span class="line">326</span><br><span class="line">327</span><br><span class="line">328</span><br><span class="line">329</span><br><span class="line">330</span><br><span class="line">331</span><br><span class="line">332</span><br><span class="line">333</span><br><span class="line">334</span><br><span class="line">335</span><br><span class="line">336</span><br><span class="line">337</span><br><span class="line">338</span><br><span class="line">339</span><br><span class="line">340</span><br><span class="line">341</span><br><span class="line">342</span><br><span class="line">343</span><br><span class="line">344</span><br><span class="line">345</span><br><span class="line">346</span><br><span class="line">347</span><br><span class="line">348</span><br><span class="line">349</span><br><span class="line">350</span><br><span class="line">351</span><br><span class="line">352</span><br><span class="line">353</span><br><span class="line">354</span><br><span class="line">355</span><br><span class="line">356</span><br><span class="line">357</span><br><span class="line">358</span><br><span class="line">359</span><br><span class="line">360</span><br><span class="line">361</span><br><span class="line">362</span><br><span class="line">363</span><br><span class="line">364</span><br><span class="line">365</span><br><span class="line">366</span><br><span class="line">367</span><br><span class="line">368</span><br><span class="line">369</span><br><span class="line">370</span><br><span class="line">371</span><br><span class="line">372</span><br><span class="line">373</span><br><span class="line">374</span><br><span class="line">375</span><br><span class="line">376</span><br><span class="line">377</span><br><span class="line">378</span><br><span class="line">379</span><br><span class="line">380</span><br><span class="line">381</span><br><span class="line">382</span><br><span class="line">383</span><br><span class="line">384</span><br><span class="line">385</span><br><span class="line">386</span><br><span class="line">387</span><br><span class="line">388</span><br><span class="line">389</span><br><span class="line">390</span><br><span class="line">391</span><br><span class="line">392</span><br><span class="line">393</span><br><span class="line">394</span><br><span class="line">395</span><br><span class="line">396</span><br><span class="line">397</span><br><span class="line">398</span><br><span class="line">399</span><br><span class="line">400</span><br><span class="line">401</span><br><span class="line">402</span><br><span class="line">403</span><br><span class="line">404</span><br><span class="line">405</span><br><span class="line">406</span><br><span class="line">407</span><br><span class="line">408</span><br><span class="line">409</span><br><span class="line">410</span><br><span class="line">411</span><br><span class="line">412</span><br><span class="line">413</span><br><span class="line">414</span><br><span class="line">415</span><br><span class="line">416</span><br><span class="line">417</span><br><span class="line">418</span><br><span class="line">419</span><br><span class="line">420</span><br><span class="line">421</span><br><span class="line">422</span><br><span class="line">423</span><br><span class="line">424</span><br><span class="line">425</span><br><span class="line">426</span><br><span class="line">427</span><br><span class="line">428</span><br><span class="line">429</span><br><span class="line">430</span><br><span class="line">431</span><br><span class="line">432</span><br><span class="line">433</span><br><span class="line">434</span><br><span class="line">435</span><br><span class="line">436</span><br><span class="line">437</span><br><span class="line">438</span><br><span class="line">439</span><br><span class="line">440</span><br><span class="line">441</span><br><span class="line">442</span><br><span class="line">443</span><br><span class="line">444</span><br><span class="line">445</span><br><span class="line">446</span><br><span class="line">447</span><br><span class="line">448</span><br><span class="line">449</span><br><span class="line">450</span><br><span class="line">451</span><br><span class="line">452</span><br><span class="line">453</span><br><span class="line">454</span><br><span class="line">455</span><br><span class="line">456</span><br><span class="line">457</span><br><span class="line">458</span><br><span class="line">459</span><br><span class="line">460</span><br><span class="line">461</span><br><span class="line">462</span><br><span class="line">463</span><br><span class="line">464</span><br><span class="line">465</span><br><span class="line">466</span><br><span class="line">467</span><br><span class="line">468</span><br><span class="line">469</span><br><span class="line">470</span><br><span class="line">471</span><br><span class="line">472</span><br><span class="line">473</span><br><span class="line">474</span><br><span class="line">475</span><br><span class="line">476</span><br><span class="line">477</span><br><span class="line">478</span><br><span class="line">479</span><br><span class="line">480</span><br><span class="line">481</span><br><span class="line">482</span><br><span class="line">483</span><br><span class="line">484</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> sys<br><span class="hljs-keyword">from</span> datetime <span class="hljs-keyword">import</span> datetime<br><br><span class="hljs-keyword">import</span> pandas <span class="hljs-keyword">as</span> pd<br><span class="hljs-keyword">from</span> PIL <span class="hljs-keyword">import</span> Image, ImageDraw, ImageFont<br><span class="hljs-keyword">from</span> PySide6.QtCore <span class="hljs-keyword">import</span> QDate, QPoint, Qt<br><span class="hljs-keyword">from</span> PySide6.QtGui <span class="hljs-keyword">import</span> QAction<br><span class="hljs-keyword">from</span> PySide6.QtWidgets <span class="hljs-keyword">import</span> (<br>QAbstractItemView,<br>QApplication,<br>QDateEdit,<br>QFileDialog,<br>QHBoxLayout,<br>QHeaderView,<br>QLabel,<br>QLineEdit,<br>QMainWindow,<br>QMenu,<br>QMessageBox,<br>QPushButton,<br>QTableWidget,<br>QTableWidgetItem,<br>QVBoxLayout,<br>QWidget,<br>)<br><br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">TimelineGenerator</span>(<span class="hljs-title class_ inherited__">QMainWindow</span>):<br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">__init__</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-built_in">super</span>().__init__()<br>        <span class="hljs-variable language_">self</span>.initUI()<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">initUI</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-variable language_">self</span>.setWindowTitle(<span class="hljs-string">&quot;时间表生成器&quot;</span>)<br>        <span class="hljs-variable language_">self</span>.setGeometry(<span class="hljs-number">100</span>, <span class="hljs-number">100</span>, <span class="hljs-number">1200</span>, <span class="hljs-number">800</span>)<br><br>        <span class="hljs-comment"># 中央部件</span><br>        central_widget = QWidget()<br>        <span class="hljs-variable language_">self</span>.setCentralWidget(central_widget)<br>        layout = QVBoxLayout(central_widget)<br><br>        <span class="hljs-comment"># 标题设置</span><br>        title_layout = QHBoxLayout()<br>        title_layout.addWidget(QLabel(<span class="hljs-string">&quot;图表标题:&quot;</span>))<br>        <span class="hljs-variable language_">self</span>.title_input = QLineEdit(<span class="hljs-string">&quot;时间表&quot;</span>)<br>        <span class="hljs-variable language_">self</span>.title_input.setMinimumWidth(<span class="hljs-number">300</span>)<br>        title_layout.addWidget(<span class="hljs-variable language_">self</span>.title_input)<br>        title_layout.addStretch()<br>        layout.addLayout(title_layout)<br><br>        <span class="hljs-comment"># 数据表格</span><br>        <span class="hljs-variable language_">self</span>.table = QTableWidget()<br>        <span class="hljs-variable language_">self</span>.table.setColumnCount(<span class="hljs-number">3</span>)<br>        <span class="hljs-variable language_">self</span>.table.setHorizontalHeaderLabels([<span class="hljs-string">&quot;名称&quot;</span>, <span class="hljs-string">&quot;开始日期&quot;</span>, <span class="hljs-string">&quot;结束日期&quot;</span>])<br>        <span class="hljs-variable language_">self</span>.table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)<br>        <span class="hljs-variable language_">self</span>.table.setContextMenuPolicy(Qt.CustomContextMenu)<br>        <span class="hljs-variable language_">self</span>.table.customContextMenuRequested.connect(<span class="hljs-variable language_">self</span>.show_context_menu)<br>        <span class="hljs-variable language_">self</span>.table.setSelectionBehavior(QAbstractItemView.SelectRows)<br><br>        <span class="hljs-comment"># 初始化示例数据</span><br>        <span class="hljs-variable language_">self</span>.init_sample_data()<br>        layout.addWidget(<span class="hljs-variable language_">self</span>.table)<br><br>        <span class="hljs-comment"># 生成图片按钮 - 占满整行</span><br>        <span class="hljs-variable language_">self</span>.generate_btn = QPushButton(<span class="hljs-string">&quot;生成图片&quot;</span>)<br>        <span class="hljs-variable language_">self</span>.generate_btn.clicked.connect(<span class="hljs-variable language_">self</span>.generate_image)<br>        <span class="hljs-variable language_">self</span>.generate_btn.setMinimumHeight(<span class="hljs-number">40</span>)<br>        layout.addWidget(<span class="hljs-variable language_">self</span>.generate_btn)<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">init_sample_data</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;初始化数据&quot;&quot;&quot;</span><br>        sample_data = []<br><br>        <span class="hljs-variable language_">self</span>.table.setRowCount(<span class="hljs-built_in">len</span>(sample_data))<br>        <span class="hljs-keyword">for</span> i, (name, start, end) <span class="hljs-keyword">in</span> <span class="hljs-built_in">enumerate</span>(sample_data):<br>            <span class="hljs-variable language_">self</span>.table.setItem(i, <span class="hljs-number">0</span>, QTableWidgetItem(name))<br><br>            <span class="hljs-comment"># 使用日期选择器</span><br>            start_date = QDateEdit()<br>            start_date.setDate(QDate.fromString(start, <span class="hljs-string">&quot;yyyy-MM-dd&quot;</span>))<br>            start_date.setCalendarPopup(<span class="hljs-literal">True</span>)<br>            start_date.setDisplayFormat(<span class="hljs-string">&quot;yyyy-MM-dd&quot;</span>)<br>            <span class="hljs-variable language_">self</span>.table.setCellWidget(i, <span class="hljs-number">1</span>, start_date)<br><br>            end_date = QDateEdit()<br>            end_date.setDate(QDate.fromString(end, <span class="hljs-string">&quot;yyyy-MM-dd&quot;</span>))<br>            end_date.setCalendarPopup(<span class="hljs-literal">True</span>)<br>            end_date.setDisplayFormat(<span class="hljs-string">&quot;yyyy-MM-dd&quot;</span>)<br>            <span class="hljs-variable language_">self</span>.table.setCellWidget(i, <span class="hljs-number">2</span>, end_date)<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">show_context_menu</span>(<span class="hljs-params">self, position: QPoint</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;显示右键菜单&quot;&quot;&quot;</span><br>        menu = QMenu(<span class="hljs-variable language_">self</span>)<br><br>        insert_above_action = QAction(<span class="hljs-string">&quot;在上方插入行&quot;</span>, <span class="hljs-variable language_">self</span>)<br>        insert_above_action.triggered.connect(<span class="hljs-keyword">lambda</span>: <span class="hljs-variable language_">self</span>.insert_row_above())<br>        menu.addAction(insert_above_action)<br><br>        insert_below_action = QAction(<span class="hljs-string">&quot;在下方插入行&quot;</span>, <span class="hljs-variable language_">self</span>)<br>        insert_below_action.triggered.connect(<span class="hljs-keyword">lambda</span>: <span class="hljs-variable language_">self</span>.insert_row_below())<br>        menu.addAction(insert_below_action)<br><br>        menu.addSeparator()<br><br>        delete_action = QAction(<span class="hljs-string">&quot;删除行&quot;</span>, <span class="hljs-variable language_">self</span>)<br>        delete_action.triggered.connect(<span class="hljs-variable language_">self</span>.delete_row)<br>        menu.addAction(delete_action)<br><br>        menu.<span class="hljs-built_in">exec</span>(<span class="hljs-variable language_">self</span>.table.viewport().mapToGlobal(position))<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">insert_row_above</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;在选中行上方插入新行&quot;&quot;&quot;</span><br>        current_row = <span class="hljs-variable language_">self</span>.table.currentRow()<br>        <span class="hljs-keyword">if</span> current_row &lt; <span class="hljs-number">0</span>:<br>            current_row = <span class="hljs-number">0</span><br>        <span class="hljs-variable language_">self</span>.insert_row(current_row)<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">insert_row_below</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;在选中行下方插入新行&quot;&quot;&quot;</span><br>        current_row = <span class="hljs-variable language_">self</span>.table.currentRow()<br>        <span class="hljs-keyword">if</span> current_row &lt; <span class="hljs-number">0</span>:<br>            current_row = <span class="hljs-variable language_">self</span>.table.rowCount() - <span class="hljs-number">1</span><br>        <span class="hljs-variable language_">self</span>.insert_row(current_row + <span class="hljs-number">1</span>)<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">insert_row</span>(<span class="hljs-params">self, row: <span class="hljs-built_in">int</span></span>):<br>        <span class="hljs-string">&quot;&quot;&quot;在指定位置插入新行&quot;&quot;&quot;</span><br>        <span class="hljs-variable language_">self</span>.table.insertRow(row)<br><br>        <span class="hljs-comment"># 设置默认日期</span><br>        today = QDate.currentDate()<br><br>        <span class="hljs-comment"># 名称单元格</span><br>        <span class="hljs-variable language_">self</span>.table.setItem(row, <span class="hljs-number">0</span>, QTableWidgetItem(<span class="hljs-string">&quot;&quot;</span>))<br><br>        <span class="hljs-comment"># 开始日期选择器</span><br>        start_date = QDateEdit()<br>        start_date.setDate(today)<br>        start_date.setCalendarPopup(<span class="hljs-literal">True</span>)<br>        start_date.setDisplayFormat(<span class="hljs-string">&quot;yyyy-MM-dd&quot;</span>)<br>        <span class="hljs-variable language_">self</span>.table.setCellWidget(row, <span class="hljs-number">1</span>, start_date)<br><br>        <span class="hljs-comment"># 结束日期选择器（默认比开始日期晚一天）</span><br>        end_date = QDateEdit()<br>        end_date.setDate(today.addDays(<span class="hljs-number">1</span>))<br>        end_date.setCalendarPopup(<span class="hljs-literal">True</span>)<br>        end_date.setDisplayFormat(<span class="hljs-string">&quot;yyyy-MM-dd&quot;</span>)<br>        <span class="hljs-variable language_">self</span>.table.setCellWidget(row, <span class="hljs-number">2</span>, end_date)<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">delete_row</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;删除选中行&quot;&quot;&quot;</span><br>        current_row = <span class="hljs-variable language_">self</span>.table.currentRow()<br>        <span class="hljs-keyword">if</span> current_row &gt;= <span class="hljs-number">0</span>:<br>            <span class="hljs-variable language_">self</span>.table.removeRow(current_row)<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">get_data</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;从表格获取数据&quot;&quot;&quot;</span><br>        data = []<br>        <span class="hljs-keyword">for</span> row <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-variable language_">self</span>.table.rowCount()):<br>            name_item = <span class="hljs-variable language_">self</span>.table.item(row, <span class="hljs-number">0</span>)<br>            start_widget = <span class="hljs-variable language_">self</span>.table.cellWidget(row, <span class="hljs-number">1</span>)<br>            end_widget = <span class="hljs-variable language_">self</span>.table.cellWidget(row, <span class="hljs-number">2</span>)<br><br>            <span class="hljs-keyword">if</span> (<br>                name_item <span class="hljs-keyword">is</span> <span class="hljs-keyword">not</span> <span class="hljs-literal">None</span><br>                <span class="hljs-keyword">and</span> start_widget <span class="hljs-keyword">is</span> <span class="hljs-keyword">not</span> <span class="hljs-literal">None</span><br>                <span class="hljs-keyword">and</span> end_widget <span class="hljs-keyword">is</span> <span class="hljs-keyword">not</span> <span class="hljs-literal">None</span><br>            ):<br>                <span class="hljs-keyword">try</span>:<br>                    name = name_item.text().strip()<br><br>                    <span class="hljs-comment"># 从日期选择器获取日期并转换为datetime.datetime</span><br>                    start_qdate = start_widget.date()<br>                    end_qdate = end_widget.date()<br><br>                    start_date = datetime(<br>                        start_qdate.year(), start_qdate.month(), start_qdate.day()<br>                    )<br>                    end_date = datetime(<br>                        end_qdate.year(), end_qdate.month(), end_qdate.day()<br>                    )<br><br>                    display_name = name.strip()<br>                    data.append(<br>                        &#123;<br>                            <span class="hljs-string">&quot;name&quot;</span>: name,<br>                            <span class="hljs-string">&quot;display_name&quot;</span>: display_name,<br>                            <span class="hljs-string">&quot;start&quot;</span>: start_date,<br>                            <span class="hljs-string">&quot;end&quot;</span>: end_date,<br>                        &#125;<br>                    )<br>                <span class="hljs-keyword">except</span> Exception <span class="hljs-keyword">as</span> e:<br>                    QMessageBox.warning(<br>                        <span class="hljs-variable language_">self</span>, <span class="hljs-string">&quot;数据格式错误&quot;</span>, <span class="hljs-string">f&quot;第<span class="hljs-subst">&#123;row+<span class="hljs-number">1</span>&#125;</span>行数据错误: <span class="hljs-subst">&#123;e&#125;</span>&quot;</span><br>                    )<br>                    <span class="hljs-keyword">return</span> <span class="hljs-literal">None</span><br>        <span class="hljs-keyword">return</span> data<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">generate_image</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;生成时间表图片&quot;&quot;&quot;</span><br>        data = <span class="hljs-variable language_">self</span>.get_data()<br>        <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> data:<br>            QMessageBox.warning(<span class="hljs-variable language_">self</span>, <span class="hljs-string">&quot;数据错误&quot;</span>, <span class="hljs-string">&quot;没有有效数据&quot;</span>)<br>            <span class="hljs-keyword">return</span><br><br>        <span class="hljs-comment"># 验证日期</span><br>        <span class="hljs-keyword">for</span> i, item <span class="hljs-keyword">in</span> <span class="hljs-built_in">enumerate</span>(data):<br>            <span class="hljs-keyword">if</span> item[<span class="hljs-string">&quot;end&quot;</span>] &lt;= item[<span class="hljs-string">&quot;start&quot;</span>]:<br>                QMessageBox.warning(<span class="hljs-variable language_">self</span>, <span class="hljs-string">&quot;日期错误&quot;</span>, <span class="hljs-string">f&quot;第<span class="hljs-subst">&#123;i+<span class="hljs-number">1</span>&#125;</span>行：结束日期必须大于开始日期&quot;</span>)<br>                <span class="hljs-keyword">return</span><br><br>        title = <span class="hljs-variable language_">self</span>.title_input.text().strip()<br>        <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> title:<br>            title = <span class="hljs-string">&quot;时间表&quot;</span><br><br>        <span class="hljs-comment"># 选择保存路径</span><br>        file_path, _ = QFileDialog.getSaveFileName(<br>            <span class="hljs-variable language_">self</span>, <span class="hljs-string">&quot;保存图片&quot;</span>, <span class="hljs-string">f&quot;<span class="hljs-subst">&#123;title&#125;</span>.png&quot;</span>, <span class="hljs-string">&quot;PNG Images (*.png)&quot;</span><br>        )<br><br>        <span class="hljs-keyword">if</span> file_path:<br>            <span class="hljs-keyword">try</span>:<br>                <span class="hljs-variable language_">self</span>.create_timeline_image(title, data, file_path)<br>                QMessageBox.information(<span class="hljs-variable language_">self</span>, <span class="hljs-string">&quot;成功&quot;</span>, <span class="hljs-string">f&quot;图片已保存到: <span class="hljs-subst">&#123;file_path&#125;</span>&quot;</span>)<br>            <span class="hljs-keyword">except</span> Exception <span class="hljs-keyword">as</span> e:<br>                QMessageBox.critical(<span class="hljs-variable language_">self</span>, <span class="hljs-string">&quot;生成失败&quot;</span>, <span class="hljs-string">f&quot;生成图片时出错: <span class="hljs-subst">&#123;e&#125;</span>&quot;</span>)<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">create_timeline_image</span>(<span class="hljs-params">self, title, data, output_path</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;创建时间表图片&quot;&quot;&quot;</span><br>        <span class="hljs-comment"># 动态计算图片尺寸</span><br>        width = <span class="hljs-number">1400</span><br>        height = <span class="hljs-number">200</span> + <span class="hljs-built_in">len</span>(data) * <span class="hljs-number">70</span><br><br>        <span class="hljs-comment"># 创建图片</span><br>        image = Image.new(<span class="hljs-string">&quot;RGB&quot;</span>, (width, height), <span class="hljs-string">&quot;white&quot;</span>)<br>        draw = ImageDraw.Draw(image)<br><br>        <span class="hljs-comment"># 字体设置</span><br>        <span class="hljs-keyword">try</span>:<br>            title_font = ImageFont.truetype(<span class="hljs-string">&quot;simhei.ttf&quot;</span>, <span class="hljs-number">32</span>)<br>            item_font = ImageFont.truetype(<span class="hljs-string">&quot;simhei.ttf&quot;</span>, <span class="hljs-number">20</span>)<br>            date_font = ImageFont.truetype(<span class="hljs-string">&quot;simhei.ttf&quot;</span>, <span class="hljs-number">14</span>)<br>            small_font = ImageFont.truetype(<span class="hljs-string">&quot;simhei.ttf&quot;</span>, <span class="hljs-number">12</span>)<br>        <span class="hljs-keyword">except</span>:<br>            title_font = ImageFont.load_default()<br>            item_font = ImageFont.load_default()<br>            date_font = ImageFont.load_default()<br>            small_font = ImageFont.load_default()<br><br>        <span class="hljs-comment"># 绘制标题</span><br>        title_bbox = draw.textbbox((<span class="hljs-number">0</span>, <span class="hljs-number">0</span>), title, font=title_font)<br>        title_width = title_bbox[<span class="hljs-number">2</span>] - title_bbox[<span class="hljs-number">0</span>]<br>        title_x = (width - title_width) // <span class="hljs-number">2</span><br>        draw.text((title_x, <span class="hljs-number">30</span>), title, fill=<span class="hljs-string">&quot;black&quot;</span>, font=title_font)<br><br>        <span class="hljs-comment"># 计算时间范围</span><br>        all_starts = [item[<span class="hljs-string">&quot;start&quot;</span>] <span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> data]<br>        all_ends = [item[<span class="hljs-string">&quot;end&quot;</span>] <span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> data]<br>        min_date = <span class="hljs-built_in">min</span>(all_starts)<br>        max_date = <span class="hljs-built_in">max</span>(all_ends)<br>        date_range = <span class="hljs-built_in">max</span>(<span class="hljs-number">1</span>, (max_date - min_date).days)  <span class="hljs-comment"># 确保至少为1</span><br><br>        <span class="hljs-comment"># 图表参数</span><br>        chart_top = <span class="hljs-number">100</span><br>        chart_bottom = height - <span class="hljs-number">50</span><br>        chart_left = <span class="hljs-number">250</span><br>        chart_right = width - <span class="hljs-number">50</span><br>        chart_width = chart_right - chart_left<br>        row_height = <span class="hljs-number">60</span><br><br>        <span class="hljs-comment"># 绘制时间轴</span><br>        timeline_y = chart_bottom - <span class="hljs-number">20</span><br>        draw.line(<br>            [(chart_left, timeline_y), (chart_right, timeline_y)], fill=<span class="hljs-string">&quot;black&quot;</span>, width=<span class="hljs-number">2</span><br>        )<br><br>        <span class="hljs-comment"># 绘制年份刻度</span><br>        start_year = min_date.year<br>        end_year = max_date.year<br><br>        <span class="hljs-keyword">for</span> year <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(start_year, end_year + <span class="hljs-number">2</span>):<br>            year_date = datetime(year, <span class="hljs-number">1</span>, <span class="hljs-number">1</span>)<br>            <span class="hljs-keyword">if</span> year_date &lt; min_date:<br>                <span class="hljs-keyword">continue</span><br><br>            days_from_start = (year_date - min_date).days<br>            x_pos = chart_left + (days_from_start / date_range) * chart_width<br><br>            <span class="hljs-keyword">if</span> chart_left &lt;= x_pos &lt;= chart_right:<br>                draw.line(<br>                    [(x_pos, chart_top), (x_pos, timeline_y)], fill=<span class="hljs-string">&quot;lightgray&quot;</span>, width=<span class="hljs-number">1</span><br>                )<br>                year_str = <span class="hljs-string">f&quot;<span class="hljs-subst">&#123;year&#125;</span>&quot;</span><br>                year_bbox = draw.textbbox((<span class="hljs-number">0</span>, <span class="hljs-number">0</span>), year_str, font=small_font)<br>                year_width = year_bbox[<span class="hljs-number">2</span>] - year_bbox[<span class="hljs-number">0</span>]<br>                draw.text(<br>                    (x_pos - year_width // <span class="hljs-number">2</span>, timeline_y + <span class="hljs-number">10</span>),<br>                    year_str,<br>                    fill=<span class="hljs-string">&quot;gray&quot;</span>,<br>                    font=small_font,<br>                )<br><br>        <span class="hljs-comment"># 绘制每个项目的时间条</span><br>        colors = [<br>            <span class="hljs-string">&quot;#FF6B6B&quot;</span>,<br>            <span class="hljs-string">&quot;#4ECDC4&quot;</span>,<br>            <span class="hljs-string">&quot;#45B7D1&quot;</span>,<br>            <span class="hljs-string">&quot;#96CEB4&quot;</span>,<br>            <span class="hljs-string">&quot;#FFEAA7&quot;</span>,<br>            <span class="hljs-string">&quot;#DDA0DD&quot;</span>,<br>            <span class="hljs-string">&quot;#98D8C8&quot;</span>,<br>            <span class="hljs-string">&quot;#F7DC6F&quot;</span>,<br>        ]<br><br>        <span class="hljs-keyword">for</span> i, item <span class="hljs-keyword">in</span> <span class="hljs-built_in">enumerate</span>(data):<br>            row_y = chart_top + i * row_height<br><br>            <span class="hljs-comment"># 计算开始和结束位置</span><br>            start_days = (item[<span class="hljs-string">&quot;start&quot;</span>] - min_date).days<br>            end_days = (item[<span class="hljs-string">&quot;end&quot;</span>] - min_date).days<br><br>            original_start_x = chart_left + (start_days / date_range) * chart_width<br>            original_end_x = chart_left + (end_days / date_range) * chart_width<br><br>            <span class="hljs-comment"># 保存原始位置，用于日期标签的参考</span><br>            start_x = original_start_x<br>            end_x = original_end_x<br><br>            <span class="hljs-comment"># 确保时间条至少有一定宽度</span><br>            min_bar_width = <span class="hljs-number">15</span>  <span class="hljs-comment"># 最小时间条宽度</span><br>            <span class="hljs-keyword">if</span> end_x - start_x &lt; min_bar_width:<br>                <span class="hljs-comment"># 如果时间太短，以中心点扩展</span><br>                center_x = (original_start_x + original_end_x) / <span class="hljs-number">2</span><br>                start_x = <span class="hljs-built_in">max</span>(chart_left, center_x - min_bar_width / <span class="hljs-number">2</span>)<br>                end_x = <span class="hljs-built_in">min</span>(chart_right, center_x + min_bar_width / <span class="hljs-number">2</span>)<br><br>            <span class="hljs-comment"># 绘制时间条</span><br>            bar_height = <span class="hljs-number">25</span><br>            bar_y = row_y - bar_height // <span class="hljs-number">2</span><br><br>            color = colors[i % <span class="hljs-built_in">len</span>(colors)]<br>            draw.rounded_rectangle(<br>                [start_x, bar_y, end_x, bar_y + bar_height],<br>                radius=<span class="hljs-number">3</span>,<br>                fill=color,<br>                outline=<span class="hljs-string">&quot;darkgray&quot;</span>,<br>                width=<span class="hljs-number">1</span>,<br>            )<br><br>            <span class="hljs-comment"># 绘制项目名称</span><br>            display_name = item[<span class="hljs-string">&quot;display_name&quot;</span>]<br>            name_bbox = draw.textbbox((<span class="hljs-number">0</span>, <span class="hljs-number">0</span>), display_name, font=item_font)<br>            draw.text(<br>                (<span class="hljs-number">50</span>, row_y - name_bbox[<span class="hljs-number">3</span>] // <span class="hljs-number">2</span>),<br>                display_name,<br>                fill=<span class="hljs-string">&quot;black&quot;</span>,<br>                font=item_font,<br>            )<br><br>            <span class="hljs-comment"># 绘制日期标签</span><br>            start_str = item[<span class="hljs-string">&quot;start&quot;</span>].strftime(<span class="hljs-string">&quot;%Y-%m-%d&quot;</span>)<br>            end_str = item[<span class="hljs-string">&quot;end&quot;</span>].strftime(<span class="hljs-string">&quot;%Y-%m-%d&quot;</span>)<br><br>            <span class="hljs-comment"># 获取日期文本的尺寸</span><br>            start_bbox = draw.textbbox((<span class="hljs-number">0</span>, <span class="hljs-number">0</span>), start_str, font=date_font)<br>            end_bbox = draw.textbbox((<span class="hljs-number">0</span>, <span class="hljs-number">0</span>), end_str, font=date_font)<br>            start_text_width = start_bbox[<span class="hljs-number">2</span>] - start_bbox[<span class="hljs-number">0</span>]<br>            end_text_width = end_bbox[<span class="hljs-number">2</span>] - end_bbox[<span class="hljs-number">0</span>]<br><br>            <span class="hljs-comment"># 检查日期是否过于接近（使用原始位置判断，避免被调整后的位置误导）</span><br>            date_spacing = (<br>                (original_end_x - original_start_x) / chart_width * date_range<br>            )<br><br>            <span class="hljs-keyword">if</span> date_spacing &lt; <span class="hljs-number">30</span>:  <span class="hljs-comment"># 如果日期间隔小于30天</span><br>                <span class="hljs-comment"># 只显示一个合并的日期标签</span><br>                <span class="hljs-comment"># 使用调整后的时间条中心点</span><br>                mid_x = (start_x + end_x) / <span class="hljs-number">2</span><br>                date_str = <span class="hljs-string">f&quot;<span class="hljs-subst">&#123;start_str&#125;</span> ~ <span class="hljs-subst">&#123;end_str&#125;</span>&quot;</span><br>                date_bbox = draw.textbbox((<span class="hljs-number">0</span>, <span class="hljs-number">0</span>), date_str, font=date_font)<br>                date_width = date_bbox[<span class="hljs-number">2</span>] - date_bbox[<span class="hljs-number">0</span>]<br><br>                <span class="hljs-comment"># 确保合并标签在可视范围内</span><br>                date_x = mid_x - date_width / <span class="hljs-number">2</span><br>                date_x = <span class="hljs-built_in">max</span>(chart_left + <span class="hljs-number">5</span>, <span class="hljs-built_in">min</span>(date_x, chart_right - date_width - <span class="hljs-number">5</span>))<br><br>                draw.text(<br>                    (date_x, bar_y + bar_height + <span class="hljs-number">5</span>),<br>                    date_str,<br>                    fill=<span class="hljs-string">&quot;darkblue&quot;</span>,<br>                    font=date_font,<br>                )<br><br>                <span class="hljs-comment"># 移除有style参数的虚线，改为实线</span><br>                draw.line(<br>                    [<br>                        (original_start_x, bar_y + bar_height),<br>                        (original_start_x, bar_y + bar_height + <span class="hljs-number">15</span>),<br>                    ],<br>                    fill=<span class="hljs-string">&quot;gray&quot;</span>,<br>                    width=<span class="hljs-number">1</span>,<br>                )<br>                draw.line(<br>                    [<br>                        (original_end_x, bar_y + bar_height),<br>                        (original_end_x, bar_y + bar_height + <span class="hljs-number">15</span>),<br>                    ],<br>                    fill=<span class="hljs-string">&quot;gray&quot;</span>,<br>                    width=<span class="hljs-number">1</span>,<br>                )<br>            <span class="hljs-keyword">else</span>:<br>                <span class="hljs-comment"># 分别显示开始和结束日期</span><br>                <span class="hljs-comment"># 对于被调整过的时间条，日期标签应该对应原始位置</span><br>                label_start_x = original_start_x<br>                label_end_x = original_end_x<br><br>                <span class="hljs-comment"># 开始日期</span><br>                start_text_x = label_start_x - start_text_width / <span class="hljs-number">2</span><br><br>                <span class="hljs-comment"># 检查是否超出左边界</span><br>                <span class="hljs-keyword">if</span> start_text_x &lt; chart_left + <span class="hljs-number">5</span>:<br>                    start_text_x = chart_left + <span class="hljs-number">5</span><br>                <span class="hljs-comment"># 检查是否与结束日期重叠</span><br>                <span class="hljs-keyword">elif</span> (<br>                    start_text_x + start_text_width &gt; label_end_x - end_text_width - <span class="hljs-number">10</span><br>                ):<br>                    start_text_x = <span class="hljs-built_in">max</span>(chart_left + <span class="hljs-number">5</span>, label_start_x - start_text_width)<br><br>                draw.text(<br>                    (start_text_x, bar_y + bar_height + <span class="hljs-number">5</span>),<br>                    start_str,<br>                    fill=<span class="hljs-string">&quot;darkgreen&quot;</span>,<br>                    font=date_font,<br>                )<br><br>                <span class="hljs-comment"># 结束日期</span><br>                end_text_x = label_end_x - end_text_width / <span class="hljs-number">2</span><br><br>                <span class="hljs-comment"># 检查是否超出右边界</span><br>                <span class="hljs-keyword">if</span> end_text_x + end_text_width &gt; chart_right - <span class="hljs-number">5</span>:<br>                    end_text_x = chart_right - end_text_width - <span class="hljs-number">5</span><br>                <span class="hljs-comment"># 检查是否与开始日期重叠</span><br>                <span class="hljs-keyword">elif</span> end_text_x &lt; start_text_x + start_text_width + <span class="hljs-number">10</span>:<br>                    end_text_x = <span class="hljs-built_in">min</span>(chart_right - end_text_width - <span class="hljs-number">5</span>, label_end_x)<br><br>                draw.text(<br>                    (end_text_x, bar_y + bar_height + <span class="hljs-number">5</span>),<br>                    end_str,<br>                    fill=<span class="hljs-string">&quot;darkred&quot;</span>,<br>                    font=date_font,<br>                )<br><br>            <span class="hljs-comment"># 绘制连接线到时间条</span><br>            <span class="hljs-comment"># 使用原始位置画连接线，更准确地反映实际日期位置</span><br>            draw.line(<br>                [<br>                    (original_start_x, bar_y + bar_height),<br>                    (original_start_x, bar_y + bar_height + <span class="hljs-number">5</span>),<br>                ],<br>                fill=<span class="hljs-string">&quot;gray&quot;</span>,<br>                width=<span class="hljs-number">1</span>,<br>            )<br>            draw.line(<br>                [<br>                    (original_end_x, bar_y + bar_height),<br>                    (original_end_x, bar_y + bar_height + <span class="hljs-number">5</span>),<br>                ],<br>                fill=<span class="hljs-string">&quot;gray&quot;</span>,<br>                width=<span class="hljs-number">1</span>,<br>            )<br><br>        <span class="hljs-comment"># 保存图片</span><br>        image.save(output_path)<br><br><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">main</span>():<br>    app = QApplication(sys.argv)<br>    window = TimelineGenerator()<br>    window.show()<br>    sys.exit(app.<span class="hljs-built_in">exec</span>())<br><br><br><span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&quot;__main__&quot;</span>:<br>    main()<br><br></code></pre></td></tr></table></figure>]]></content>
     
     
     <categories>
       
-      <category>游戏</category>
+      <category>工具软件</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>娱乐</tag>
+      <tag>Python</tag>
       
-      <tag>文字游戏</tag>
+      <tag>GUI</tag>
       
-      <tag>GitHub</tag>
+      <tag>时间管理</tag>
+      
+      <tag>图像生成</tag>
       
     </tags>
     
@@ -728,37 +761,6 @@
       <tag>用户信息</tag>
       
       <tag>查询工具</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>时间表生成器</title>
-    <link href="/Blog/posts/%E6%97%B6%E9%97%B4%E8%A1%A8%E7%94%9F%E6%88%90%E5%99%A8/"/>
-    <url>/Blog/posts/%E6%97%B6%E9%97%B4%E8%A1%A8%E7%94%9F%E6%88%90%E5%99%A8/</url>
-    
-    <content type="html"><![CDATA[<p>代码:</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br><span class="line">305</span><br><span class="line">306</span><br><span class="line">307</span><br><span class="line">308</span><br><span class="line">309</span><br><span class="line">310</span><br><span class="line">311</span><br><span class="line">312</span><br><span class="line">313</span><br><span class="line">314</span><br><span class="line">315</span><br><span class="line">316</span><br><span class="line">317</span><br><span class="line">318</span><br><span class="line">319</span><br><span class="line">320</span><br><span class="line">321</span><br><span class="line">322</span><br><span class="line">323</span><br><span class="line">324</span><br><span class="line">325</span><br><span class="line">326</span><br><span class="line">327</span><br><span class="line">328</span><br><span class="line">329</span><br><span class="line">330</span><br><span class="line">331</span><br><span class="line">332</span><br><span class="line">333</span><br><span class="line">334</span><br><span class="line">335</span><br><span class="line">336</span><br><span class="line">337</span><br><span class="line">338</span><br><span class="line">339</span><br><span class="line">340</span><br><span class="line">341</span><br><span class="line">342</span><br><span class="line">343</span><br><span class="line">344</span><br><span class="line">345</span><br><span class="line">346</span><br><span class="line">347</span><br><span class="line">348</span><br><span class="line">349</span><br><span class="line">350</span><br><span class="line">351</span><br><span class="line">352</span><br><span class="line">353</span><br><span class="line">354</span><br><span class="line">355</span><br><span class="line">356</span><br><span class="line">357</span><br><span class="line">358</span><br><span class="line">359</span><br><span class="line">360</span><br><span class="line">361</span><br><span class="line">362</span><br><span class="line">363</span><br><span class="line">364</span><br><span class="line">365</span><br><span class="line">366</span><br><span class="line">367</span><br><span class="line">368</span><br><span class="line">369</span><br><span class="line">370</span><br><span class="line">371</span><br><span class="line">372</span><br><span class="line">373</span><br><span class="line">374</span><br><span class="line">375</span><br><span class="line">376</span><br><span class="line">377</span><br><span class="line">378</span><br><span class="line">379</span><br><span class="line">380</span><br><span class="line">381</span><br><span class="line">382</span><br><span class="line">383</span><br><span class="line">384</span><br><span class="line">385</span><br><span class="line">386</span><br><span class="line">387</span><br><span class="line">388</span><br><span class="line">389</span><br><span class="line">390</span><br><span class="line">391</span><br><span class="line">392</span><br><span class="line">393</span><br><span class="line">394</span><br><span class="line">395</span><br><span class="line">396</span><br><span class="line">397</span><br><span class="line">398</span><br><span class="line">399</span><br><span class="line">400</span><br><span class="line">401</span><br><span class="line">402</span><br><span class="line">403</span><br><span class="line">404</span><br><span class="line">405</span><br><span class="line">406</span><br><span class="line">407</span><br><span class="line">408</span><br><span class="line">409</span><br><span class="line">410</span><br><span class="line">411</span><br><span class="line">412</span><br><span class="line">413</span><br><span class="line">414</span><br><span class="line">415</span><br><span class="line">416</span><br><span class="line">417</span><br><span class="line">418</span><br><span class="line">419</span><br><span class="line">420</span><br><span class="line">421</span><br><span class="line">422</span><br><span class="line">423</span><br><span class="line">424</span><br><span class="line">425</span><br><span class="line">426</span><br><span class="line">427</span><br><span class="line">428</span><br><span class="line">429</span><br><span class="line">430</span><br><span class="line">431</span><br><span class="line">432</span><br><span class="line">433</span><br><span class="line">434</span><br><span class="line">435</span><br><span class="line">436</span><br><span class="line">437</span><br><span class="line">438</span><br><span class="line">439</span><br><span class="line">440</span><br><span class="line">441</span><br><span class="line">442</span><br><span class="line">443</span><br><span class="line">444</span><br><span class="line">445</span><br><span class="line">446</span><br><span class="line">447</span><br><span class="line">448</span><br><span class="line">449</span><br><span class="line">450</span><br><span class="line">451</span><br><span class="line">452</span><br><span class="line">453</span><br><span class="line">454</span><br><span class="line">455</span><br><span class="line">456</span><br><span class="line">457</span><br><span class="line">458</span><br><span class="line">459</span><br><span class="line">460</span><br><span class="line">461</span><br><span class="line">462</span><br><span class="line">463</span><br><span class="line">464</span><br><span class="line">465</span><br><span class="line">466</span><br><span class="line">467</span><br><span class="line">468</span><br><span class="line">469</span><br><span class="line">470</span><br><span class="line">471</span><br><span class="line">472</span><br><span class="line">473</span><br><span class="line">474</span><br><span class="line">475</span><br><span class="line">476</span><br><span class="line">477</span><br><span class="line">478</span><br><span class="line">479</span><br><span class="line">480</span><br><span class="line">481</span><br><span class="line">482</span><br><span class="line">483</span><br><span class="line">484</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> sys<br><span class="hljs-keyword">from</span> datetime <span class="hljs-keyword">import</span> datetime<br><br><span class="hljs-keyword">import</span> pandas <span class="hljs-keyword">as</span> pd<br><span class="hljs-keyword">from</span> PIL <span class="hljs-keyword">import</span> Image, ImageDraw, ImageFont<br><span class="hljs-keyword">from</span> PySide6.QtCore <span class="hljs-keyword">import</span> QDate, QPoint, Qt<br><span class="hljs-keyword">from</span> PySide6.QtGui <span class="hljs-keyword">import</span> QAction<br><span class="hljs-keyword">from</span> PySide6.QtWidgets <span class="hljs-keyword">import</span> (<br>QAbstractItemView,<br>QApplication,<br>QDateEdit,<br>QFileDialog,<br>QHBoxLayout,<br>QHeaderView,<br>QLabel,<br>QLineEdit,<br>QMainWindow,<br>QMenu,<br>QMessageBox,<br>QPushButton,<br>QTableWidget,<br>QTableWidgetItem,<br>QVBoxLayout,<br>QWidget,<br>)<br><br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">TimelineGenerator</span>(<span class="hljs-title class_ inherited__">QMainWindow</span>):<br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">__init__</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-built_in">super</span>().__init__()<br>        <span class="hljs-variable language_">self</span>.initUI()<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">initUI</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-variable language_">self</span>.setWindowTitle(<span class="hljs-string">&quot;时间表生成器&quot;</span>)<br>        <span class="hljs-variable language_">self</span>.setGeometry(<span class="hljs-number">100</span>, <span class="hljs-number">100</span>, <span class="hljs-number">1200</span>, <span class="hljs-number">800</span>)<br><br>        <span class="hljs-comment"># 中央部件</span><br>        central_widget = QWidget()<br>        <span class="hljs-variable language_">self</span>.setCentralWidget(central_widget)<br>        layout = QVBoxLayout(central_widget)<br><br>        <span class="hljs-comment"># 标题设置</span><br>        title_layout = QHBoxLayout()<br>        title_layout.addWidget(QLabel(<span class="hljs-string">&quot;图表标题:&quot;</span>))<br>        <span class="hljs-variable language_">self</span>.title_input = QLineEdit(<span class="hljs-string">&quot;时间表&quot;</span>)<br>        <span class="hljs-variable language_">self</span>.title_input.setMinimumWidth(<span class="hljs-number">300</span>)<br>        title_layout.addWidget(<span class="hljs-variable language_">self</span>.title_input)<br>        title_layout.addStretch()<br>        layout.addLayout(title_layout)<br><br>        <span class="hljs-comment"># 数据表格</span><br>        <span class="hljs-variable language_">self</span>.table = QTableWidget()<br>        <span class="hljs-variable language_">self</span>.table.setColumnCount(<span class="hljs-number">3</span>)<br>        <span class="hljs-variable language_">self</span>.table.setHorizontalHeaderLabels([<span class="hljs-string">&quot;名称&quot;</span>, <span class="hljs-string">&quot;开始日期&quot;</span>, <span class="hljs-string">&quot;结束日期&quot;</span>])<br>        <span class="hljs-variable language_">self</span>.table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)<br>        <span class="hljs-variable language_">self</span>.table.setContextMenuPolicy(Qt.CustomContextMenu)<br>        <span class="hljs-variable language_">self</span>.table.customContextMenuRequested.connect(<span class="hljs-variable language_">self</span>.show_context_menu)<br>        <span class="hljs-variable language_">self</span>.table.setSelectionBehavior(QAbstractItemView.SelectRows)<br><br>        <span class="hljs-comment"># 初始化示例数据</span><br>        <span class="hljs-variable language_">self</span>.init_sample_data()<br>        layout.addWidget(<span class="hljs-variable language_">self</span>.table)<br><br>        <span class="hljs-comment"># 生成图片按钮 - 占满整行</span><br>        <span class="hljs-variable language_">self</span>.generate_btn = QPushButton(<span class="hljs-string">&quot;生成图片&quot;</span>)<br>        <span class="hljs-variable language_">self</span>.generate_btn.clicked.connect(<span class="hljs-variable language_">self</span>.generate_image)<br>        <span class="hljs-variable language_">self</span>.generate_btn.setMinimumHeight(<span class="hljs-number">40</span>)<br>        layout.addWidget(<span class="hljs-variable language_">self</span>.generate_btn)<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">init_sample_data</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;初始化数据&quot;&quot;&quot;</span><br>        sample_data = []<br><br>        <span class="hljs-variable language_">self</span>.table.setRowCount(<span class="hljs-built_in">len</span>(sample_data))<br>        <span class="hljs-keyword">for</span> i, (name, start, end) <span class="hljs-keyword">in</span> <span class="hljs-built_in">enumerate</span>(sample_data):<br>            <span class="hljs-variable language_">self</span>.table.setItem(i, <span class="hljs-number">0</span>, QTableWidgetItem(name))<br><br>            <span class="hljs-comment"># 使用日期选择器</span><br>            start_date = QDateEdit()<br>            start_date.setDate(QDate.fromString(start, <span class="hljs-string">&quot;yyyy-MM-dd&quot;</span>))<br>            start_date.setCalendarPopup(<span class="hljs-literal">True</span>)<br>            start_date.setDisplayFormat(<span class="hljs-string">&quot;yyyy-MM-dd&quot;</span>)<br>            <span class="hljs-variable language_">self</span>.table.setCellWidget(i, <span class="hljs-number">1</span>, start_date)<br><br>            end_date = QDateEdit()<br>            end_date.setDate(QDate.fromString(end, <span class="hljs-string">&quot;yyyy-MM-dd&quot;</span>))<br>            end_date.setCalendarPopup(<span class="hljs-literal">True</span>)<br>            end_date.setDisplayFormat(<span class="hljs-string">&quot;yyyy-MM-dd&quot;</span>)<br>            <span class="hljs-variable language_">self</span>.table.setCellWidget(i, <span class="hljs-number">2</span>, end_date)<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">show_context_menu</span>(<span class="hljs-params">self, position: QPoint</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;显示右键菜单&quot;&quot;&quot;</span><br>        menu = QMenu(<span class="hljs-variable language_">self</span>)<br><br>        insert_above_action = QAction(<span class="hljs-string">&quot;在上方插入行&quot;</span>, <span class="hljs-variable language_">self</span>)<br>        insert_above_action.triggered.connect(<span class="hljs-keyword">lambda</span>: <span class="hljs-variable language_">self</span>.insert_row_above())<br>        menu.addAction(insert_above_action)<br><br>        insert_below_action = QAction(<span class="hljs-string">&quot;在下方插入行&quot;</span>, <span class="hljs-variable language_">self</span>)<br>        insert_below_action.triggered.connect(<span class="hljs-keyword">lambda</span>: <span class="hljs-variable language_">self</span>.insert_row_below())<br>        menu.addAction(insert_below_action)<br><br>        menu.addSeparator()<br><br>        delete_action = QAction(<span class="hljs-string">&quot;删除行&quot;</span>, <span class="hljs-variable language_">self</span>)<br>        delete_action.triggered.connect(<span class="hljs-variable language_">self</span>.delete_row)<br>        menu.addAction(delete_action)<br><br>        menu.<span class="hljs-built_in">exec</span>(<span class="hljs-variable language_">self</span>.table.viewport().mapToGlobal(position))<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">insert_row_above</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;在选中行上方插入新行&quot;&quot;&quot;</span><br>        current_row = <span class="hljs-variable language_">self</span>.table.currentRow()<br>        <span class="hljs-keyword">if</span> current_row &lt; <span class="hljs-number">0</span>:<br>            current_row = <span class="hljs-number">0</span><br>        <span class="hljs-variable language_">self</span>.insert_row(current_row)<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">insert_row_below</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;在选中行下方插入新行&quot;&quot;&quot;</span><br>        current_row = <span class="hljs-variable language_">self</span>.table.currentRow()<br>        <span class="hljs-keyword">if</span> current_row &lt; <span class="hljs-number">0</span>:<br>            current_row = <span class="hljs-variable language_">self</span>.table.rowCount() - <span class="hljs-number">1</span><br>        <span class="hljs-variable language_">self</span>.insert_row(current_row + <span class="hljs-number">1</span>)<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">insert_row</span>(<span class="hljs-params">self, row: <span class="hljs-built_in">int</span></span>):<br>        <span class="hljs-string">&quot;&quot;&quot;在指定位置插入新行&quot;&quot;&quot;</span><br>        <span class="hljs-variable language_">self</span>.table.insertRow(row)<br><br>        <span class="hljs-comment"># 设置默认日期</span><br>        today = QDate.currentDate()<br><br>        <span class="hljs-comment"># 名称单元格</span><br>        <span class="hljs-variable language_">self</span>.table.setItem(row, <span class="hljs-number">0</span>, QTableWidgetItem(<span class="hljs-string">&quot;&quot;</span>))<br><br>        <span class="hljs-comment"># 开始日期选择器</span><br>        start_date = QDateEdit()<br>        start_date.setDate(today)<br>        start_date.setCalendarPopup(<span class="hljs-literal">True</span>)<br>        start_date.setDisplayFormat(<span class="hljs-string">&quot;yyyy-MM-dd&quot;</span>)<br>        <span class="hljs-variable language_">self</span>.table.setCellWidget(row, <span class="hljs-number">1</span>, start_date)<br><br>        <span class="hljs-comment"># 结束日期选择器（默认比开始日期晚一天）</span><br>        end_date = QDateEdit()<br>        end_date.setDate(today.addDays(<span class="hljs-number">1</span>))<br>        end_date.setCalendarPopup(<span class="hljs-literal">True</span>)<br>        end_date.setDisplayFormat(<span class="hljs-string">&quot;yyyy-MM-dd&quot;</span>)<br>        <span class="hljs-variable language_">self</span>.table.setCellWidget(row, <span class="hljs-number">2</span>, end_date)<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">delete_row</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;删除选中行&quot;&quot;&quot;</span><br>        current_row = <span class="hljs-variable language_">self</span>.table.currentRow()<br>        <span class="hljs-keyword">if</span> current_row &gt;= <span class="hljs-number">0</span>:<br>            <span class="hljs-variable language_">self</span>.table.removeRow(current_row)<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">get_data</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;从表格获取数据&quot;&quot;&quot;</span><br>        data = []<br>        <span class="hljs-keyword">for</span> row <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-variable language_">self</span>.table.rowCount()):<br>            name_item = <span class="hljs-variable language_">self</span>.table.item(row, <span class="hljs-number">0</span>)<br>            start_widget = <span class="hljs-variable language_">self</span>.table.cellWidget(row, <span class="hljs-number">1</span>)<br>            end_widget = <span class="hljs-variable language_">self</span>.table.cellWidget(row, <span class="hljs-number">2</span>)<br><br>            <span class="hljs-keyword">if</span> (<br>                name_item <span class="hljs-keyword">is</span> <span class="hljs-keyword">not</span> <span class="hljs-literal">None</span><br>                <span class="hljs-keyword">and</span> start_widget <span class="hljs-keyword">is</span> <span class="hljs-keyword">not</span> <span class="hljs-literal">None</span><br>                <span class="hljs-keyword">and</span> end_widget <span class="hljs-keyword">is</span> <span class="hljs-keyword">not</span> <span class="hljs-literal">None</span><br>            ):<br>                <span class="hljs-keyword">try</span>:<br>                    name = name_item.text().strip()<br><br>                    <span class="hljs-comment"># 从日期选择器获取日期并转换为datetime.datetime</span><br>                    start_qdate = start_widget.date()<br>                    end_qdate = end_widget.date()<br><br>                    start_date = datetime(<br>                        start_qdate.year(), start_qdate.month(), start_qdate.day()<br>                    )<br>                    end_date = datetime(<br>                        end_qdate.year(), end_qdate.month(), end_qdate.day()<br>                    )<br><br>                    display_name = name.strip()<br>                    data.append(<br>                        &#123;<br>                            <span class="hljs-string">&quot;name&quot;</span>: name,<br>                            <span class="hljs-string">&quot;display_name&quot;</span>: display_name,<br>                            <span class="hljs-string">&quot;start&quot;</span>: start_date,<br>                            <span class="hljs-string">&quot;end&quot;</span>: end_date,<br>                        &#125;<br>                    )<br>                <span class="hljs-keyword">except</span> Exception <span class="hljs-keyword">as</span> e:<br>                    QMessageBox.warning(<br>                        <span class="hljs-variable language_">self</span>, <span class="hljs-string">&quot;数据格式错误&quot;</span>, <span class="hljs-string">f&quot;第<span class="hljs-subst">&#123;row+<span class="hljs-number">1</span>&#125;</span>行数据错误: <span class="hljs-subst">&#123;e&#125;</span>&quot;</span><br>                    )<br>                    <span class="hljs-keyword">return</span> <span class="hljs-literal">None</span><br>        <span class="hljs-keyword">return</span> data<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">generate_image</span>(<span class="hljs-params">self</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;生成时间表图片&quot;&quot;&quot;</span><br>        data = <span class="hljs-variable language_">self</span>.get_data()<br>        <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> data:<br>            QMessageBox.warning(<span class="hljs-variable language_">self</span>, <span class="hljs-string">&quot;数据错误&quot;</span>, <span class="hljs-string">&quot;没有有效数据&quot;</span>)<br>            <span class="hljs-keyword">return</span><br><br>        <span class="hljs-comment"># 验证日期</span><br>        <span class="hljs-keyword">for</span> i, item <span class="hljs-keyword">in</span> <span class="hljs-built_in">enumerate</span>(data):<br>            <span class="hljs-keyword">if</span> item[<span class="hljs-string">&quot;end&quot;</span>] &lt;= item[<span class="hljs-string">&quot;start&quot;</span>]:<br>                QMessageBox.warning(<span class="hljs-variable language_">self</span>, <span class="hljs-string">&quot;日期错误&quot;</span>, <span class="hljs-string">f&quot;第<span class="hljs-subst">&#123;i+<span class="hljs-number">1</span>&#125;</span>行：结束日期必须大于开始日期&quot;</span>)<br>                <span class="hljs-keyword">return</span><br><br>        title = <span class="hljs-variable language_">self</span>.title_input.text().strip()<br>        <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> title:<br>            title = <span class="hljs-string">&quot;时间表&quot;</span><br><br>        <span class="hljs-comment"># 选择保存路径</span><br>        file_path, _ = QFileDialog.getSaveFileName(<br>            <span class="hljs-variable language_">self</span>, <span class="hljs-string">&quot;保存图片&quot;</span>, <span class="hljs-string">f&quot;<span class="hljs-subst">&#123;title&#125;</span>.png&quot;</span>, <span class="hljs-string">&quot;PNG Images (*.png)&quot;</span><br>        )<br><br>        <span class="hljs-keyword">if</span> file_path:<br>            <span class="hljs-keyword">try</span>:<br>                <span class="hljs-variable language_">self</span>.create_timeline_image(title, data, file_path)<br>                QMessageBox.information(<span class="hljs-variable language_">self</span>, <span class="hljs-string">&quot;成功&quot;</span>, <span class="hljs-string">f&quot;图片已保存到: <span class="hljs-subst">&#123;file_path&#125;</span>&quot;</span>)<br>            <span class="hljs-keyword">except</span> Exception <span class="hljs-keyword">as</span> e:<br>                QMessageBox.critical(<span class="hljs-variable language_">self</span>, <span class="hljs-string">&quot;生成失败&quot;</span>, <span class="hljs-string">f&quot;生成图片时出错: <span class="hljs-subst">&#123;e&#125;</span>&quot;</span>)<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">create_timeline_image</span>(<span class="hljs-params">self, title, data, output_path</span>):<br>        <span class="hljs-string">&quot;&quot;&quot;创建时间表图片&quot;&quot;&quot;</span><br>        <span class="hljs-comment"># 动态计算图片尺寸</span><br>        width = <span class="hljs-number">1400</span><br>        height = <span class="hljs-number">200</span> + <span class="hljs-built_in">len</span>(data) * <span class="hljs-number">70</span><br><br>        <span class="hljs-comment"># 创建图片</span><br>        image = Image.new(<span class="hljs-string">&quot;RGB&quot;</span>, (width, height), <span class="hljs-string">&quot;white&quot;</span>)<br>        draw = ImageDraw.Draw(image)<br><br>        <span class="hljs-comment"># 字体设置</span><br>        <span class="hljs-keyword">try</span>:<br>            title_font = ImageFont.truetype(<span class="hljs-string">&quot;simhei.ttf&quot;</span>, <span class="hljs-number">32</span>)<br>            item_font = ImageFont.truetype(<span class="hljs-string">&quot;simhei.ttf&quot;</span>, <span class="hljs-number">20</span>)<br>            date_font = ImageFont.truetype(<span class="hljs-string">&quot;simhei.ttf&quot;</span>, <span class="hljs-number">14</span>)<br>            small_font = ImageFont.truetype(<span class="hljs-string">&quot;simhei.ttf&quot;</span>, <span class="hljs-number">12</span>)<br>        <span class="hljs-keyword">except</span>:<br>            title_font = ImageFont.load_default()<br>            item_font = ImageFont.load_default()<br>            date_font = ImageFont.load_default()<br>            small_font = ImageFont.load_default()<br><br>        <span class="hljs-comment"># 绘制标题</span><br>        title_bbox = draw.textbbox((<span class="hljs-number">0</span>, <span class="hljs-number">0</span>), title, font=title_font)<br>        title_width = title_bbox[<span class="hljs-number">2</span>] - title_bbox[<span class="hljs-number">0</span>]<br>        title_x = (width - title_width) // <span class="hljs-number">2</span><br>        draw.text((title_x, <span class="hljs-number">30</span>), title, fill=<span class="hljs-string">&quot;black&quot;</span>, font=title_font)<br><br>        <span class="hljs-comment"># 计算时间范围</span><br>        all_starts = [item[<span class="hljs-string">&quot;start&quot;</span>] <span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> data]<br>        all_ends = [item[<span class="hljs-string">&quot;end&quot;</span>] <span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> data]<br>        min_date = <span class="hljs-built_in">min</span>(all_starts)<br>        max_date = <span class="hljs-built_in">max</span>(all_ends)<br>        date_range = <span class="hljs-built_in">max</span>(<span class="hljs-number">1</span>, (max_date - min_date).days)  <span class="hljs-comment"># 确保至少为1</span><br><br>        <span class="hljs-comment"># 图表参数</span><br>        chart_top = <span class="hljs-number">100</span><br>        chart_bottom = height - <span class="hljs-number">50</span><br>        chart_left = <span class="hljs-number">250</span><br>        chart_right = width - <span class="hljs-number">50</span><br>        chart_width = chart_right - chart_left<br>        row_height = <span class="hljs-number">60</span><br><br>        <span class="hljs-comment"># 绘制时间轴</span><br>        timeline_y = chart_bottom - <span class="hljs-number">20</span><br>        draw.line(<br>            [(chart_left, timeline_y), (chart_right, timeline_y)], fill=<span class="hljs-string">&quot;black&quot;</span>, width=<span class="hljs-number">2</span><br>        )<br><br>        <span class="hljs-comment"># 绘制年份刻度</span><br>        start_year = min_date.year<br>        end_year = max_date.year<br><br>        <span class="hljs-keyword">for</span> year <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(start_year, end_year + <span class="hljs-number">2</span>):<br>            year_date = datetime(year, <span class="hljs-number">1</span>, <span class="hljs-number">1</span>)<br>            <span class="hljs-keyword">if</span> year_date &lt; min_date:<br>                <span class="hljs-keyword">continue</span><br><br>            days_from_start = (year_date - min_date).days<br>            x_pos = chart_left + (days_from_start / date_range) * chart_width<br><br>            <span class="hljs-keyword">if</span> chart_left &lt;= x_pos &lt;= chart_right:<br>                draw.line(<br>                    [(x_pos, chart_top), (x_pos, timeline_y)], fill=<span class="hljs-string">&quot;lightgray&quot;</span>, width=<span class="hljs-number">1</span><br>                )<br>                year_str = <span class="hljs-string">f&quot;<span class="hljs-subst">&#123;year&#125;</span>&quot;</span><br>                year_bbox = draw.textbbox((<span class="hljs-number">0</span>, <span class="hljs-number">0</span>), year_str, font=small_font)<br>                year_width = year_bbox[<span class="hljs-number">2</span>] - year_bbox[<span class="hljs-number">0</span>]<br>                draw.text(<br>                    (x_pos - year_width // <span class="hljs-number">2</span>, timeline_y + <span class="hljs-number">10</span>),<br>                    year_str,<br>                    fill=<span class="hljs-string">&quot;gray&quot;</span>,<br>                    font=small_font,<br>                )<br><br>        <span class="hljs-comment"># 绘制每个项目的时间条</span><br>        colors = [<br>            <span class="hljs-string">&quot;#FF6B6B&quot;</span>,<br>            <span class="hljs-string">&quot;#4ECDC4&quot;</span>,<br>            <span class="hljs-string">&quot;#45B7D1&quot;</span>,<br>            <span class="hljs-string">&quot;#96CEB4&quot;</span>,<br>            <span class="hljs-string">&quot;#FFEAA7&quot;</span>,<br>            <span class="hljs-string">&quot;#DDA0DD&quot;</span>,<br>            <span class="hljs-string">&quot;#98D8C8&quot;</span>,<br>            <span class="hljs-string">&quot;#F7DC6F&quot;</span>,<br>        ]<br><br>        <span class="hljs-keyword">for</span> i, item <span class="hljs-keyword">in</span> <span class="hljs-built_in">enumerate</span>(data):<br>            row_y = chart_top + i * row_height<br><br>            <span class="hljs-comment"># 计算开始和结束位置</span><br>            start_days = (item[<span class="hljs-string">&quot;start&quot;</span>] - min_date).days<br>            end_days = (item[<span class="hljs-string">&quot;end&quot;</span>] - min_date).days<br><br>            original_start_x = chart_left + (start_days / date_range) * chart_width<br>            original_end_x = chart_left + (end_days / date_range) * chart_width<br><br>            <span class="hljs-comment"># 保存原始位置，用于日期标签的参考</span><br>            start_x = original_start_x<br>            end_x = original_end_x<br><br>            <span class="hljs-comment"># 确保时间条至少有一定宽度</span><br>            min_bar_width = <span class="hljs-number">15</span>  <span class="hljs-comment"># 最小时间条宽度</span><br>            <span class="hljs-keyword">if</span> end_x - start_x &lt; min_bar_width:<br>                <span class="hljs-comment"># 如果时间太短，以中心点扩展</span><br>                center_x = (original_start_x + original_end_x) / <span class="hljs-number">2</span><br>                start_x = <span class="hljs-built_in">max</span>(chart_left, center_x - min_bar_width / <span class="hljs-number">2</span>)<br>                end_x = <span class="hljs-built_in">min</span>(chart_right, center_x + min_bar_width / <span class="hljs-number">2</span>)<br><br>            <span class="hljs-comment"># 绘制时间条</span><br>            bar_height = <span class="hljs-number">25</span><br>            bar_y = row_y - bar_height // <span class="hljs-number">2</span><br><br>            color = colors[i % <span class="hljs-built_in">len</span>(colors)]<br>            draw.rounded_rectangle(<br>                [start_x, bar_y, end_x, bar_y + bar_height],<br>                radius=<span class="hljs-number">3</span>,<br>                fill=color,<br>                outline=<span class="hljs-string">&quot;darkgray&quot;</span>,<br>                width=<span class="hljs-number">1</span>,<br>            )<br><br>            <span class="hljs-comment"># 绘制项目名称</span><br>            display_name = item[<span class="hljs-string">&quot;display_name&quot;</span>]<br>            name_bbox = draw.textbbox((<span class="hljs-number">0</span>, <span class="hljs-number">0</span>), display_name, font=item_font)<br>            draw.text(<br>                (<span class="hljs-number">50</span>, row_y - name_bbox[<span class="hljs-number">3</span>] // <span class="hljs-number">2</span>),<br>                display_name,<br>                fill=<span class="hljs-string">&quot;black&quot;</span>,<br>                font=item_font,<br>            )<br><br>            <span class="hljs-comment"># 绘制日期标签</span><br>            start_str = item[<span class="hljs-string">&quot;start&quot;</span>].strftime(<span class="hljs-string">&quot;%Y-%m-%d&quot;</span>)<br>            end_str = item[<span class="hljs-string">&quot;end&quot;</span>].strftime(<span class="hljs-string">&quot;%Y-%m-%d&quot;</span>)<br><br>            <span class="hljs-comment"># 获取日期文本的尺寸</span><br>            start_bbox = draw.textbbox((<span class="hljs-number">0</span>, <span class="hljs-number">0</span>), start_str, font=date_font)<br>            end_bbox = draw.textbbox((<span class="hljs-number">0</span>, <span class="hljs-number">0</span>), end_str, font=date_font)<br>            start_text_width = start_bbox[<span class="hljs-number">2</span>] - start_bbox[<span class="hljs-number">0</span>]<br>            end_text_width = end_bbox[<span class="hljs-number">2</span>] - end_bbox[<span class="hljs-number">0</span>]<br><br>            <span class="hljs-comment"># 检查日期是否过于接近（使用原始位置判断，避免被调整后的位置误导）</span><br>            date_spacing = (<br>                (original_end_x - original_start_x) / chart_width * date_range<br>            )<br><br>            <span class="hljs-keyword">if</span> date_spacing &lt; <span class="hljs-number">30</span>:  <span class="hljs-comment"># 如果日期间隔小于30天</span><br>                <span class="hljs-comment"># 只显示一个合并的日期标签</span><br>                <span class="hljs-comment"># 使用调整后的时间条中心点</span><br>                mid_x = (start_x + end_x) / <span class="hljs-number">2</span><br>                date_str = <span class="hljs-string">f&quot;<span class="hljs-subst">&#123;start_str&#125;</span> ~ <span class="hljs-subst">&#123;end_str&#125;</span>&quot;</span><br>                date_bbox = draw.textbbox((<span class="hljs-number">0</span>, <span class="hljs-number">0</span>), date_str, font=date_font)<br>                date_width = date_bbox[<span class="hljs-number">2</span>] - date_bbox[<span class="hljs-number">0</span>]<br><br>                <span class="hljs-comment"># 确保合并标签在可视范围内</span><br>                date_x = mid_x - date_width / <span class="hljs-number">2</span><br>                date_x = <span class="hljs-built_in">max</span>(chart_left + <span class="hljs-number">5</span>, <span class="hljs-built_in">min</span>(date_x, chart_right - date_width - <span class="hljs-number">5</span>))<br><br>                draw.text(<br>                    (date_x, bar_y + bar_height + <span class="hljs-number">5</span>),<br>                    date_str,<br>                    fill=<span class="hljs-string">&quot;darkblue&quot;</span>,<br>                    font=date_font,<br>                )<br><br>                <span class="hljs-comment"># 移除有style参数的虚线，改为实线</span><br>                draw.line(<br>                    [<br>                        (original_start_x, bar_y + bar_height),<br>                        (original_start_x, bar_y + bar_height + <span class="hljs-number">15</span>),<br>                    ],<br>                    fill=<span class="hljs-string">&quot;gray&quot;</span>,<br>                    width=<span class="hljs-number">1</span>,<br>                )<br>                draw.line(<br>                    [<br>                        (original_end_x, bar_y + bar_height),<br>                        (original_end_x, bar_y + bar_height + <span class="hljs-number">15</span>),<br>                    ],<br>                    fill=<span class="hljs-string">&quot;gray&quot;</span>,<br>                    width=<span class="hljs-number">1</span>,<br>                )<br>            <span class="hljs-keyword">else</span>:<br>                <span class="hljs-comment"># 分别显示开始和结束日期</span><br>                <span class="hljs-comment"># 对于被调整过的时间条，日期标签应该对应原始位置</span><br>                label_start_x = original_start_x<br>                label_end_x = original_end_x<br><br>                <span class="hljs-comment"># 开始日期</span><br>                start_text_x = label_start_x - start_text_width / <span class="hljs-number">2</span><br><br>                <span class="hljs-comment"># 检查是否超出左边界</span><br>                <span class="hljs-keyword">if</span> start_text_x &lt; chart_left + <span class="hljs-number">5</span>:<br>                    start_text_x = chart_left + <span class="hljs-number">5</span><br>                <span class="hljs-comment"># 检查是否与结束日期重叠</span><br>                <span class="hljs-keyword">elif</span> (<br>                    start_text_x + start_text_width &gt; label_end_x - end_text_width - <span class="hljs-number">10</span><br>                ):<br>                    start_text_x = <span class="hljs-built_in">max</span>(chart_left + <span class="hljs-number">5</span>, label_start_x - start_text_width)<br><br>                draw.text(<br>                    (start_text_x, bar_y + bar_height + <span class="hljs-number">5</span>),<br>                    start_str,<br>                    fill=<span class="hljs-string">&quot;darkgreen&quot;</span>,<br>                    font=date_font,<br>                )<br><br>                <span class="hljs-comment"># 结束日期</span><br>                end_text_x = label_end_x - end_text_width / <span class="hljs-number">2</span><br><br>                <span class="hljs-comment"># 检查是否超出右边界</span><br>                <span class="hljs-keyword">if</span> end_text_x + end_text_width &gt; chart_right - <span class="hljs-number">5</span>:<br>                    end_text_x = chart_right - end_text_width - <span class="hljs-number">5</span><br>                <span class="hljs-comment"># 检查是否与开始日期重叠</span><br>                <span class="hljs-keyword">elif</span> end_text_x &lt; start_text_x + start_text_width + <span class="hljs-number">10</span>:<br>                    end_text_x = <span class="hljs-built_in">min</span>(chart_right - end_text_width - <span class="hljs-number">5</span>, label_end_x)<br><br>                draw.text(<br>                    (end_text_x, bar_y + bar_height + <span class="hljs-number">5</span>),<br>                    end_str,<br>                    fill=<span class="hljs-string">&quot;darkred&quot;</span>,<br>                    font=date_font,<br>                )<br><br>            <span class="hljs-comment"># 绘制连接线到时间条</span><br>            <span class="hljs-comment"># 使用原始位置画连接线，更准确地反映实际日期位置</span><br>            draw.line(<br>                [<br>                    (original_start_x, bar_y + bar_height),<br>                    (original_start_x, bar_y + bar_height + <span class="hljs-number">5</span>),<br>                ],<br>                fill=<span class="hljs-string">&quot;gray&quot;</span>,<br>                width=<span class="hljs-number">1</span>,<br>            )<br>            draw.line(<br>                [<br>                    (original_end_x, bar_y + bar_height),<br>                    (original_end_x, bar_y + bar_height + <span class="hljs-number">5</span>),<br>                ],<br>                fill=<span class="hljs-string">&quot;gray&quot;</span>,<br>                width=<span class="hljs-number">1</span>,<br>            )<br><br>        <span class="hljs-comment"># 保存图片</span><br>        image.save(output_path)<br><br><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">main</span>():<br>    app = QApplication(sys.argv)<br>    window = TimelineGenerator()<br>    window.show()<br>    sys.exit(app.<span class="hljs-built_in">exec</span>())<br><br><br><span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&quot;__main__&quot;</span>:<br>    main()<br><br></code></pre></td></tr></table></figure>]]></content>
-    
-    
-    <categories>
-      
-      <category>工具软件</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Python</tag>
-      
-      <tag>GUI</tag>
-      
-      <tag>时间管理</tag>
-      
-      <tag>图像生成</tag>
       
     </tags>
     
@@ -1028,35 +1030,6 @@
   
   
   <entry>
-    <title>音乐播放器应用</title>
-    <link href="/Blog/posts/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
-    <url>/Blog/posts/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/</url>
-    
-    <content type="html"><![CDATA[<p>github：</p><p><a href="https://github.com/qiufengcute/Music_Player">GitHub -qiufengcute/Music_Player</a></p><p>exe：</p><p><a href="https://nsx.lanzout.com/ir7mv29ld9wh">文件</a></p><p>密码:a84r</p><p>bilibili：</p><p><ahref="https://player.bilibili.com/player.html?bvid=BV1zg4fesEAd&amp;autoplay=0">bilibili</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>应用程序</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>GitHub项目</tag>
-      
-      <tag>音乐播放</tag>
-      
-      <tag>B站视频</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>飞机大战游戏</title>
     <link href="/Blog/posts/%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98/"/>
     <url>/Blog/posts/%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98/</url>
@@ -1078,6 +1051,35 @@
       <tag>Python</tag>
       
       <tag>飞机大战</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>音乐播放器应用</title>
+    <link href="/Blog/posts/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+    <url>/Blog/posts/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/</url>
+    
+    <content type="html"><![CDATA[<p>github：</p><p><a href="https://github.com/qiufengcute/Music_Player">GitHub -qiufengcute/Music_Player</a></p><p>exe：</p><p><a href="https://nsx.lanzout.com/ir7mv29ld9wh">文件</a></p><p>密码:a84r</p><p>bilibili：</p><p><ahref="https://player.bilibili.com/player.html?bvid=BV1zg4fesEAd&amp;autoplay=0">bilibili</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>应用程序</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>GitHub项目</tag>
+      
+      <tag>音乐播放</tag>
+      
+      <tag>B站视频</tag>
       
     </tags>
     
@@ -1117,37 +1119,6 @@
   
   
   <entry>
-    <title>Hourglass Sand - Minecraft时间控制模组</title>
-    <link href="/Blog/posts/Minecraft%20Mods&amp;Datapacks/Hourglass%20Sand/"/>
-    <url>/Blog/posts/Minecraft%20Mods&amp;Datapacks/Hourglass%20Sand/</url>
-    
-    <content type="html"><![CDATA[<p>Fabric 1.21.8-1.21.11</p><p>Github:</p><p><a href="https://github.com/qiufengcute/Hourglass-Sand">GitHub -qiufengcute/Hourglass-Sand: A simple item that lets you control timeflow. Pause, slow down, speed up, or reset your world with a singleclick.</a></p><p>Modrinth:</p><p><a href="https://modrinth.com/mod/hourglass-sand">Hourglass Sand -Minecraft Mod</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>游戏模组</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Minecraft</tag>
-      
-      <tag>Fabric</tag>
-      
-      <tag>时间控制</tag>
-      
-      <tag>实用工具</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>DeathMock - Minecraft死亡嘲讽数据包</title>
     <link href="/Blog/posts/Minecraft%20Mods&amp;Datapacks/DeathMock/"/>
     <url>/Blog/posts/Minecraft%20Mods&amp;Datapacks/DeathMock/</url>
@@ -1179,11 +1150,11 @@
   
   
   <entry>
-    <title>Item Sweep - Minecraft模组</title>
-    <link href="/Blog/posts/Minecraft%20Mods&amp;Datapacks/Item%20Sweep/"/>
-    <url>/Blog/posts/Minecraft%20Mods&amp;Datapacks/Item%20Sweep/</url>
+    <title>Hourglass Sand - Minecraft时间控制模组</title>
+    <link href="/Blog/posts/Minecraft%20Mods&amp;Datapacks/Hourglass%20Sand/"/>
+    <url>/Blog/posts/Minecraft%20Mods&amp;Datapacks/Hourglass%20Sand/</url>
     
-    <content type="html"><![CDATA[<p>Fabric 1.21.8-1.21.11</p><p>Datapack 1.13+</p><p>Modrinth:</p><p><a href="https://modrinth.com/mod/item-sweep">Item Sweep - MinecraftMod</a></p><p>Github:</p><p><a href="https://github.com/qiufengcute/ItemSweep">GitHub -qiufengcute/ItemSweep: This project adds a feature to Minecraft thatautomatically clears dropped items at set intervals.</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Fabric 1.21.8-1.21.11</p><p>Github:</p><p><a href="https://github.com/qiufengcute/Hourglass-Sand">GitHub -qiufengcute/Hourglass-Sand: A simple item that lets you control timeflow. Pause, slow down, speed up, or reset your world with a singleclick.</a></p><p>Modrinth:</p><p><a href="https://modrinth.com/mod/hourglass-sand">Hourglass Sand -Minecraft Mod</a></p>]]></content>
     
     
     <categories>
@@ -1199,9 +1170,9 @@
       
       <tag>Fabric</tag>
       
-      <tag>Datapack</tag>
+      <tag>时间控制</tag>
       
-      <tag>物品清理</tag>
+      <tag>实用工具</tag>
       
     </tags>
     
@@ -1233,6 +1204,37 @@
       <tag>实用工具</tag>
       
       <tag>时间显示</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Item Sweep - Minecraft模组</title>
+    <link href="/Blog/posts/Minecraft%20Mods&amp;Datapacks/Item%20Sweep/"/>
+    <url>/Blog/posts/Minecraft%20Mods&amp;Datapacks/Item%20Sweep/</url>
+    
+    <content type="html"><![CDATA[<p>Fabric 1.21.8-1.21.11</p><p>Datapack 1.13+</p><p>Modrinth:</p><p><a href="https://modrinth.com/mod/item-sweep">Item Sweep - MinecraftMod</a></p><p>Github:</p><p><a href="https://github.com/qiufengcute/ItemSweep">GitHub -qiufengcute/ItemSweep: This project adds a feature to Minecraft thatautomatically clears dropped items at set intervals.</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>游戏模组</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Minecraft</tag>
+      
+      <tag>Fabric</tag>
+      
+      <tag>Datapack</tag>
+      
+      <tag>物品清理</tag>
       
     </tags>
     
@@ -1361,6 +1363,35 @@
   
   
   <entry>
+    <title>数字转中文 - Scratch扩展</title>
+    <link href="/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E6%95%B0%E5%AD%97%E8%BD%AC%E4%B8%AD%E6%96%87/"/>
+    <url>/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E6%95%B0%E5%AD%97%E8%BD%AC%E4%B8%AD%E6%96%87/</url>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.ilanzou.com/s/XQwZAwA4">蓝奏云优享版</a></p><p>教程：</p><p>这还要教程？就一个块！</p><p>就是单位最多到京</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>编程工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Scratch</tag>
+      
+      <tag>扩展开发</tag>
+      
+      <tag>数字转换</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>获取用户所在地区 - Scratch扩展</title>
     <link href="/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E8%8E%B7%E5%8F%96%E7%94%A8%E6%88%B7%E6%89%80%E5%9C%A8%E5%9C%B0%E5%8C%BA/"/>
     <url>/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E8%8E%B7%E5%8F%96%E7%94%A8%E6%88%B7%E6%89%80%E5%9C%A8%E5%9C%B0%E5%8C%BA/</url>
@@ -1384,35 +1415,6 @@
       <tag>地理定位</tag>
       
       <tag>IP获取</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>数字转中文 - Scratch扩展</title>
-    <link href="/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E6%95%B0%E5%AD%97%E8%BD%AC%E4%B8%AD%E6%96%87/"/>
-    <url>/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E6%95%B0%E5%AD%97%E8%BD%AC%E4%B8%AD%E6%96%87/</url>
-    
-    <content type="html"><![CDATA[<p><a href="https://www.ilanzou.com/s/XQwZAwA4">蓝奏云优享版</a></p><p>教程：</p><p>这还要教程？就一个块！</p><p>就是单位最多到京</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>编程工具</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Scratch</tag>
-      
-      <tag>扩展开发</tag>
-      
-      <tag>数字转换</tag>
       
     </tags>
     
@@ -1574,37 +1576,6 @@
   
   
   <entry>
-    <title>Scratch扩展工具库</title>
-    <link href="/Blog/posts/%E5%BA%93/Scratch%E6%89%A9%E5%B1%95%E5%B7%A5%E5%85%B7/"/>
-    <url>/Blog/posts/%E5%BA%93/Scratch%E6%89%A9%E5%B1%95%E5%B7%A5%E5%85%B7/</url>
-    
-    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/ScratchExtensionTools">GitHub- qiufengcute/ScratchExtensionTools: Tools to help build Scratchextensions in Python.</a></p><p>PyPI:</p><p><ahref="https://pypi.org/project/ScratchExtensionTools/">ScratchExtensionTools</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>编程工具</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Python</tag>
-      
-      <tag>Scratch</tag>
-      
-      <tag>扩展开发</tag>
-      
-      <tag>工具库</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>PyListenerTool 监听工具库</title>
     <link href="/Blog/posts/%E5%BA%93/PyListenerTool/"/>
     <url>/Blog/posts/%E5%BA%93/PyListenerTool/</url>
@@ -1628,6 +1599,37 @@
       <tag>监听器</tag>
       
       <tag>网络监听</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Scratch扩展工具库</title>
+    <link href="/Blog/posts/%E5%BA%93/Scratch%E6%89%A9%E5%B1%95%E5%B7%A5%E5%85%B7/"/>
+    <url>/Blog/posts/%E5%BA%93/Scratch%E6%89%A9%E5%B1%95%E5%B7%A5%E5%85%B7/</url>
+    
+    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/ScratchExtensionTools">GitHub- qiufengcute/ScratchExtensionTools: Tools to help build Scratchextensions in Python.</a></p><p>PyPI:</p><p><ahref="https://pypi.org/project/ScratchExtensionTools/">ScratchExtensionTools</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>编程工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Python</tag>
+      
+      <tag>Scratch</tag>
+      
+      <tag>扩展开发</tag>
+      
+      <tag>工具库</tag>
       
     </tags>
     
