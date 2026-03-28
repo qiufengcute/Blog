@@ -9,7 +9,7 @@
     <atom:link href="https://qiufengcute.github.io/Blog/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Qiufeng的个人博客</description>
-    <pubDate>Sat, 28 Mar 2026 04:30:27 GMT</pubDate>
+    <pubDate>Sat, 28 Mar 2026 04:33:41 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -120,33 +120,6 @@
     </item>
     
     <item>
-      <title>EasySearch - 简易搜索聚合工具</title>
-      <link>https://qiufengcute.github.io/Blog/posts/EasySearch/</link>
-      <guid>https://qiufengcute.github.io/Blog/posts/EasySearch/</guid>
-      <pubDate>Mon, 02 Mar 2026 12:00:00 GMT</pubDate>
-      
-      <description>这是一个简洁高效的本地搜索引擎工具，提供便捷的搜索聚合功能。</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/EasySearch">GitHub -qiufengcute/EasySearch: 一个简洁高效的本地搜索引擎工具</a></p><p>主页:</p><p><a href="https://easysearch.qiuqfeng.cc">EasySearch -简易搜索聚合工具</a></p><p>(备用)</p><p><ahref="https://qiufengcute.github.io/EasySearch/">https://qiufengcute.github.io/EasySearch/</a></p>]]></content:encoded>
-      
-      
-      <category domain="https://qiufengcute.github.io/Blog/categories/%E6%90%9C%E7%B4%A2%E5%B7%A5%E5%85%B7/">搜索工具</category>
-      
-      
-      <category domain="https://qiufengcute.github.io/Blog/tags/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/">搜索引擎</category>
-      
-      <category domain="https://qiufengcute.github.io/Blog/tags/%E8%81%9A%E5%90%88%E5%B7%A5%E5%85%B7/">聚合工具</category>
-      
-      <category domain="https://qiufengcute.github.io/Blog/tags/Web%E5%BA%94%E7%94%A8/">Web应用</category>
-      
-      
-      <comments>https://qiufengcute.github.io/Blog/posts/EasySearch/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>3D字符与1024游戏组合</title>
       <link>https://qiufengcute.github.io/Blog/posts/3d%E5%AD%97%E7%AC%A6&amp;61&amp;1024_1.1.0/</link>
       <guid>https://qiufengcute.github.io/Blog/posts/3d%E5%AD%97%E7%AC%A6&amp;61&amp;1024_1.1.0/</guid>
@@ -170,6 +143,33 @@
       
       
       <comments>https://qiufengcute.github.io/Blog/posts/3d%E5%AD%97%E7%AC%A6&amp;61&amp;1024_1.1.0/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>EasySearch - 简易搜索聚合工具</title>
+      <link>https://qiufengcute.github.io/Blog/posts/EasySearch/</link>
+      <guid>https://qiufengcute.github.io/Blog/posts/EasySearch/</guid>
+      <pubDate>Mon, 02 Mar 2026 12:00:00 GMT</pubDate>
+      
+      <description>这是一个简洁高效的本地搜索引擎工具，提供便捷的搜索聚合功能。</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/EasySearch">GitHub -qiufengcute/EasySearch: 一个简洁高效的本地搜索引擎工具</a></p><p>主页:</p><p><a href="https://easysearch.qiuqfeng.cc">EasySearch -简易搜索聚合工具</a></p><p>(备用)</p><p><ahref="https://qiufengcute.github.io/EasySearch/">https://qiufengcute.github.io/EasySearch/</a></p>]]></content:encoded>
+      
+      
+      <category domain="https://qiufengcute.github.io/Blog/categories/%E6%90%9C%E7%B4%A2%E5%B7%A5%E5%85%B7/">搜索工具</category>
+      
+      
+      <category domain="https://qiufengcute.github.io/Blog/tags/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/">搜索引擎</category>
+      
+      <category domain="https://qiufengcute.github.io/Blog/tags/%E8%81%9A%E5%90%88%E5%B7%A5%E5%85%B7/">聚合工具</category>
+      
+      <category domain="https://qiufengcute.github.io/Blog/tags/Web%E5%BA%94%E7%94%A8/">Web应用</category>
+      
+      
+      <comments>https://qiufengcute.github.io/Blog/posts/EasySearch/#disqus_thread</comments>
       
     </item>
     
@@ -255,35 +255,6 @@
     </item>
     
     <item>
-      <title>Packnload - Minecraft模组批量下载工具</title>
-      <link>https://qiufengcute.github.io/Blog/posts/Packnload/</link>
-      <guid>https://qiufengcute.github.io/Blog/posts/Packnload/</guid>
-      <pubDate>Mon, 02 Mar 2026 12:00:00 GMT</pubDate>
-      
-      <description>这是一款轻量级、高效的Minecraft Mod批量下载工具，可以根据配置文件自动下载指定的模组。</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/Packnload/">GitHub -qiufengcute/Packnload: 一款轻量级、高效的 Minecraft Mod批量下载工具</a></p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs json"><span class="hljs-punctuation">&#123;</span><br>    <span class="hljs-attr">&quot;name&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;模组包名&quot;</span><span class="hljs-punctuation">,</span><br>    <span class="hljs-attr">&quot;author&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;作者名&quot;</span><span class="hljs-punctuation">,</span><br>    <span class="hljs-attr">&quot;version&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;版本号&quot;</span><span class="hljs-punctuation">,</span><br>    <span class="hljs-attr">&quot;mod_list&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-punctuation">[</span><br>        <span class="hljs-string">&quot;mod列表&quot;</span><br>    <span class="hljs-punctuation">]</span><br><span class="hljs-punctuation">&#125;</span><br></code></pre></td></tr></table></figure><p>mod列表(mod_list)注:<br />一行一个(开头和结尾要双引号且如果下行还有结尾需要逗号)</p><p>是modrinth的模组slug</p><p>比如Sodium的URL是<ahref="https://modrinth.com/mod/sodium">https://modrinth.com/mod/sodium</a></p><p>就是跟在"/mod/"后面的那串(sodium)</p><p>但是如果结尾有/要去掉</p><p>比如URL为<ahref="https://modrinth.com/mod/sodium/">https://modrinth.com/mod/sodium/</a>,那么结果不是sodium/</p><p>要把结尾的/去掉,所以结果应该是sodium</p>]]></content:encoded>
-      
-      
-      <category domain="https://qiufengcute.github.io/Blog/categories/%E6%B8%B8%E6%88%8F%E5%B7%A5%E5%85%B7/">游戏工具</category>
-      
-      
-      <category domain="https://qiufengcute.github.io/Blog/tags/Minecraft/">Minecraft</category>
-      
-      <category domain="https://qiufengcute.github.io/Blog/tags/%E6%A8%A1%E7%BB%84%E7%AE%A1%E7%90%86/">模组管理</category>
-      
-      <category domain="https://qiufengcute.github.io/Blog/tags/%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD/">批量下载</category>
-      
-      <category domain="https://qiufengcute.github.io/Blog/tags/%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6/">工具软件</category>
-      
-      
-      <comments>https://qiufengcute.github.io/Blog/posts/Packnload/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>MySub - 订阅统计工具</title>
       <link>https://qiufengcute.github.io/Blog/posts/MySub/</link>
       <guid>https://qiufengcute.github.io/Blog/posts/MySub/</guid>
@@ -309,6 +280,35 @@
       
       
       <comments>https://qiufengcute.github.io/Blog/posts/MySub/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Packnload - Minecraft模组批量下载工具</title>
+      <link>https://qiufengcute.github.io/Blog/posts/Packnload/</link>
+      <guid>https://qiufengcute.github.io/Blog/posts/Packnload/</guid>
+      <pubDate>Mon, 02 Mar 2026 12:00:00 GMT</pubDate>
+      
+      <description>这是一款轻量级、高效的Minecraft Mod批量下载工具，可以根据配置文件自动下载指定的模组。</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/Packnload/">GitHub -qiufengcute/Packnload: 一款轻量级、高效的 Minecraft Mod批量下载工具</a></p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs json"><span class="hljs-punctuation">&#123;</span><br>    <span class="hljs-attr">&quot;name&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;模组包名&quot;</span><span class="hljs-punctuation">,</span><br>    <span class="hljs-attr">&quot;author&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;作者名&quot;</span><span class="hljs-punctuation">,</span><br>    <span class="hljs-attr">&quot;version&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;版本号&quot;</span><span class="hljs-punctuation">,</span><br>    <span class="hljs-attr">&quot;mod_list&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-punctuation">[</span><br>        <span class="hljs-string">&quot;mod列表&quot;</span><br>    <span class="hljs-punctuation">]</span><br><span class="hljs-punctuation">&#125;</span><br></code></pre></td></tr></table></figure><p>mod列表(mod_list)注:<br />一行一个(开头和结尾要双引号且如果下行还有结尾需要逗号)</p><p>是modrinth的模组slug</p><p>比如Sodium的URL是<ahref="https://modrinth.com/mod/sodium">https://modrinth.com/mod/sodium</a></p><p>就是跟在"/mod/"后面的那串(sodium)</p><p>但是如果结尾有/要去掉</p><p>比如URL为<ahref="https://modrinth.com/mod/sodium/">https://modrinth.com/mod/sodium/</a>,那么结果不是sodium/</p><p>要把结尾的/去掉,所以结果应该是sodium</p>]]></content:encoded>
+      
+      
+      <category domain="https://qiufengcute.github.io/Blog/categories/%E6%B8%B8%E6%88%8F%E5%B7%A5%E5%85%B7/">游戏工具</category>
+      
+      
+      <category domain="https://qiufengcute.github.io/Blog/tags/Minecraft/">Minecraft</category>
+      
+      <category domain="https://qiufengcute.github.io/Blog/tags/%E6%A8%A1%E7%BB%84%E7%AE%A1%E7%90%86/">模组管理</category>
+      
+      <category domain="https://qiufengcute.github.io/Blog/tags/%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD/">批量下载</category>
+      
+      <category domain="https://qiufengcute.github.io/Blog/tags/%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6/">工具软件</category>
+      
+      
+      <comments>https://qiufengcute.github.io/Blog/posts/Packnload/#disqus_thread</comments>
       
     </item>
     
@@ -479,33 +479,6 @@
     </item>
     
     <item>
-      <title>待办事件管理工具</title>
-      <link>https://qiufengcute.github.io/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/</link>
-      <guid>https://qiufengcute.github.io/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/</guid>
-      <pubDate>Mon, 02 Mar 2026 12:00:00 GMT</pubDate>
-      
-      <description>这是一个用于管理待办事件的工具，帮助用户跟踪和管理日常任务。</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/to-do/">GitHub -qiufengcute/to-do</a></p>]]></content:encoded>
-      
-      
-      <category domain="https://qiufengcute.github.io/Blog/categories/%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/">应用程序</category>
-      
-      
-      <category domain="https://qiufengcute.github.io/Blog/tags/%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86/">任务管理</category>
-      
-      <category domain="https://qiufengcute.github.io/Blog/tags/%E5%BE%85%E5%8A%9E%E4%BA%8B%E9%A1%B9/">待办事项</category>
-      
-      <category domain="https://qiufengcute.github.io/Blog/tags/GitHub%E9%A1%B9%E7%9B%AE/">GitHub项目</category>
-      
-      
-      <comments>https://qiufengcute.github.io/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>待办事件管理应用</title>
       <link>https://qiufengcute.github.io/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6-TW/</link>
       <guid>https://qiufengcute.github.io/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6-TW/</guid>
@@ -529,6 +502,33 @@
       
       
       <comments>https://qiufengcute.github.io/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6-TW/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>待办事件管理工具</title>
+      <link>https://qiufengcute.github.io/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/</link>
+      <guid>https://qiufengcute.github.io/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/</guid>
+      <pubDate>Mon, 02 Mar 2026 12:00:00 GMT</pubDate>
+      
+      <description>这是一个用于管理待办事件的工具，帮助用户跟踪和管理日常任务。</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/to-do/">GitHub -qiufengcute/to-do</a></p>]]></content:encoded>
+      
+      
+      <category domain="https://qiufengcute.github.io/Blog/categories/%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F/">应用程序</category>
+      
+      
+      <category domain="https://qiufengcute.github.io/Blog/tags/%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86/">任务管理</category>
+      
+      <category domain="https://qiufengcute.github.io/Blog/tags/%E5%BE%85%E5%8A%9E%E4%BA%8B%E9%A1%B9/">待办事项</category>
+      
+      <category domain="https://qiufengcute.github.io/Blog/tags/GitHub%E9%A1%B9%E7%9B%AE/">GitHub项目</category>
+      
+      
+      <comments>https://qiufengcute.github.io/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/#disqus_thread</comments>
       
     </item>
     
