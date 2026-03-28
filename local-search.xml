@@ -293,37 +293,6 @@
   
   
   <entry>
-    <title>Packnload - Minecraft模组批量下载工具</title>
-    <link href="/Blog/posts/Packnload/"/>
-    <url>/Blog/posts/Packnload/</url>
-    
-    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/Packnload/">GitHub -qiufengcute/Packnload: 一款轻量级、高效的 Minecraft Mod批量下载工具</a></p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs json"><span class="hljs-punctuation">&#123;</span><br>    <span class="hljs-attr">&quot;name&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;模组包名&quot;</span><span class="hljs-punctuation">,</span><br>    <span class="hljs-attr">&quot;author&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;作者名&quot;</span><span class="hljs-punctuation">,</span><br>    <span class="hljs-attr">&quot;version&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;版本号&quot;</span><span class="hljs-punctuation">,</span><br>    <span class="hljs-attr">&quot;mod_list&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-punctuation">[</span><br>        <span class="hljs-string">&quot;mod列表&quot;</span><br>    <span class="hljs-punctuation">]</span><br><span class="hljs-punctuation">&#125;</span><br></code></pre></td></tr></table></figure><p>mod列表(mod_list)注:<br />一行一个(开头和结尾要双引号且如果下行还有结尾需要逗号)</p><p>是modrinth的模组slug</p><p>比如Sodium的URL是<ahref="https://modrinth.com/mod/sodium">https://modrinth.com/mod/sodium</a></p><p>就是跟在"/mod/"后面的那串(sodium)</p><p>但是如果结尾有/要去掉</p><p>比如URL为<ahref="https://modrinth.com/mod/sodium/">https://modrinth.com/mod/sodium/</a>,那么结果不是sodium/</p><p>要把结尾的/去掉,所以结果应该是sodium</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>游戏工具</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Minecraft</tag>
-      
-      <tag>模组管理</tag>
-      
-      <tag>批量下载</tag>
-      
-      <tag>工具软件</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>MySub - 订阅统计工具</title>
     <link href="/Blog/posts/MySub/"/>
     <url>/Blog/posts/MySub/</url>
@@ -347,6 +316,37 @@
       <tag>订阅统计</tag>
       
       <tag>粉丝数监控</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Packnload - Minecraft模组批量下载工具</title>
+    <link href="/Blog/posts/Packnload/"/>
+    <url>/Blog/posts/Packnload/</url>
+    
+    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/Packnload/">GitHub -qiufengcute/Packnload: 一款轻量级、高效的 Minecraft Mod批量下载工具</a></p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs json"><span class="hljs-punctuation">&#123;</span><br>    <span class="hljs-attr">&quot;name&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;模组包名&quot;</span><span class="hljs-punctuation">,</span><br>    <span class="hljs-attr">&quot;author&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;作者名&quot;</span><span class="hljs-punctuation">,</span><br>    <span class="hljs-attr">&quot;version&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;版本号&quot;</span><span class="hljs-punctuation">,</span><br>    <span class="hljs-attr">&quot;mod_list&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-punctuation">[</span><br>        <span class="hljs-string">&quot;mod列表&quot;</span><br>    <span class="hljs-punctuation">]</span><br><span class="hljs-punctuation">&#125;</span><br></code></pre></td></tr></table></figure><p>mod列表(mod_list)注:<br />一行一个(开头和结尾要双引号且如果下行还有结尾需要逗号)</p><p>是modrinth的模组slug</p><p>比如Sodium的URL是<ahref="https://modrinth.com/mod/sodium">https://modrinth.com/mod/sodium</a></p><p>就是跟在"/mod/"后面的那串(sodium)</p><p>但是如果结尾有/要去掉</p><p>比如URL为<ahref="https://modrinth.com/mod/sodium/">https://modrinth.com/mod/sodium/</a>,那么结果不是sodium/</p><p>要把结尾的/去掉,所以结果应该是sodium</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>游戏工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Minecraft</tag>
+      
+      <tag>模组管理</tag>
+      
+      <tag>批量下载</tag>
+      
+      <tag>工具软件</tag>
       
     </tags>
     
@@ -446,7 +446,7 @@
   
   
   <entry>
-    <title>个人主页链接汇总</title>
+    <title>链接汇总</title>
     <link href="/Blog/posts/%E4%B8%BB%E9%A1%B5/"/>
     <url>/Blog/posts/%E4%B8%BB%E9%A1%B5/</url>
     
@@ -465,8 +465,6 @@
       <tag>联系方式</tag>
       
       <tag>社交媒体</tag>
-      
-      <tag>项目链接</tag>
       
     </tags>
     
@@ -620,35 +618,6 @@
   
   
   <entry>
-    <title>手指游戏</title>
-    <link href="/Blog/posts/%E6%89%8B%E6%8C%87%E6%B8%B8%E6%88%8F/"/>
-    <url>/Blog/posts/%E6%89%8B%E6%8C%87%E6%B8%B8%E6%88%8F/</url>
-    
-    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/FINGER_GAME">GitHub -qiufengcute/FINGER_GAME</a></p><p>bilibili:</p><p><ahref="https://www.bilibili.com/video/BV15p421U7PW?vd_source=16a214e3ff37c13729a0a17862bb8e86">python手指游戏_单机游戏热门视频</a></p><p>蓝奏云:</p><p><a href="https://nsx.lanzout.com/ivUId1rwftkf">文件</a></p><p>密码:deib</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>游戏</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>小游戏</tag>
-      
-      <tag>Python</tag>
-      
-      <tag>手指游戏</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>成绩记录工具</title>
     <link href="/Blog/posts/%E6%88%90%E7%BB%A9%E8%AE%B0%E5%BD%95%E5%B7%A5%E5%85%B7/"/>
     <url>/Blog/posts/%E6%88%90%E7%BB%A9%E8%AE%B0%E5%BD%95%E5%B7%A5%E5%85%B7/</url>
@@ -670,6 +639,35 @@
       <tag>成绩管理</tag>
       
       <tag>记录软件</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>手指游戏</title>
+    <link href="/Blog/posts/%E6%89%8B%E6%8C%87%E6%B8%B8%E6%88%8F/"/>
+    <url>/Blog/posts/%E6%89%8B%E6%8C%87%E6%B8%B8%E6%88%8F/</url>
+    
+    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/FINGER_GAME">GitHub -qiufengcute/FINGER_GAME</a></p><p>bilibili:</p><p><ahref="https://www.bilibili.com/video/BV15p421U7PW?vd_source=16a214e3ff37c13729a0a17862bb8e86">python手指游戏_单机游戏热门视频</a></p><p>蓝奏云:</p><p><a href="https://nsx.lanzout.com/ivUId1rwftkf">文件</a></p><p>密码:deib</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>游戏</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>小游戏</tag>
+      
+      <tag>Python</tag>
+      
+      <tag>手指游戏</tag>
       
     </tags>
     
@@ -870,9 +868,9 @@
     
     <tags>
       
-      <tag>工具软件</tag>
-      
       <tag>Python</tag>
+      
+      <tag>工具软件</tag>
       
       <tag>算法竞赛</tag>
       
@@ -1088,37 +1086,6 @@
   
   
   <entry>
-    <title>GuessNumber - Minecraft猜数字小游戏</title>
-    <link href="/Blog/posts/Minecraft%20Mods&amp;Datapacks/GuessNumber/"/>
-    <url>/Blog/posts/Minecraft%20Mods&amp;Datapacks/GuessNumber/</url>
-    
-    <content type="html"><![CDATA[<p>Fabric 1.21.8-1.21.11</p><p>Github:</p><p><a href="https://github.com/qiufengcute/GuessNumber">GitHub -qiufengcute/GuessNumber: A simple number-guessing minigame. Guess therandom number in the GUI—how many tries will it take?</a></p><p>Modrinth:</p><p><a href="https://modrinth.com/mod/guessnumber">Modrinth</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>游戏模组</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>小游戏</tag>
-      
-      <tag>Minecraft</tag>
-      
-      <tag>Fabric</tag>
-      
-      <tag>猜数字</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>DeathMock - Minecraft死亡嘲讽数据包</title>
     <link href="/Blog/posts/Minecraft%20Mods&amp;Datapacks/DeathMock/"/>
     <url>/Blog/posts/Minecraft%20Mods&amp;Datapacks/DeathMock/</url>
@@ -1204,6 +1171,37 @@
       <tag>Datapack</tag>
       
       <tag>物品清理</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>GuessNumber - Minecraft猜数字小游戏</title>
+    <link href="/Blog/posts/Minecraft%20Mods&amp;Datapacks/GuessNumber/"/>
+    <url>/Blog/posts/Minecraft%20Mods&amp;Datapacks/GuessNumber/</url>
+    
+    <content type="html"><![CDATA[<p>Fabric 1.21.8-1.21.11</p><p>Github:</p><p><a href="https://github.com/qiufengcute/GuessNumber">GitHub -qiufengcute/GuessNumber: A simple number-guessing minigame. Guess therandom number in the GUI—how many tries will it take?</a></p><p>Modrinth:</p><p><a href="https://modrinth.com/mod/guessnumber">Modrinth</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>游戏模组</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>小游戏</tag>
+      
+      <tag>Minecraft</tag>
+      
+      <tag>Fabric</tag>
+      
+      <tag>猜数字</tag>
       
     </tags>
     
@@ -1334,35 +1332,6 @@
   
   
   <entry>
-    <title>字符串连接 - Scratch扩展</title>
-    <link href="/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BF%9E%E6%8E%A5/"/>
-    <url>/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BF%9E%E6%8E%A5/</url>
-    
-    <content type="html"><![CDATA[<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br></pre></td><td class="code"><pre><code class="hljs javascript">(<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) &#123;<br>    <span class="hljs-string">&#x27;use strict&#x27;</span><br>    <span class="hljs-keyword">class</span> <span class="hljs-title class_">StrConnect</span> &#123;<br>        <span class="hljs-title function_">getInfo</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">return</span> &#123;<br>                <span class="hljs-attr">id</span>: <span class="hljs-string">&quot;stringconnect&quot;</span>,<br>                <span class="hljs-attr">name</span>: <span class="hljs-string">&quot;字符串连接&quot;</span>,<br>                <span class="hljs-attr">color1</span>: <span class="hljs-string">&quot;#3271D0&quot;</span>,<br>                <span class="hljs-attr">blocks</span>: [<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;strconnect&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">REPORTER</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-string">&quot;将 [TEXT] 中的 %c 替换为 [LIST] 中的每一项&quot;</span>,<br>                        <span class="hljs-attr">arguments</span>: &#123;<br>                            <span class="hljs-attr">TEXT</span>: &#123;<br>                                <span class="hljs-attr">type</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">ArgumentType</span>.<span class="hljs-property">STRING</span>,<br>                                <span class="hljs-attr">default</span>: <span class="hljs-string">&quot;&quot;</span><br>                            &#125;,<br>                            <span class="hljs-attr">LIST</span>: &#123;<br>                                <span class="hljs-attr">type</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">ArgumentType</span>.<span class="hljs-property">STRING</span>,<br>                                <span class="hljs-attr">menu</span>: <span class="hljs-string">&quot;get_list&quot;</span>,<br>                            &#125;,<br>                        &#125;,<br>                    &#125;<br>                ],<br>                <span class="hljs-attr">menus</span>: &#123;<br>                    <span class="hljs-attr">get_list</span>: &#123;<br>                        <span class="hljs-attr">acceptReporters</span>: <span class="hljs-literal">false</span>,<br>                        <span class="hljs-attr">items</span>: <span class="hljs-string">&quot;getLists&quot;</span>,<br>                    &#125;,<br>                &#125;<br>            &#125;;<br>        &#125;<br><br>        <span class="hljs-title function_">getLists</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">const</span> globalLists = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">values</span>(<br>                <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">vm</span>.<span class="hljs-property">runtime</span>.<span class="hljs-title function_">getTargetForStage</span>().<span class="hljs-property">variables</span><br>            ).<span class="hljs-title function_">filter</span>(<span class="hljs-function">(<span class="hljs-params">x</span>) =&gt;</span> x.<span class="hljs-property">type</span> === <span class="hljs-string">&quot;list&quot;</span>);<br>            <span class="hljs-keyword">const</span> localLists = <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">vm</span>.<span class="hljs-property">editingTarget</span><br>            ? <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">values</span>(<span class="hljs-title class_">Scratch</span>.<span class="hljs-property">vm</span>.<span class="hljs-property">editingTarget</span>.<span class="hljs-property">variables</span>).<span class="hljs-title function_">filter</span>(<br>                    <span class="hljs-function">(<span class="hljs-params">x</span>) =&gt;</span> x.<span class="hljs-property">type</span> === <span class="hljs-string">&quot;list&quot;</span><br>                )<br>            : [];<br>            <span class="hljs-keyword">const</span> uniqueLists = [...<span class="hljs-keyword">new</span> <span class="hljs-title class_">Set</span>([...globalLists, ...localLists])];<br>            <span class="hljs-keyword">if</span> (uniqueLists.<span class="hljs-property">length</span> === <span class="hljs-number">0</span>) &#123;<br>                <span class="hljs-keyword">return</span> [<br>                    &#123;<br>                        <span class="hljs-attr">text</span>: <span class="hljs-string">&quot;select a list&quot;</span>,<br>                        <span class="hljs-attr">value</span>: <span class="hljs-string">&quot;select a list&quot;</span>,<br>                    &#125;,<br>                ];<br>            &#125;<br>            <span class="hljs-keyword">return</span> uniqueLists.<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">i</span>) =&gt;</span> (&#123;<br>                <span class="hljs-attr">text</span>: i.<span class="hljs-property">name</span>,<br>                <span class="hljs-attr">value</span>: i.<span class="hljs-property">id</span>,<br>            &#125;));<br>        &#125;<br><br>        <span class="hljs-title function_">lookupList</span>(<span class="hljs-params">list, util</span>) &#123;<br>            <span class="hljs-keyword">const</span> byId = util.<span class="hljs-property">target</span>.<span class="hljs-title function_">lookupVariableById</span>(list);<br>            <span class="hljs-keyword">if</span> (byId &amp;&amp; byId.<span class="hljs-property">type</span> === <span class="hljs-string">&quot;list&quot;</span>) &#123;<br>                <span class="hljs-keyword">return</span> byId;<br>            &#125;<br>            <span class="hljs-keyword">const</span> byName = util.<span class="hljs-property">target</span>.<span class="hljs-title function_">lookupVariableByNameAndType</span>(list, <span class="hljs-string">&quot;list&quot;</span>);<br>            <span class="hljs-keyword">if</span> (byName) &#123;<br>                <span class="hljs-keyword">return</span> byName;<br>            &#125;<br>            <span class="hljs-keyword">return</span> <span class="hljs-literal">null</span>;<br>        &#125;<br><br>        <span class="hljs-title function_">strconnect</span>(<span class="hljs-params">args, util</span>) &#123;<br>            <span class="hljs-keyword">try</span> &#123;<br>                <span class="hljs-keyword">let</span> listVariable = <span class="hljs-variable language_">this</span>.<span class="hljs-title function_">lookupList</span>(args.<span class="hljs-property">LIST</span>, util);<br>                <span class="hljs-keyword">if</span> (listVariable) &#123;<br>                    <span class="hljs-keyword">const</span> values =  listVariable.<span class="hljs-property">value</span>;<br>                    <span class="hljs-keyword">let</span> res = args.<span class="hljs-property">TEXT</span>;<br>                    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; values.<span class="hljs-property">length</span>; i++) &#123;<br>                        res = res.<span class="hljs-title function_">replace</span>(<span class="hljs-string">&quot;%c&quot;</span>, values[i]);<br>                        <span class="hljs-keyword">if</span> (res.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&quot;%c&quot;</span>) == -<span class="hljs-number">1</span>) <span class="hljs-keyword">break</span>;<br>                    &#125;<br>                    <span class="hljs-keyword">return</span> res;<br>                &#125;<br>            &#125; <span class="hljs-keyword">catch</span> (e) &#123;<br>                <span class="hljs-comment">// ignore</span><br>            &#125;<br>            <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;&quot;</span>;<br>        &#125;<br>    &#125;<br>    <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">extensions</span>.<span class="hljs-title function_">register</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">StrConnect</span>());<br>&#125;)(<span class="hljs-title class_">Scratch</span>);<br></code></pre></td></tr></table></figure><p>示例:</p><table><thead><tr class="header"><th>参数 TEXT</th><th>参数 LIST(内容)</th><th>输出</th></tr></thead><tbody><tr class="odd"><td>将%c进行替换</td><td>我</td><td>将我进行替换</td></tr><tr class="even"><td>这里的TEXT只有%c个%c,而列表有%c项</td><td>3,%c,4,第四项</td><td>这里的TEXT只有3个%c,而列表有4项</td></tr></tbody></table>]]></content>
-    
-    
-    <categories>
-      
-      <category>编程工具</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Scratch</tag>
-      
-      <tag>扩展开发</tag>
-      
-      <tag>字符串处理</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>数字转中文 - Scratch扩展</title>
     <link href="/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E6%95%B0%E5%AD%97%E8%BD%AC%E4%B8%AD%E6%96%87/"/>
     <url>/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E6%95%B0%E5%AD%97%E8%BD%AC%E4%B8%AD%E6%96%87/</url>
@@ -1384,6 +1353,35 @@
       <tag>扩展开发</tag>
       
       <tag>数字转换</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>字符串连接 - Scratch扩展</title>
+    <link href="/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BF%9E%E6%8E%A5/"/>
+    <url>/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BF%9E%E6%8E%A5/</url>
+    
+    <content type="html"><![CDATA[<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br></pre></td><td class="code"><pre><code class="hljs javascript">(<span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) &#123;<br>    <span class="hljs-string">&#x27;use strict&#x27;</span><br>    <span class="hljs-keyword">class</span> <span class="hljs-title class_">StrConnect</span> &#123;<br>        <span class="hljs-title function_">getInfo</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">return</span> &#123;<br>                <span class="hljs-attr">id</span>: <span class="hljs-string">&quot;stringconnect&quot;</span>,<br>                <span class="hljs-attr">name</span>: <span class="hljs-string">&quot;字符串连接&quot;</span>,<br>                <span class="hljs-attr">color1</span>: <span class="hljs-string">&quot;#3271D0&quot;</span>,<br>                <span class="hljs-attr">blocks</span>: [<br>                    &#123;<br>                        <span class="hljs-attr">opcode</span>: <span class="hljs-string">&quot;strconnect&quot;</span>,<br>                        <span class="hljs-attr">blockType</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">BlockType</span>.<span class="hljs-property">REPORTER</span>,<br>                        <span class="hljs-attr">text</span>: <span class="hljs-string">&quot;将 [TEXT] 中的 %c 替换为 [LIST] 中的每一项&quot;</span>,<br>                        <span class="hljs-attr">arguments</span>: &#123;<br>                            <span class="hljs-attr">TEXT</span>: &#123;<br>                                <span class="hljs-attr">type</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">ArgumentType</span>.<span class="hljs-property">STRING</span>,<br>                                <span class="hljs-attr">default</span>: <span class="hljs-string">&quot;&quot;</span><br>                            &#125;,<br>                            <span class="hljs-attr">LIST</span>: &#123;<br>                                <span class="hljs-attr">type</span>: <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">ArgumentType</span>.<span class="hljs-property">STRING</span>,<br>                                <span class="hljs-attr">menu</span>: <span class="hljs-string">&quot;get_list&quot;</span>,<br>                            &#125;,<br>                        &#125;,<br>                    &#125;<br>                ],<br>                <span class="hljs-attr">menus</span>: &#123;<br>                    <span class="hljs-attr">get_list</span>: &#123;<br>                        <span class="hljs-attr">acceptReporters</span>: <span class="hljs-literal">false</span>,<br>                        <span class="hljs-attr">items</span>: <span class="hljs-string">&quot;getLists&quot;</span>,<br>                    &#125;,<br>                &#125;<br>            &#125;;<br>        &#125;<br><br>        <span class="hljs-title function_">getLists</span>(<span class="hljs-params"></span>) &#123;<br>            <span class="hljs-keyword">const</span> globalLists = <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">values</span>(<br>                <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">vm</span>.<span class="hljs-property">runtime</span>.<span class="hljs-title function_">getTargetForStage</span>().<span class="hljs-property">variables</span><br>            ).<span class="hljs-title function_">filter</span>(<span class="hljs-function">(<span class="hljs-params">x</span>) =&gt;</span> x.<span class="hljs-property">type</span> === <span class="hljs-string">&quot;list&quot;</span>);<br>            <span class="hljs-keyword">const</span> localLists = <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">vm</span>.<span class="hljs-property">editingTarget</span><br>            ? <span class="hljs-title class_">Object</span>.<span class="hljs-title function_">values</span>(<span class="hljs-title class_">Scratch</span>.<span class="hljs-property">vm</span>.<span class="hljs-property">editingTarget</span>.<span class="hljs-property">variables</span>).<span class="hljs-title function_">filter</span>(<br>                    <span class="hljs-function">(<span class="hljs-params">x</span>) =&gt;</span> x.<span class="hljs-property">type</span> === <span class="hljs-string">&quot;list&quot;</span><br>                )<br>            : [];<br>            <span class="hljs-keyword">const</span> uniqueLists = [...<span class="hljs-keyword">new</span> <span class="hljs-title class_">Set</span>([...globalLists, ...localLists])];<br>            <span class="hljs-keyword">if</span> (uniqueLists.<span class="hljs-property">length</span> === <span class="hljs-number">0</span>) &#123;<br>                <span class="hljs-keyword">return</span> [<br>                    &#123;<br>                        <span class="hljs-attr">text</span>: <span class="hljs-string">&quot;select a list&quot;</span>,<br>                        <span class="hljs-attr">value</span>: <span class="hljs-string">&quot;select a list&quot;</span>,<br>                    &#125;,<br>                ];<br>            &#125;<br>            <span class="hljs-keyword">return</span> uniqueLists.<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">i</span>) =&gt;</span> (&#123;<br>                <span class="hljs-attr">text</span>: i.<span class="hljs-property">name</span>,<br>                <span class="hljs-attr">value</span>: i.<span class="hljs-property">id</span>,<br>            &#125;));<br>        &#125;<br><br>        <span class="hljs-title function_">lookupList</span>(<span class="hljs-params">list, util</span>) &#123;<br>            <span class="hljs-keyword">const</span> byId = util.<span class="hljs-property">target</span>.<span class="hljs-title function_">lookupVariableById</span>(list);<br>            <span class="hljs-keyword">if</span> (byId &amp;&amp; byId.<span class="hljs-property">type</span> === <span class="hljs-string">&quot;list&quot;</span>) &#123;<br>                <span class="hljs-keyword">return</span> byId;<br>            &#125;<br>            <span class="hljs-keyword">const</span> byName = util.<span class="hljs-property">target</span>.<span class="hljs-title function_">lookupVariableByNameAndType</span>(list, <span class="hljs-string">&quot;list&quot;</span>);<br>            <span class="hljs-keyword">if</span> (byName) &#123;<br>                <span class="hljs-keyword">return</span> byName;<br>            &#125;<br>            <span class="hljs-keyword">return</span> <span class="hljs-literal">null</span>;<br>        &#125;<br><br>        <span class="hljs-title function_">strconnect</span>(<span class="hljs-params">args, util</span>) &#123;<br>            <span class="hljs-keyword">try</span> &#123;<br>                <span class="hljs-keyword">let</span> listVariable = <span class="hljs-variable language_">this</span>.<span class="hljs-title function_">lookupList</span>(args.<span class="hljs-property">LIST</span>, util);<br>                <span class="hljs-keyword">if</span> (listVariable) &#123;<br>                    <span class="hljs-keyword">const</span> values =  listVariable.<span class="hljs-property">value</span>;<br>                    <span class="hljs-keyword">let</span> res = args.<span class="hljs-property">TEXT</span>;<br>                    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; values.<span class="hljs-property">length</span>; i++) &#123;<br>                        res = res.<span class="hljs-title function_">replace</span>(<span class="hljs-string">&quot;%c&quot;</span>, values[i]);<br>                        <span class="hljs-keyword">if</span> (res.<span class="hljs-title function_">indexOf</span>(<span class="hljs-string">&quot;%c&quot;</span>) == -<span class="hljs-number">1</span>) <span class="hljs-keyword">break</span>;<br>                    &#125;<br>                    <span class="hljs-keyword">return</span> res;<br>                &#125;<br>            &#125; <span class="hljs-keyword">catch</span> (e) &#123;<br>                <span class="hljs-comment">// ignore</span><br>            &#125;<br>            <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;&quot;</span>;<br>        &#125;<br>    &#125;<br>    <span class="hljs-title class_">Scratch</span>.<span class="hljs-property">extensions</span>.<span class="hljs-title function_">register</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">StrConnect</span>());<br>&#125;)(<span class="hljs-title class_">Scratch</span>);<br></code></pre></td></tr></table></figure><p>示例:</p><table><thead><tr class="header"><th>参数 TEXT</th><th>参数 LIST(内容)</th><th>输出</th></tr></thead><tbody><tr class="odd"><td>将%c进行替换</td><td>我</td><td>将我进行替换</td></tr><tr class="even"><td>这里的TEXT只有%c个%c,而列表有%c项</td><td>3,%c,4,第四项</td><td>这里的TEXT只有3个%c,而列表有4项</td></tr></tbody></table>]]></content>
+    
+    
+    <categories>
+      
+      <category>编程工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Scratch</tag>
+      
+      <tag>扩展开发</tag>
+      
+      <tag>字符串处理</tag>
       
     </tags>
     
@@ -1607,37 +1605,6 @@
   
   
   <entry>
-    <title>Scratch扩展工具库</title>
-    <link href="/Blog/posts/%E5%BA%93/Scratch%E6%89%A9%E5%B1%95%E5%B7%A5%E5%85%B7/"/>
-    <url>/Blog/posts/%E5%BA%93/Scratch%E6%89%A9%E5%B1%95%E5%B7%A5%E5%85%B7/</url>
-    
-    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/ScratchExtensionTools">GitHub- qiufengcute/ScratchExtensionTools: Tools to help build Scratchextensions in Python.</a></p><p>PyPI:</p><p><ahref="https://pypi.org/project/ScratchExtensionTools/">ScratchExtensionTools</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>编程工具</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Python</tag>
-      
-      <tag>Scratch</tag>
-      
-      <tag>扩展开发</tag>
-      
-      <tag>工具库</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>SideValidator 输入验证器</title>
     <link href="/Blog/posts/%E5%BA%93/SideValidator/"/>
     <url>/Blog/posts/%E5%BA%93/SideValidator/</url>
@@ -1669,11 +1636,11 @@
   
   
   <entry>
-    <title>Weights-Calc 权重计算器</title>
-    <link href="/Blog/posts/%E5%BA%93/Weights-Calc/"/>
-    <url>/Blog/posts/%E5%BA%93/Weights-Calc/</url>
+    <title>Scratch扩展工具库</title>
+    <link href="/Blog/posts/%E5%BA%93/Scratch%E6%89%A9%E5%B1%95%E5%B7%A5%E5%85%B7/"/>
+    <url>/Blog/posts/%E5%BA%93/Scratch%E6%89%A9%E5%B1%95%E5%B7%A5%E5%85%B7/</url>
     
-    <content type="html"><![CDATA[<p>PyPI:</p><p><a href="https://pypi.org/project/Weights-Calc/">ClientChallenge</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/ScratchExtensionTools">GitHub- qiufengcute/ScratchExtensionTools: Tools to help build Scratchextensions in Python.</a></p><p>PyPI:</p><p><ahref="https://pypi.org/project/ScratchExtensionTools/">ScratchExtensionTools</a></p>]]></content>
     
     
     <categories>
@@ -1687,11 +1654,11 @@
       
       <tag>Python</tag>
       
+      <tag>Scratch</tag>
+      
+      <tag>扩展开发</tag>
+      
       <tag>工具库</tag>
-      
-      <tag>计算器</tag>
-      
-      <tag>权重计算</tag>
       
     </tags>
     
@@ -1723,6 +1690,37 @@
       <tag>文本处理</tag>
       
       <tag>十六进制颜色</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Weights-Calc 权重计算器</title>
+    <link href="/Blog/posts/%E5%BA%93/Weights-Calc/"/>
+    <url>/Blog/posts/%E5%BA%93/Weights-Calc/</url>
+    
+    <content type="html"><![CDATA[<p>PyPI:</p><p><a href="https://pypi.org/project/Weights-Calc/">ClientChallenge</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>编程工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Python</tag>
+      
+      <tag>工具库</tag>
+      
+      <tag>计算器</tag>
+      
+      <tag>权重计算</tag>
       
     </tags>
     
