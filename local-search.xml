@@ -177,27 +177,27 @@
   
   
   <entry>
-    <title>EasySearch - 简易搜索聚合工具</title>
-    <link href="/Blog/posts/EasySearch/"/>
-    <url>/Blog/posts/EasySearch/</url>
+    <title>IPv6 启用指南</title>
+    <link href="/Blog/posts/IPv6%20%E5%90%AF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+    <url>/Blog/posts/IPv6%20%E5%90%AF%E7%94%A8%E6%8C%87%E5%8D%97/</url>
     
-    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/EasySearch">GitHub -qiufengcute/EasySearch: 一个简洁高效的本地搜索引擎工具</a></p><p>主页:</p><p><a href="https://easysearch.qiuqfeng.cc">EasySearch -简易搜索聚合工具</a></p><p>(备用)</p><p><ahref="https://qiufengcute.github.io/EasySearch/">https://qiufengcute.github.io/EasySearch/</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/IPv6-Activation-Guide">GitHub- qiufengcute/IPv6-Activation-Guide: A IPv6 activation guide</a></p><p>Page:</p><p><a href="https://ipv6.qiuqfeng.cc">IPv6 启用指南</a></p><p>(备用)</p><p><a href="https://qiufengcute.github.io/IPv6-Activation-Guide">IPv6启用指南</a></p><p>Bilibili:</p><p><ahref="https://player.bilibili.com/player.html?bvid=BV1QpvCBFEwv&amp;autoplay=0">bilibili</a></p>]]></content>
     
     
     <categories>
       
-      <category>搜索工具</category>
+      <category>技术文档</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>搜索引擎</tag>
+      <tag>IPv6</tag>
       
-      <tag>聚合工具</tag>
+      <tag>网络配置</tag>
       
-      <tag>Web应用</tag>
+      <tag>教程</tag>
       
     </tags>
     
@@ -235,27 +235,27 @@
   
   
   <entry>
-    <title>IPv6 启用指南</title>
-    <link href="/Blog/posts/IPv6%20%E5%90%AF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
-    <url>/Blog/posts/IPv6%20%E5%90%AF%E7%94%A8%E6%8C%87%E5%8D%97/</url>
+    <title>EasySearch - 简易搜索聚合工具</title>
+    <link href="/Blog/posts/EasySearch/"/>
+    <url>/Blog/posts/EasySearch/</url>
     
-    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/IPv6-Activation-Guide">GitHub- qiufengcute/IPv6-Activation-Guide: A IPv6 activation guide</a></p><p>Page:</p><p><a href="https://ipv6.qiuqfeng.cc">IPv6 启用指南</a></p><p>(备用)</p><p><a href="https://qiufengcute.github.io/IPv6-Activation-Guide">IPv6启用指南</a></p><p>Bilibili:</p><p><ahref="https://player.bilibili.com/player.html?bvid=BV1QpvCBFEwv&amp;autoplay=0">bilibili</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/EasySearch">GitHub -qiufengcute/EasySearch: 一个简洁高效的本地搜索引擎工具</a></p><p>主页:</p><p><a href="https://easysearch.qiuqfeng.cc">EasySearch -简易搜索聚合工具</a></p><p>(备用)</p><p><ahref="https://qiufengcute.github.io/EasySearch/">https://qiufengcute.github.io/EasySearch/</a></p>]]></content>
     
     
     <categories>
       
-      <category>技术文档</category>
+      <category>搜索工具</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>IPv6</tag>
+      <tag>搜索引擎</tag>
       
-      <tag>网络配置</tag>
+      <tag>聚合工具</tag>
       
-      <tag>教程</tag>
+      <tag>Web应用</tag>
       
     </tags>
     
@@ -386,6 +386,35 @@
   
   
   <entry>
+    <title>RSS2IMG - RSS转图片服务</title>
+    <link href="/Blog/posts/RSS2IMG/"/>
+    <url>/Blog/posts/RSS2IMG/</url>
+    
+    <content type="html"><![CDATA[<p>URL: <ahref="https://qiufeng.pythonanywhere.com/r2i/">https://qiufeng.pythonanywhere.com/r2i/</a></p><p>参数列表:</p><table><thead><tr class="header"><th>参数名</th><th>必要性</th><th>介绍</th></tr></thead><tbody><tr class="odd"><td>url</td><td>是</td><td>RSS URL</td></tr></tbody></table><h2 id="示例">示例</h2><p>URL: <ahref="https://qiufeng.pythonanywhere.com/r2i/?url=https://www.minecraft.net/en-us/feeds/community-content/rss">https://qiufeng.pythonanywhere.com/r2i/?url=https://www.minecraft.net/en-us/feeds/community-content/rss</a></p><figure><img src="/Blog/imgs/RSS2IMGEx.png" alt="示例返回(2026/3/1)" /><figcaption aria-hidden="true">示例返回(2026/3/1)</figcaption></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>Web服务</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>在线工具</tag>
+      
+      <tag>RSS</tag>
+      
+      <tag>图片生成</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>个人主页项目</title>
     <link href="/Blog/posts/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/"/>
     <url>/Blog/posts/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</url>
@@ -409,35 +438,6 @@
       <tag>JSON格式</tag>
       
       <tag>前端开发</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>RSS2IMG - RSS转图片服务</title>
-    <link href="/Blog/posts/RSS2IMG/"/>
-    <url>/Blog/posts/RSS2IMG/</url>
-    
-    <content type="html"><![CDATA[<p>URL: <ahref="https://qiufeng.pythonanywhere.com/r2i/">https://qiufeng.pythonanywhere.com/r2i/</a></p><p>参数列表:</p><table><thead><tr class="header"><th>参数名</th><th>必要性</th><th>介绍</th></tr></thead><tbody><tr class="odd"><td>url</td><td>是</td><td>RSS URL</td></tr></tbody></table><h2 id="示例">示例</h2><p>URL: <ahref="https://qiufeng.pythonanywhere.com/r2i/?url=https://www.minecraft.net/en-us/feeds/community-content/rss">https://qiufeng.pythonanywhere.com/r2i/?url=https://www.minecraft.net/en-us/feeds/community-content/rss</a></p><figure><img src="/Blog/imgs/RSS2IMGEx.png" alt="示例返回(2026/3/1)" /><figcaption aria-hidden="true">示例返回(2026/3/1)</figcaption></figure>]]></content>
-    
-    
-    <categories>
-      
-      <category>Web服务</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>在线工具</tag>
-      
-      <tag>RSS</tag>
-      
-      <tag>图片生成</tag>
       
     </tags>
     
@@ -533,35 +533,6 @@
   
   
   <entry>
-    <title>待办事件管理工具</title>
-    <link href="/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/"/>
-    <url>/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/</url>
-    
-    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/to-do/">GitHub -qiufengcute/to-do</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>应用程序</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>任务管理</tag>
-      
-      <tag>待办事项</tag>
-      
-      <tag>GitHub项目</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>恶魔轮盘游戏</title>
     <link href="/Blog/posts/%E6%81%B6%E9%AD%94%E8%BD%AE%E7%9B%98/"/>
     <url>/Blog/posts/%E6%81%B6%E9%AD%94%E8%BD%AE%E7%9B%98/</url>
@@ -612,6 +583,35 @@
       <tag>成绩管理</tag>
       
       <tag>记录软件</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>待办事件管理工具</title>
+    <link href="/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/"/>
+    <url>/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/</url>
+    
+    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/to-do/">GitHub -qiufengcute/to-do</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>应用程序</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>任务管理</tag>
+      
+      <tag>待办事项</tag>
+      
+      <tag>GitHub项目</tag>
       
     </tags>
     
@@ -707,6 +707,35 @@
   
   
   <entry>
+    <title>星穹铁道用户信息查询工具</title>
+    <link href="/Blog/posts/%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2/"/>
+    <url>/Blog/posts/%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2/</url>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.ilanzou.com/s/aHKN7VXX">蓝奏云优享版</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>游戏工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>星穹铁道</tag>
+      
+      <tag>用户信息</tag>
+      
+      <tag>查询工具</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>时间表生成器</title>
     <link href="/Blog/posts/%E6%97%B6%E9%97%B4%E8%A1%A8%E7%94%9F%E6%88%90%E5%99%A8/"/>
     <url>/Blog/posts/%E6%97%B6%E9%97%B4%E8%A1%A8%E7%94%9F%E6%88%90%E5%99%A8/</url>
@@ -730,35 +759,6 @@
       <tag>时间管理</tag>
       
       <tag>图像生成</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>星穹铁道用户信息查询工具</title>
-    <link href="/Blog/posts/%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2/"/>
-    <url>/Blog/posts/%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2/</url>
-    
-    <content type="html"><![CDATA[<p><a href="https://www.ilanzou.com/s/aHKN7VXX">蓝奏云优享版</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>游戏工具</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>星穹铁道</tag>
-      
-      <tag>用户信息</tag>
-      
-      <tag>查询工具</tag>
       
     </tags>
     
@@ -1028,35 +1028,6 @@
   
   
   <entry>
-    <title>飞机大战游戏</title>
-    <link href="/Blog/posts/%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98/"/>
-    <url>/Blog/posts/%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98/</url>
-    
-    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/fjdzh">GitHub -qiufengcute/fjdzh: 飞机大战</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>游戏</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>小游戏</tag>
-      
-      <tag>Python</tag>
-      
-      <tag>飞机大战</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>音乐播放器应用</title>
     <link href="/Blog/posts/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
     <url>/Blog/posts/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/</url>
@@ -1086,29 +1057,27 @@
   
   
   <entry>
-    <title>DeathMock - Minecraft死亡嘲讽数据包</title>
-    <link href="/Blog/posts/Minecraft%20Mods&amp;Datapacks/DeathMock/"/>
-    <url>/Blog/posts/Minecraft%20Mods&amp;Datapacks/DeathMock/</url>
+    <title>飞机大战游戏</title>
+    <link href="/Blog/posts/%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98/"/>
+    <url>/Blog/posts/%E9%A3%9E%E6%9C%BA%E5%A4%A7%E6%88%98/</url>
     
-    <content type="html"><![CDATA[<p>Datapack 1.21.3+(1.13-1.21.2大概率也能正常运行 但不是官方建议)</p><p>Github:</p><p><a href="https://github.com/qiufengcute/DeathMock">GitHub -qiufengcute/DeathMock: A playful vanilla Minecraft datapack that mocksplayers with a custom sound effect after every 5 deaths. No modsrequired</a></p><p>Modrinth:</p><p><a href="https://modrinth.com/datapack/deathmock">DeathMock -Minecraft Data Pack</a></p>]]></content>
+    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/fjdzh">GitHub -qiufengcute/fjdzh: 飞机大战</a></p>]]></content>
     
     
     <categories>
       
-      <category>游戏模组</category>
+      <category>游戏</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>Minecraft</tag>
+      <tag>小游戏</tag>
       
-      <tag>数据包</tag>
+      <tag>Python</tag>
       
-      <tag>死亡效果</tag>
-      
-      <tag>娱乐模组</tag>
+      <tag>飞机大战</tag>
       
     </tags>
     
@@ -1171,6 +1140,37 @@
       <tag>时间控制</tag>
       
       <tag>实用工具</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>DeathMock - Minecraft死亡嘲讽数据包</title>
+    <link href="/Blog/posts/Minecraft%20Mods&amp;Datapacks/DeathMock/"/>
+    <url>/Blog/posts/Minecraft%20Mods&amp;Datapacks/DeathMock/</url>
+    
+    <content type="html"><![CDATA[<p>Datapack 1.21.3+(1.13-1.21.2大概率也能正常运行 但不是官方建议)</p><p>Github:</p><p><a href="https://github.com/qiufengcute/DeathMock">GitHub -qiufengcute/DeathMock: A playful vanilla Minecraft datapack that mocksplayers with a custom sound effect after every 5 deaths. No modsrequired</a></p><p>Modrinth:</p><p><a href="https://modrinth.com/datapack/deathmock">DeathMock -Minecraft Data Pack</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>游戏模组</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Minecraft</tag>
+      
+      <tag>数据包</tag>
+      
+      <tag>死亡效果</tag>
+      
+      <tag>娱乐模组</tag>
       
     </tags>
     
@@ -1361,35 +1361,6 @@
   
   
   <entry>
-    <title>数字转中文 - Scratch扩展</title>
-    <link href="/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E6%95%B0%E5%AD%97%E8%BD%AC%E4%B8%AD%E6%96%87/"/>
-    <url>/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E6%95%B0%E5%AD%97%E8%BD%AC%E4%B8%AD%E6%96%87/</url>
-    
-    <content type="html"><![CDATA[<p><a href="https://www.ilanzou.com/s/XQwZAwA4">蓝奏云优享版</a></p><p>教程：</p><p>这还要教程？就一个块！</p><p>就是单位最多到京</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>编程工具</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Scratch</tag>
-      
-      <tag>扩展开发</tag>
-      
-      <tag>数字转换</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>获取用户所在地区 - Scratch扩展</title>
     <link href="/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E8%8E%B7%E5%8F%96%E7%94%A8%E6%88%B7%E6%89%80%E5%9C%A8%E5%9C%B0%E5%8C%BA/"/>
     <url>/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E8%8E%B7%E5%8F%96%E7%94%A8%E6%88%B7%E6%89%80%E5%9C%A8%E5%9C%B0%E5%8C%BA/</url>
@@ -1413,6 +1384,35 @@
       <tag>地理定位</tag>
       
       <tag>IP获取</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>数字转中文 - Scratch扩展</title>
+    <link href="/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E6%95%B0%E5%AD%97%E8%BD%AC%E4%B8%AD%E6%96%87/"/>
+    <url>/Blog/posts/Scratch%E6%89%A9%E5%B1%95/%E6%95%B0%E5%AD%97%E8%BD%AC%E4%B8%AD%E6%96%87/</url>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.ilanzou.com/s/XQwZAwA4">蓝奏云优享版</a></p><p>教程：</p><p>这还要教程？就一个块！</p><p>就是单位最多到京</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>编程工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Scratch</tag>
+      
+      <tag>扩展开发</tag>
+      
+      <tag>数字转换</tag>
       
     </tags>
     
@@ -1574,37 +1574,6 @@
   
   
   <entry>
-    <title>PyListenerTool 监听工具库</title>
-    <link href="/Blog/posts/%E5%BA%93/PyListenerTool/"/>
-    <url>/Blog/posts/%E5%BA%93/PyListenerTool/</url>
-    
-    <content type="html"><![CDATA[<p>Github:</p><p><ahref="https://github.com/qiufengcute/PyListenerTool?tab=readme-ov-file">GitHub- qiufengcute/PyListenerTool</a></p><p>PyPI:</p><p><a href="https://pypi.org/project/PyListenerTool">ClientChallenge</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>编程工具</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Python</tag>
-      
-      <tag>工具库</tag>
-      
-      <tag>监听器</tag>
-      
-      <tag>网络监听</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Scratch扩展工具库</title>
     <link href="/Blog/posts/%E5%BA%93/Scratch%E6%89%A9%E5%B1%95%E5%B7%A5%E5%85%B7/"/>
     <url>/Blog/posts/%E5%BA%93/Scratch%E6%89%A9%E5%B1%95%E5%B7%A5%E5%85%B7/</url>
@@ -1628,6 +1597,37 @@
       <tag>扩展开发</tag>
       
       <tag>工具库</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>PyListenerTool 监听工具库</title>
+    <link href="/Blog/posts/%E5%BA%93/PyListenerTool/"/>
+    <url>/Blog/posts/%E5%BA%93/PyListenerTool/</url>
+    
+    <content type="html"><![CDATA[<p>Github:</p><p><ahref="https://github.com/qiufengcute/PyListenerTool?tab=readme-ov-file">GitHub- qiufengcute/PyListenerTool</a></p><p>PyPI:</p><p><a href="https://pypi.org/project/PyListenerTool">ClientChallenge</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>编程工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Python</tag>
+      
+      <tag>工具库</tag>
+      
+      <tag>监听器</tag>
+      
+      <tag>网络监听</tag>
       
     </tags>
     
