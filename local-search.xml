@@ -415,35 +415,6 @@
   
   
   <entry>
-    <title>井字棋游戏</title>
-    <link href="/Blog/posts/%E4%BA%95%E5%AD%97%E6%A3%8B/"/>
-    <url>/Blog/posts/%E4%BA%95%E5%AD%97%E6%A3%8B/</url>
-    
-    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/TICTACTOE">GitHub -qiufengcute/TICTACTOE</a></p><p>bilibili:</p><p><ahref="https://www.bilibili.com/video/BV1At421V7dG?vd_source=16a214e3ff37c13729a0a17862bb8e86">python井字棋_单机游戏热门视频</a></p><p>蓝奏云:</p><p><a href="https://nsx.lanzout.com/iAOCM1rzz6bg">文件</a></p><p>密码:435e</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>游戏</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>小游戏</tag>
-      
-      <tag>Python</tag>
-      
-      <tag>井字棋</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>个人主页链接汇总</title>
     <link href="/Blog/posts/%E4%B8%BB%E9%A1%B5/"/>
     <url>/Blog/posts/%E4%B8%BB%E9%A1%B5/</url>
@@ -502,6 +473,35 @@
   
   
   <entry>
+    <title>井字棋游戏</title>
+    <link href="/Blog/posts/%E4%BA%95%E5%AD%97%E6%A3%8B/"/>
+    <url>/Blog/posts/%E4%BA%95%E5%AD%97%E6%A3%8B/</url>
+    
+    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/TICTACTOE">GitHub -qiufengcute/TICTACTOE</a></p><p>bilibili:</p><p><ahref="https://www.bilibili.com/video/BV1At421V7dG?vd_source=16a214e3ff37c13729a0a17862bb8e86">python井字棋_单机游戏热门视频</a></p><p>蓝奏云:</p><p><a href="https://nsx.lanzout.com/iAOCM1rzz6bg">文件</a></p><p>密码:435e</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>游戏</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>小游戏</tag>
+      
+      <tag>Python</tag>
+      
+      <tag>井字棋</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>待办事件管理应用</title>
     <link href="/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6-TW/"/>
     <url>/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6-TW/</url>
@@ -523,35 +523,6 @@
       <tag>任务管理</tag>
       
       <tag>待办事项</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>待办事件管理工具</title>
-    <link href="/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/"/>
-    <url>/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/</url>
-    
-    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/to-do/">GitHub -qiufengcute/to-do</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>应用程序</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>任务管理</tag>
-      
-      <tag>待办事项</tag>
-      
-      <tag>GitHub项目</tag>
       
     </tags>
     
@@ -589,27 +560,27 @@
   
   
   <entry>
-    <title>手指游戏</title>
-    <link href="/Blog/posts/%E6%89%8B%E6%8C%87%E6%B8%B8%E6%88%8F/"/>
-    <url>/Blog/posts/%E6%89%8B%E6%8C%87%E6%B8%B8%E6%88%8F/</url>
+    <title>待办事件管理工具</title>
+    <link href="/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/"/>
+    <url>/Blog/posts/%E5%BE%85%E5%8A%9E%E4%BA%8B%E4%BB%B6/</url>
     
-    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/FINGER_GAME">GitHub -qiufengcute/FINGER_GAME</a></p><p>bilibili:</p><p><ahref="https://www.bilibili.com/video/BV15p421U7PW?vd_source=16a214e3ff37c13729a0a17862bb8e86">python手指游戏_单机游戏热门视频</a></p><p>蓝奏云:</p><p><a href="https://nsx.lanzout.com/ivUId1rwftkf">文件</a></p><p>密码:deib</p>]]></content>
+    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/to-do/">GitHub -qiufengcute/to-do</a></p>]]></content>
     
     
     <categories>
       
-      <category>游戏</category>
+      <category>应用程序</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>小游戏</tag>
+      <tag>任务管理</tag>
       
-      <tag>Python</tag>
+      <tag>待办事项</tag>
       
-      <tag>手指游戏</tag>
+      <tag>GitHub项目</tag>
       
     </tags>
     
@@ -639,6 +610,35 @@
       <tag>成绩管理</tag>
       
       <tag>记录软件</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>手指游戏</title>
+    <link href="/Blog/posts/%E6%89%8B%E6%8C%87%E6%B8%B8%E6%88%8F/"/>
+    <url>/Blog/posts/%E6%89%8B%E6%8C%87%E6%B8%B8%E6%88%8F/</url>
+    
+    <content type="html"><![CDATA[<p>github:</p><p><a href="https://github.com/qiufengcute/FINGER_GAME">GitHub -qiufengcute/FINGER_GAME</a></p><p>bilibili:</p><p><ahref="https://www.bilibili.com/video/BV15p421U7PW?vd_source=16a214e3ff37c13729a0a17862bb8e86">python手指游戏_单机游戏热门视频</a></p><p>蓝奏云:</p><p><a href="https://nsx.lanzout.com/ivUId1rwftkf">文件</a></p><p>密码:deib</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>游戏</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>小游戏</tag>
+      
+      <tag>Python</tag>
+      
+      <tag>手指游戏</tag>
       
     </tags>
     
@@ -705,35 +705,6 @@
   
   
   <entry>
-    <title>星穹铁道用户信息查询工具</title>
-    <link href="/Blog/posts/%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2/"/>
-    <url>/Blog/posts/%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2/</url>
-    
-    <content type="html"><![CDATA[<p><a href="https://www.ilanzou.com/s/aHKN7VXX">蓝奏云优享版</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>游戏工具</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>星穹铁道</tag>
-      
-      <tag>用户信息</tag>
-      
-      <tag>查询工具</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>时间表生成器</title>
     <link href="/Blog/posts/%E6%97%B6%E9%97%B4%E8%A1%A8%E7%94%9F%E6%88%90%E5%99%A8/"/>
     <url>/Blog/posts/%E6%97%B6%E9%97%B4%E8%A1%A8%E7%94%9F%E6%88%90%E5%99%A8/</url>
@@ -757,6 +728,35 @@
       <tag>时间管理</tag>
       
       <tag>图像生成</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>星穹铁道用户信息查询工具</title>
+    <link href="/Blog/posts/%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2/"/>
+    <url>/Blog/posts/%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2/</url>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.ilanzou.com/s/aHKN7VXX">蓝奏云优享版</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>游戏工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>星穹铁道</tag>
+      
+      <tag>用户信息</tag>
+      
+      <tag>查询工具</tag>
       
     </tags>
     
@@ -823,6 +823,35 @@
   
   
   <entry>
+    <title>灵魂之汁项目</title>
+    <link href="/Blog/posts/%E7%81%B5%E9%AD%82%E4%B9%8B%E6%B1%81/"/>
+    <url>/Blog/posts/%E7%81%B5%E9%AD%82%E4%B9%8B%E6%B1%81/</url>
+    
+    <content type="html"><![CDATA[<p>蓝奏云:</p><p><a href="https://wwb.lanzout.com/iIopG1uxuh4b">灵魂之汁.zip -蓝奏云</a></p><p>bilibili:</p><p><ahref="https://www.bilibili.com/video/BV1LF4m137F9?vd_source=16a214e3ff37c13729a0a17862bb8e86">灵魂之汁，浇给~但sc_哔哩哔哩bilibili</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>创意项目</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>视频</tag>
+      
+      <tag>B站</tag>
+      
+      <tag>创意内容</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>洛谷测试点编辑器</title>
     <link href="/Blog/posts/%E6%B4%9B%E8%B0%B7%E6%B5%8B%E8%AF%95%E7%82%B9%E7%BC%96%E8%BE%91%E5%99%A8/"/>
     <url>/Blog/posts/%E6%B4%9B%E8%B0%B7%E6%B5%8B%E8%AF%95%E7%82%B9%E7%BC%96%E8%BE%91%E5%99%A8/</url>
@@ -846,35 +875,6 @@
       <tag>算法竞赛</tag>
       
       <tag>测试用例</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>灵魂之汁项目</title>
-    <link href="/Blog/posts/%E7%81%B5%E9%AD%82%E4%B9%8B%E6%B1%81/"/>
-    <url>/Blog/posts/%E7%81%B5%E9%AD%82%E4%B9%8B%E6%B1%81/</url>
-    
-    <content type="html"><![CDATA[<p>蓝奏云:</p><p><a href="https://wwb.lanzout.com/iIopG1uxuh4b">灵魂之汁.zip -蓝奏云</a></p><p>bilibili:</p><p><ahref="https://www.bilibili.com/video/BV1LF4m137F9?vd_source=16a214e3ff37c13729a0a17862bb8e86">灵魂之汁，浇给~但sc_哔哩哔哩bilibili</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>创意项目</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>视频</tag>
-      
-      <tag>B站</tag>
-      
-      <tag>创意内容</tag>
       
     </tags>
     
@@ -941,35 +941,6 @@
   
   
   <entry>
-    <title>词云生成器</title>
-    <link href="/Blog/posts/%E8%AF%8D%E4%BA%91%E7%94%9F%E6%88%90%E5%99%A8/"/>
-    <url>/Blog/posts/%E8%AF%8D%E4%BA%91%E7%94%9F%E6%88%90%E5%99%A8/</url>
-    
-    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/Word-cloud-generator/">GitHub- qiufengcute/Word-cloud-generator: A word cloud generator</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>图像处理工具</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>GitHub项目</tag>
-      
-      <tag>图像生成</tag>
-      
-      <tag>词云</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>聊天室应用</title>
     <link href="/Blog/posts/%E8%81%8A%E5%A4%A9%E5%AE%A4/"/>
     <url>/Blog/posts/%E8%81%8A%E5%A4%A9%E5%AE%A4/</url>
@@ -991,6 +962,35 @@
       <tag>客户端</tag>
       
       <tag>通信工具</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>词云生成器</title>
+    <link href="/Blog/posts/%E8%AF%8D%E4%BA%91%E7%94%9F%E6%88%90%E5%99%A8/"/>
+    <url>/Blog/posts/%E8%AF%8D%E4%BA%91%E7%94%9F%E6%88%90%E5%99%A8/</url>
+    
+    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/Word-cloud-generator/">GitHub- qiufengcute/Word-cloud-generator: A word cloud generator</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>图像处理工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>GitHub项目</tag>
+      
+      <tag>图像生成</tag>
+      
+      <tag>词云</tag>
       
     </tags>
     
@@ -1181,6 +1181,37 @@
   
   
   <entry>
+    <title>StudyMod - Minecraft学习问答模组</title>
+    <link href="/Blog/posts/Minecraft%20Mods&amp;Datapacks/StudyMod/"/>
+    <url>/Blog/posts/Minecraft%20Mods&amp;Datapacks/StudyMod/</url>
+    
+    <content type="html"><![CDATA[<p>Fabric 1.21.8-1.21.10</p><p>Modrinth:</p><p><a href="https://modrinth.com/mod/studymod">Modrinth</a></p><p>Github:</p><p><a href="https://github.com/qiufengcute/StudyMod">GitHub -qiufengcute/StudyMod: Answer Chinese/Math/English questions. EarnNetherite or get struck by lightning! Fun quiz gameplay.</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>游戏模组</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Minecraft</tag>
+      
+      <tag>Fabric</tag>
+      
+      <tag>学习工具</tag>
+      
+      <tag>问答游戏</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>MineWatch - Minecraft手表模组</title>
     <link href="/Blog/posts/Minecraft%20Mods&amp;Datapacks/MineWatch/"/>
     <url>/Blog/posts/Minecraft%20Mods&amp;Datapacks/MineWatch/</url>
@@ -1212,29 +1243,27 @@
   
   
   <entry>
-    <title>StudyMod - Minecraft学习问答模组</title>
-    <link href="/Blog/posts/Minecraft%20Mods&amp;Datapacks/StudyMod/"/>
-    <url>/Blog/posts/Minecraft%20Mods&amp;Datapacks/StudyMod/</url>
+    <title>qiufeng - Scratch扩展</title>
+    <link href="/Blog/posts/Scratch%E6%89%A9%E5%B1%95/qiufeng/"/>
+    <url>/Blog/posts/Scratch%E6%89%A9%E5%B1%95/qiufeng/</url>
     
-    <content type="html"><![CDATA[<p>Fabric 1.21.8-1.21.10</p><p>Modrinth:</p><p><a href="https://modrinth.com/mod/studymod">Modrinth</a></p><p>Github:</p><p><a href="https://github.com/qiufengcute/StudyMod">GitHub -qiufengcute/StudyMod: Answer Chinese/Math/English questions. EarnNetherite or get struck by lightning! Fun quiz gameplay.</a></p>]]></content>
+    <content type="html"><![CDATA[<p><a href="https://www.ilanzou.com/s/StWZAwgy">蓝奏云优享版</a></p><p>教程：</p><p>懒得搞</p>]]></content>
     
     
     <categories>
       
-      <category>游戏模组</category>
+      <category>编程工具</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>Minecraft</tag>
+      <tag>Scratch</tag>
       
-      <tag>Fabric</tag>
+      <tag>扩展</tag>
       
-      <tag>学习工具</tag>
-      
-      <tag>问答游戏</tag>
+      <tag>教育编程</tag>
       
     </tags>
     
@@ -1295,35 +1324,6 @@
       <tag>扩展开发</tag>
       
       <tag>字符串处理</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>qiufeng - Scratch扩展</title>
-    <link href="/Blog/posts/Scratch%E6%89%A9%E5%B1%95/qiufeng/"/>
-    <url>/Blog/posts/Scratch%E6%89%A9%E5%B1%95/qiufeng/</url>
-    
-    <content type="html"><![CDATA[<p><a href="https://www.ilanzou.com/s/StWZAwgy">蓝奏云优享版</a></p><p>教程：</p><p>懒得搞</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>编程工具</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Scratch</tag>
-      
-      <tag>扩展</tag>
-      
-      <tag>教育编程</tag>
       
     </tags>
     
@@ -1483,37 +1483,6 @@
   
   
   <entry>
-    <title>HexColor 库</title>
-    <link href="/Blog/posts/%E5%BA%93/HexColor/"/>
-    <url>/Blog/posts/%E5%BA%93/HexColor/</url>
-    
-    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/HexColor">GitHub -qiufengcute/HexColor: Add HexColor type</a></p><p>PyPI:</p><p><a href="https://pypi.org/project/HexColor/">Client Challenge</a></p><p>Powershell Gallery:</p><p><ahref="https://www.powershellgallery.com/packages/HexColor/">HexColor1.0.0</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>编程工具</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Python</tag>
-      
-      <tag>工具库</tag>
-      
-      <tag>PowerShell</tag>
-      
-      <tag>颜色处理</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>PollingRequest 库</title>
     <link href="/Blog/posts/%E5%BA%93/PollingRequest/"/>
     <url>/Blog/posts/%E5%BA%93/PollingRequest/</url>
@@ -1537,6 +1506,37 @@
       <tag>请求库</tag>
       
       <tag>轮询请求</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>HexColor 库</title>
+    <link href="/Blog/posts/%E5%BA%93/HexColor/"/>
+    <url>/Blog/posts/%E5%BA%93/HexColor/</url>
+    
+    <content type="html"><![CDATA[<p>Github:</p><p><a href="https://github.com/qiufengcute/HexColor">GitHub -qiufengcute/HexColor: Add HexColor type</a></p><p>PyPI:</p><p><a href="https://pypi.org/project/HexColor/">Client Challenge</a></p><p>Powershell Gallery:</p><p><ahref="https://www.powershellgallery.com/packages/HexColor/">HexColor1.0.0</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>编程工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Python</tag>
+      
+      <tag>工具库</tag>
+      
+      <tag>PowerShell</tag>
+      
+      <tag>颜色处理</tag>
       
     </tags>
     
