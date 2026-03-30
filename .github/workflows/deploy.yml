@@ -25,7 +25,9 @@ jobs:
         submodules: true
 
     - name: Setup Node
-      uses: actions/setup-node@v6.3.0
+      uses: actions/setup-node@v1
+      with:
+        node-version: "20.x"
 
     - name: Install NodeModules
       run: |
