@@ -19,46 +19,46 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Download Branch
-      uses: actions/checkout@v6.0.2
-      with:
-        submodules: true
-
-    - name: Setup Node
-      uses: actions/setup-node@v6.3.0
-      with:
-        node-version: "20.x"
-
-    - name: Install NodeModules
-      run: |
-        rm -f .yarnclean yarn.lock
-        yarn --non-interactive --silent
-        yarn list --depth=0
-
-    - name: Install Pandoc
-      run: sudo apt-get install -y pandoc
-
-    - name: Hexo Generate
-      run: |
-        rm -rf ./public
-        yarn run hexo clean
-        yarn run hexo generate
-
-    - name: Archive artifact
-      run: |
-        tar \
-          --dereference --hard-dereference \
-          --directory ./public \
-          -cvf artifact.tar \
-          --exclude=.git \
-          --exclude=.github \
-          .
-
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v7
-      with:
-        name: github-pages
-        path: artifact.tar
+      - name: Download Branch
+        uses: actions/checkout@v6.0.2
+        with:
+          submodules: true
+  
+      - name: Setup Node
+        uses: actions/setup-node@v6.3.0
+        with:
+          node-version: "20.x"
+  
+      - name: Install NodeModules
+        run: |
+          rm -f .yarnclean yarn.lock
+          yarn --non-interactive --silent
+          yarn list --depth=0
+  
+      - name: Install Pandoc
+        run: sudo apt-get install -y pandoc
+  
+      - name: Hexo Generate
+        run: |
+          rm -rf ./public
+          yarn run hexo clean
+          yarn run hexo generate
+  
+      - name: Archive artifact
+        run: |
+          tar \
+            --dereference --hard-dereference \
+            --directory ./public \
+            -cvf artifact.tar \
+            --exclude=.git \
+            --exclude=.github \
+            .
+  
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: github-pages
+          path: artifact.tar
 
   deploy:
     needs: build
