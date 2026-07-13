@@ -101,7 +101,7 @@ footer:
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
     <a id="editingh" target="_blank" rel="nofollow noopener" hidden>在 Github 上编辑此页</a><br>
-    <script src="/Blog/js/duration.js"></script>
+    <script src="/Blog/js/editingh.js"></script>
     基于 <a href="https://hexo.io" target="_blank" rel="nofollow noopener">Hexo</a> 
     <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">Fluid</a>
     <div id="createTime" style="font-size: 0.85rem" title="载入创建时间...">
