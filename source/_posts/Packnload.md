@@ -76,6 +76,3 @@ Github:
 - `sodium` 和 `iris` 为普通单项，直接下载；
 - `fabric-api` 优先尝试 `fabric-api`，失败则尝试 `fabric-api-fallback`；
 - `optifine` 依次尝试三个候选，直到成功或全部失败。
-
-要把结尾的/去掉,所以结果应该是sodium
-
