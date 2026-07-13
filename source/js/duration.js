@@ -1,4 +1,4 @@
-!(function() {
+(function() {
   var start = new Date("2026/03/02 12:00:00");
   document.getElementById("createTime").title = start.toLocaleString();
 
