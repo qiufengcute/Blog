@@ -11,6 +11,7 @@ excerpt: 一个用于跳过网站的中转页的浏览器扩展。
 ---
 
 [Github](https://github.com/qiufengcute/SkipTransfer)
+
 ## ✨ 功能特性
 
 - 自动识别并跳过常见中转站域名
