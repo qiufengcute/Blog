@@ -109,6 +109,7 @@ footer:
       <span id="times">载入时分秒...</span>
       <script src="/Blog/js/duration.js"></script>
     </div>
+    <script src="/Blog/js/nogray.js"></script>
   '
 
   # 展示网站的 PV、UV 统计数
