@@ -57,6 +57,12 @@ excerpt: 一个用于跳过网站的中转页的浏览器扩展。
 - ✅ 所有配置仅保存在本地浏览器中（使用 `storage` API）
 - ✅ 完全开源，代码可审查
 
+## 💻 本扩展参数 DSL
+
+本扩展的配置文件中，参数部分支持自定义 DSL 语言。
+
+DSL 文档[见此](https://github.com/qiufengcute/SkipTransfer/blob/main/DSL.md)，DSL 源代码[见此](https://github.com/qiufengcute/SkipTransfer/blob/main/parseDSL.js)
+
 ## 🖼️ 图标声明
 
 本扩展图标使用「得意黑」字体，遵循 [SIL Open Font License v1.1](https://openfontlicense.org) 协议。
