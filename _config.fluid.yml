@@ -132,7 +132,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "Qiufeng的个人博客"
+    text: "Qiufeng 的个人博客"
 
 
 #---------------------------
