@@ -23,7 +23,7 @@ excerpt: 一个用于跳过网站的中转页的浏览器扩展。
 
 ### Edge 扩展商店
 
-**正在审核中**
+[此链接](https://microsoftedge.microsoft.com/addons/detail/skip-transfer/affddlaihdgmikjjkimicgpfkpnndfag)
 
 ### 其他浏览器 / 开发者模式
 
