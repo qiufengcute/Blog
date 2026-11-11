@@ -16,10 +16,6 @@ Github:
 
 Page:
 
-[IPv6 启用指南](https://ipv6.qiuqfeng.cc)
-
-(备用)
-
 [IPv6 启用指南](https://qiufengcute.github.io/IPv6-Activation-Guide)
 
 Bilibili:
