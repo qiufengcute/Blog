@@ -11,5 +11,4 @@ tags:
 excerpt: UBAD 是一个非官方的 B 站 API 文档站，通过抓包整理接口，仅供学习使用。
 ---
 
-[UBAD](https://ubad.qiuqfeng.cc)  
-[UBAD (备用)](https://qiufengcute.github.io/unofficial-bilibili-apis-docs/)
+[UBAD](https://qiufengcute.github.io/unofficial-bilibili-apis-docs/)
